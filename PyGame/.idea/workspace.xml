@@ -12,11 +12,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Ex4.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ex4.py">
+      <file leaf-file-name="Ex6-1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ex6-1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="37" column="31" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="31" />
+            <state relative-caret-position="197">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="47" selection-end-column="31" />
               <folding>
                 <element signature="e#45#63#0" expanded="true" />
               </folding>
@@ -24,38 +24,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ex5.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ex5.py">
+      <file leaf-file-name="Ex7.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ex7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="144">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="49" selection-end-column="31" />
               <folding>
-                <element signature="e#45#63#0" expanded="true" />
+                <element signature="e#45#71#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ex3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ex3.py">
+      <file leaf-file-name="Ex8.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ex8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="39" column="14" lean-forward="false" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-              <folding>
-                <element signature="e#46#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ex3-1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ex3-1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="e#46#64#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="99">
+              <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,16 +60,21 @@
       <list>
         <option value="$PROJECT_DIR$/Ex1.py" />
         <option value="$PROJECT_DIR$/Ex2.py" />
-        <option value="$PROJECT_DIR$/Ex3-1.py" />
         <option value="$PROJECT_DIR$/Ex4.py" />
         <option value="$PROJECT_DIR$/Ex5.py" />
         <option value="$PROJECT_DIR$/Ex3.py" />
+        <option value="$PROJECT_DIR$/Ex3-1.py" />
+        <option value="$PROJECT_DIR$/Ex6.py" />
+        <option value="$PROJECT_DIR$/Ex6-1.py" />
+        <option value="$PROJECT_DIR$/Ex7.py" />
+        <option value="$PROJECT_DIR$/Ex7-1.py" />
+        <option value="$PROJECT_DIR$/Ex8.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="81" />
-    <option name="y" value="101" />
+    <option name="x" value="38" />
+    <option name="y" value="66" />
     <option name="width" value="1193" />
     <option name="height" value="711" />
   </component>
@@ -123,6 +114,11 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -135,43 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Ex4">
-    <configuration default="false" name="Ex2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyGame" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Ex3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PyGame" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Ex8">
     <configuration default="false" name="Ex4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -190,7 +150,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Ex5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Ex6" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -202,13 +162,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyGame" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Ex3-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Ex6-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -220,7 +180,43 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PyGame" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex3-1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex6-1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Ex7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyGame" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Ex8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PyGame" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ex8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,19 +287,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Ex2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Ex3" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Ex4" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Ex5" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Ex3-1" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Ex4" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Ex6" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Ex6-1" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Ex7" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Ex8" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Ex4" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Ex5" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Ex3-1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Ex3" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Ex2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Ex8" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Ex7" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Ex6-1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Ex6" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Ex4" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +317,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="101" width="1193" height="711" extended-state="0" />
+    <frame x="38" y="66" width="1193" height="711" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24979044" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -378,7 +374,7 @@
         <state relative-caret-position="90">
           <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
-            <element signature="e#46#64#0" expanded="true" />
+            <element signature="e#45#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -412,16 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ex3-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#46#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ex2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -442,10 +428,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ex5.py">
+    <entry file="file://$PROJECT_DIR$/Ex3-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="23" />
           <folding>
             <element signature="e#45#63#0" expanded="true" />
           </folding>
@@ -454,11 +440,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ex4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
+        <state relative-caret-position="555">
           <caret line="37" column="31" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="31" />
           <folding>
             <element signature="e#45#63#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ex6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#45#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ex5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="e#45#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ex6-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="47" selection-end-column="31" />
+          <folding>
+            <element signature="e#45#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ex7-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="76" column="67" lean-forward="false" selection-start-line="76" selection-start-column="67" selection-end-line="76" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ex7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="49" selection-end-column="31" />
+          <folding>
+            <element signature="e#45#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ex8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
