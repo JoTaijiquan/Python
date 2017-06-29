@@ -1,4 +1,5 @@
-#Python3.5
+#Python3.6
+# -*- coding: utf-8 -*-
 from random import randint,seed
 
 #Recursive Dice

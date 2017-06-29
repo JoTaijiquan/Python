@@ -1,4 +1,5 @@
-#Python3.5
+#Python3.6
+# -*- coding: utf-8 -*-
 #หาสถิติการทอยลูกเต๋า 100000 ครั้ง
 
 from random import randint,seed
