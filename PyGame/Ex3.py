@@ -23,6 +23,8 @@ while True:
         GhostY = GhostY - 5
     elif key[pygame.K_DOWN]:
         GhostY = GhostY + 5
+    elif key[pygame.K_F10]:
+        pygame.event.post(QUIT)
 
     for event in pygame.event.get():
         if event.type == QUIT:
@@ -35,4 +37,5 @@ while True:
 """
 Ghost #2
 เพิ่มคำสั่งบังคับผีให้วิ่งไปมาตามแป้นลูกศรได้ แต่เวลาวิ่งมันดันแดงพืดซะงั้น
+กด F10 เพื่อจบ
 """

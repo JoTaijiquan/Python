@@ -28,6 +28,8 @@ while True:
         GhostY -= 5
     elif key[pygame.K_DOWN]:
         GhostY += 5
+    elif key[pygame.K_F10]:
+        pygame.event.post(QUIT)
 
     for event in pygame.event.get():
         if event.type == QUIT:
