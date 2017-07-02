@@ -34,7 +34,7 @@ while True:
             pygame.quit()
             sys.exit()
 
-    DISP.fill(WHITE)
+    DISP.fill(0)
     DISP.blit(GhostImg, (GhostX, GhostY))
     pygame.display.update()
 

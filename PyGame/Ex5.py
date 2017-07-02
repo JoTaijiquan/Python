@@ -8,7 +8,7 @@ pygame.init()
 
 WHITE = (255, 255, 255)
 
-FPS = 30
+FPS = 50
 fpsClock = pygame.time.Clock()
 
 DISP = pygame.display.set_mode((640, 480))
