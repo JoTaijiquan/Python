@@ -6,7 +6,7 @@ from gtts import gTTS
 
 #tts = gTTS(text="hello", lang='en')
 os.system ("echo 'hello world'")
-os.system ("say 'hello world'")
+os.system ("say 'hello khem and kram, how are you to day. Is it fun at the dojo?'")
 
 """
 #For PC

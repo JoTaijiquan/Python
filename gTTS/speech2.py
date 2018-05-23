@@ -7,7 +7,7 @@ from gtts import gTTS
 from tempfile import TemporaryFile
 
 
-tts = gTTS(text="hello world", lang='en',slow=True)
+tts = gTTS(text="Hello world", lang='en')
 filename = "tmp.mp3"
 tts.save(filename)
 
