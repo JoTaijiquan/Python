@@ -165,6 +165,7 @@ print (5!=4)
 print (4==4)
 '''
 
+'''
 #Example 13
 print (4 is 4)
 print (4 is (4,3))
@@ -175,6 +176,16 @@ print ((3,4) is (2,3,4))
 print ("****")
 print ((3,4) is (3,4))
 print ((3,4) in (3,4))
+'''
+
+#Example 14
+
+x = 10
+
+if x is 10:
+    print ("Yes")
+else:
+    print ("no")
 
 
 
