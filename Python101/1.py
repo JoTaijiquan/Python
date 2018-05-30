@@ -201,6 +201,7 @@ else:
     print ("ho ho")
 '''
 
+'''
 #Example 15
 x=1
 
@@ -223,8 +224,60 @@ z=10
 while z>1:
     print (z)
     z-=2
+'''
 
+#Example 16
 
+for i in range(10):
+    print (i)
+
+print ("*******")
+
+for i in range (1,10):
+    print (i)
+    
+print ("*******")
+
+for i in range(1,11,2):
+    print (i)
+
+print ("*******")
+
+for i in range (10,1,-2):
+    print (i)
+
+print ("*******")
+
+for i in range (10,-10,-2):
+    print (i)
+
+print ("*******")
+
+for i in (1,2,3,5,8):
+    print (i)
+
+print ("*******")
+
+for i in ("abc",True,2,(3,4),"def"):
+    print (i)
+print ("*******")
+
+for i in (1,3,5,7,8,9,10):
+    print (i)
+    if i==5:
+        break
+    else:
+        pass
+print ("end at",i)
+print ("*******")
+
+for i in range (10):
+    if i==5:
+        i=i+3
+    print (i)
+    
+    
+    
 
 
 
