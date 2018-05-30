@@ -178,14 +178,54 @@ print ((3,4) is (3,4))
 print ((3,4) in (3,4))
 '''
 
+'''
 #Example 14
-
 x = 10
+y = 12
 
 if x is 10:
+    print ("Yes",x)
+    
+
+if x is not 10:
     print ("Yes")
 else:
-    print ("no")
+    print (x)
+
+
+if y is 10:
+    print (x)
+elif y is 12:
+    print ("ha ha")
+else:
+    print ("ho ho")
+'''
+
+#Example 15
+x=1
+
+while x<5 :
+    print ("Yes",x)
+    x=x+1
+
+y=1
+while y<7:
+    print (y)
+    y+=1
+
+print ("*******")
+z=1
+while z<10:
+    print (z)
+    z+=2
+print ("*******")
+z=10
+while z>1:
+    print (z)
+    z-=2
+
+
+
 
 
 
