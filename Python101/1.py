@@ -226,6 +226,7 @@ while z>1:
     z-=2
 '''
 
+'''
 #Example 16
 
 for i in range(10):
@@ -275,22 +276,95 @@ for i in range (10):
     if i==5:
         i=i+3
     print (i)
+'''
+
+'''
+#example 17
+
+#x=[3,4,5]
+#print (x[6])
     
-    
-    
+x = [3,4,5]
+try:
+    print (x[6])
+except:
+    print ("Error x is out of range")
+'''    
+
+'''
+#Example 18
+name = input("What is your name? ")
+print ("Hello "+name+"!")
+'''
+
+'''
+#Example 19
+f = open("test.html","w")
+f.write ("abcde abcde abcde")
+f.write ("def def def\n")
+f.write ("abc abc abc\n")
+print ("Hello",file=f) 
+print ("There",file=f)
+f.close()
+'''
+'''
+#Example 20
+f= open("test.html","a")
+f.write ("well well well\n")
+f.close()
+'''
+
+'''
+#Example 21
+f = open("test.html","r")
+
+a = f.readline()
+print (a)
+print (f.readline())
+print ("*******")
+print (f.readlines())
+print ("******")
+f.seek (0)
+print (f.readlines())
+print ("***************")
+f.seek(2)
+print (f.readlines())
+f.close()
+'''
+''''
+#Example 22
+
+f = open("test.html","r+")
+print (f.readline())
+f.write ("xxxxxxxxxx\n")
+print (f.readline())
+f.seek(0)
+print (f.readlines())
+f.close()
+#r read, r+ read/write, w write, a append, rb binary read, wb binary write, ab bianry append
+'''
+'''
+#Example 23
+f = open("test.html","r")
+print (f.read(10))
+print ("*********")
+print (f.read())
+'''
+
+#Example 24
+f = open("test.html", "r+")
+f.seek(0,2) #start end  (0 begining, 1 current, 2 end)
+f.writelines("test")
+f.writelines("Hello")
+f.close()
 
 
-
-
-
-       
-
-
-
-
-
-
-
-
-
-
+'''
+#Example 25
+f = open("test2.html",mode="w+",encoding="utf-8") 
+f.write("สวัสดี\n")
+f.write("Hello\n")
+f.seek(0)
+print(f.read())
+f.close()
+'''       
