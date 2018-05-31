@@ -351,13 +351,14 @@ print ("*********")
 print (f.read())
 '''
 
+'''
 #Example 24
 f = open("test.html", "r+")
 f.seek(0,2) #start end  (0 begining, 1 current, 2 end)
 f.writelines("test")
 f.writelines("Hello")
 f.close()
-
+'''
 
 '''
 #Example 25
@@ -367,4 +368,54 @@ f.write("Hello\n")
 f.seek(0)
 print(f.read())
 f.close()
-'''       
+'''
+
+'''
+#Example 26
+def f1 ():
+    print ("ha ha ha")
+
+def f2 ():
+    print ("ho ho ho")
+    return("hu hu")
+
+f1()
+f2()
+print ("*******")
+
+a = f1()
+b = f2()
+print (a,b)
+'''
+'''
+#Example 27
+def add(x,y):
+    return (x+y)
+print (add(10,20))
+print ("*********")
+a = 10
+b = 11
+print (a,b,add(a,b))
+'''
+
+'''
+#Example 28
+def double_add(x,y):
+    x = x*2
+    y= y*2
+    return(x+y)
+print (double_add(10,20))
+a = 10
+b = 20
+print (double_add(a,b))
+print (a,b)
+'''
+
+#Example 29
+def multi_return():
+    x = 11
+    return 10,20,30,x
+print (multi_return())
+
+
+
