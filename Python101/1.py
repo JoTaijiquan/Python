@@ -411,11 +411,36 @@ print (double_add(a,b))
 print (a,b)
 '''
 
+'''
 #Example 29
 def multi_return():
     x = 11
     return 10,20,30,x
-print (multi_return())
 
+print (multi_return())
+a,b,c,d = multi_return()
+print ("a=",a,"b=",b,"c=",c,"d=",d)
+'''
+
+'''
+#Example 30
+def multi_return2():
+    return (10,20),("a","b",(1,2,3)),True
+
+x = multi_return2()
+print (x)
+
+a,b,c = multi_return2()
+print (a,b,c)
+print (b[1])
+print (b[2][2])
+'''
+
+#Example 31
+def add(x):
+    return x[1]+x[2]
+
+print (add((3,4))
+       
 
 
