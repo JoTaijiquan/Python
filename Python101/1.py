@@ -1,10 +1,57 @@
 #Python3.6
 # -*- coding: utf-8 -*-
 
+
+
 '''
 # Example 1 
 print ("Hello World!")
 '''
+
+'''
+#Example 1.1
+print (3*4.0)
+print (3*4)
+print (3/4)
+print ("Hello"+"!")
+print ("Hello "*3)
+print (2-(2*3))
+
+#Example 1.2
+import random
+print (random.randint(1,10))
+'''
+
+'''
+#Example 1.3
+import random
+a = [1,2,3,4,5,6,7]
+b = (1,3,5,7,9,11,13)
+random.shuffle(a)
+print (a)
+random.shuffle(a)
+print (a)
+random.shuffle(a)
+print (a)
+
+#random.shuffle(b) error cannot shuffle tuple
+#print (b)
+'''
+#Example 1.4
+import random
+a = [1,2,3,4,5,6,7,8]
+print (a)
+b = random.choices(a)
+print (b)
+b = random.choices(a)
+print (b)
+b = random.choices(a,k=3)
+print (b)
+b = random.choices(a,k=4)
+print (b)
+
+
+
 
 '''
 # Example 2
@@ -54,6 +101,21 @@ print (a,b,c,d)
 '''
 
 '''
+#Example 6.5
+Hello=0
+print (Hello)
+Hello="Hello"
+print (Hello)
+print ("*******")
+print ('Hello')
+print ("Hello")
+
+print ("\"Hello!\"")
+print ("\\ and \\")
+print ("Hello\tHello")
+'''
+
+'''
 #Example 7
 a,b,c = 1,3,5
 print (a,b,c)
@@ -81,7 +143,10 @@ print (3==4)
 print (not(3==4))
 print (type(a), type (d))
 '''
-
+print (3e5)
+print (3*10**5)
+print (3.12345e5)
+print (3.12345 *10**5)
 '''
 #Example 9
 
@@ -436,11 +501,8 @@ print (b[1])
 print (b[2][2])
 '''
 
-#Example 31
-def add(x):
-    return x[1]+x[2]
 
-print (add((3,4))
+
        
 
 
