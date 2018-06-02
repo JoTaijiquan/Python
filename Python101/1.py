@@ -273,6 +273,7 @@ x.insert(2,['x','y','z'])
 print (x)
 '''
 
+'''
 #Example 11.3
 x = ['a','b','c','a']
 x.append(['d','e'])
@@ -283,6 +284,71 @@ x.remove(['d','e'])
 print (x)
 x.remove ('a')
 print (x)
+x = ['a','b','c',[3,4,5],'a','b','c']
+print (x)
+del x[3]
+print (x)
+del x[2]
+print (x)
+print ("********")
+x = ['a','b','c',[3,4,5],'a','b','c']
+print (x)
+print (x.pop(2))
+print (x)
+print (x.pop())
+print (x)
+print (x.pop())
+print (x)
+'''
+
+'''
+#Example 11.4
+x = [1,2,3,4,5]
+y = x
+z = x[:]
+print (x)
+print (y)
+print (z)
+x.append (6)
+print (x)
+print (y)
+print (z)
+print ("*********")
+x = ['a','x','a','c,','z','a']
+print (x)
+print (y)
+print (z)
+y = [5,6,8,1,2,8,8,4,1,2]
+print (x)
+print (y)
+print (z)
+print ("***********")
+x = ['a','x','a','c,','z','a']
+y = x
+print (x)
+print (y)
+x = sorted(x)
+print (x)
+print (y)
+print ("************")
+x = ['a','x','a','c,','z','a']
+y = x
+x.sort()
+print (x)
+print (y)
+print ("************")
+x = ['a','x','a','c,','z','a']
+y = x
+y.sort()
+print (x)
+print (y)
+'''
+
+#Example 11.5
+a = [11,12,13,14,21,22,23,24,31,32,33,34]
+print (a[2:2])
+a = [11,12,['xx','yy','zz'],14,21,22,23,24,31,32,33,34]
+       
 
 
 '''
