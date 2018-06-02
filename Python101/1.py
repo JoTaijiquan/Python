@@ -2,10 +2,23 @@
 # -*- coding: utf-8 -*-
 
 
-
 '''
-# Example 1 
+#Example 1 
 print ("Hello World!")
+
+
+#Example 1.01
+print ("Hello World!")
+print ("สวัสดี ชาวโลก")
+
+#Example 1.02
+print ("\"Hello\"")
+print ("\\Hello\\")
+print ("Hello\n")
+print ("World!")
+print ("Hello\n\n\n")
+print ("World!")
+print ("Hello\tWorld!")
 '''
 
 '''
@@ -16,6 +29,7 @@ print (3/4)
 print ("Hello"+"!")
 print ("Hello "*3)
 print (2-(2*3))
+
 
 #Example 1.2
 import random
@@ -37,6 +51,8 @@ print (a)
 #random.shuffle(b) error cannot shuffle tuple
 #print (b)
 '''
+
+'''
 #Example 1.4
 import random
 a = [1,2,3,4,5,6,7,8]
@@ -49,7 +65,7 @@ b = random.choices(a,k=3)
 print (b)
 b = random.choices(a,k=4)
 print (b)
-
+'''
 
 
 
@@ -123,7 +139,7 @@ print ((a,b,c)*2)
 print ((a,b,c)*3)
 '''
 
-'''
+
 #Example 8
 
 a = 9
@@ -142,11 +158,13 @@ print (3==3)
 print (3==4)
 print (not(3==4))
 print (type(a), type (d))
-'''
+
 print (3e5)
 print (3*10**5)
 print (3.12345e5)
 print (3.12345 *10**5)
+print (3//2, 3/2,7/4,7/4,7//4,7%4)
+
 '''
 #Example 9
 
@@ -363,6 +381,17 @@ print ("Hello "+name+"!")
 '''
 
 '''
+#Example 18.5
+number = input("Number? ")
+print (number)
+print (number*3)
+print (type(number))
+number = float(number)
+print (number*3)
+print (type(number))
+'''
+
+'''
 #Example 19
 f = open("test.html","w")
 f.write ("abcde abcde abcde")
@@ -501,8 +530,7 @@ print (b[1])
 print (b[2][2])
 '''
 
+#Example 31
 
-
-       
 
 
