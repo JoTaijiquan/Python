@@ -139,7 +139,7 @@ print ((a,b,c)*2)
 print ((a,b,c)*3)
 '''
 
-
+'''
 #Example 8
 
 a = 9
@@ -164,6 +164,14 @@ print (3*10**5)
 print (3.12345e5)
 print (3.12345 *10**5)
 print (3//2, 3/2,7/4,7/4,7//4,7%4)
+print (int(3.5))
+print (float(3))
+print (3+3,float(3+3))
+print (str(3)+str(3))
+print ('3','3')
+print ('3'+'3')
+print ('*',repr(3).rjust(2),'*')
+'''
 
 '''
 #Example 9
@@ -283,6 +291,30 @@ elif y is 12:
 else:
     print ("ho ho")
 '''
+
+'''
+#Example 14.1
+
+x = input ("Input Number ")
+
+x = int(x)
+if x==10:
+    print (x)
+else:
+    print ("ho ho ho")
+'''           
+
+#Example 14.2
+x = input ("Input X ")
+y = input ("Input Y ")
+
+if x == "10" and y == "10":
+    print (x,"and",y)
+elif x == "10" or y == "10":
+    print (x,"or",y)
+elif x !="10" and y !="10":
+    print ("not",x,y)
+    
 
 '''
 #Example 15
