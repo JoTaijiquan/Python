@@ -247,6 +247,45 @@ print (d)
 '''
 
 '''
+#Example 11.1
+i = [1,2,3,4,5,6,7,8,9,10]
+print (i[2:5])
+print (i[2:9:2])
+print (i[:5])
+print (i[::2])
+print (i[::-1])
+print (i[::-2])
+print (i[-8:-1])
+print (i[-8:-1:2])
+print (i[-8:-1:-2])
+print (i[-1:-8])
+'''
+
+'''
+#Example 11.2
+x = [1,2,3,4,5]
+x.append(6)
+x.extend([7,8,9])
+print (x)
+x.insert(2,'a')
+print (x)
+x.insert(2,['x','y','z'])
+print (x)
+'''
+
+#Example 11.3
+x = ['a','b','c','a']
+x.append(['d','e'])
+print (x)
+x.remove('a')
+print (x)
+x.remove(['d','e'])
+print (x)
+x.remove ('a')
+print (x)
+
+
+'''
 #Example 12
 print (5>4)
 print (4>4)
@@ -303,7 +342,7 @@ if x==10:
 else:
     print ("ho ho ho")
 '''           
-
+'''
 #Example 14.2
 x = input ("Input X ")
 y = input ("Input Y ")
@@ -314,7 +353,7 @@ elif x == "10" or y == "10":
     print (x,"or",y)
 elif x !="10" and y !="10":
     print ("not",x,y)
-    
+'''    
 
 '''
 #Example 15
@@ -392,6 +431,67 @@ for i in range (10):
         i=i+3
     print (i)
 '''
+
+'''
+#Example 16.1
+x = [1,3,5,7,9]
+for i in x:
+    print (i)
+    if i==5:
+        x.append(10)
+print (x)
+'''    
+
+'''
+#Example 16.2
+
+for i in "Hello World!":
+    print (i)
+print ("*******")
+for i in str(3.14159):
+    print (i)
+print ("*******")
+for i in ["Superman", "Batman","Wonderwoman"]:
+    print ("Hello ",i)
+    print ("Hello "+i)
+'''
+
+'''
+#Example 16.3
+for i in range(10):
+    if i == 5:
+        pass
+    else:
+        print (i)
+print ("*******")
+for i in range(10):
+    if i==4:
+        continue
+    else:
+        print (i)
+'''
+
+'''
+#Example 16.4
+for i in range(10):
+    if i==5:
+        break
+    else:
+        print(i)
+'''
+
+'''
+#Example 16.5
+while (True):
+    x= input ("in put 10 to break ")
+    if x == "10":
+        print ("End Loop")
+        break
+    else:
+        print (x)
+#Ctrl-C or Ctrl-D to break
+'''
+
 
 '''
 #example 17
