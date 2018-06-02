@@ -1,30 +1,70 @@
-#Python3.6 + Pygame
+#Python3.6 
 # -*- coding: utf-8 -*-
 
-import pygame, sys
-from pygame.locals import *
+
+'''
+#Example 21
+class Fighter:
+    Model = ""
+    Pilot = ""
+    Bot = ""
+    def __init__(self):
+        pass
 
 
+s1 = Fighter()
+s2 = Fighter()
+
+s1.Model = "Millenium Falcon"
+s1.Pilot = "Han Solo"
+s1.Bot = "C3PO"
+
+s2.Model = "X-Wing"
+s2.Pilot = "Luke Skywalker"
+s2.Bot = "R2D2"
+
+print (s1.Model)
+print (s1.Pilot)
+print (s1.Bot)
+
+print (s2.Model)
+print (s2.Pilot)
+print (s2.Bot)
+'''
+
+#Example 22
+class Fighter:
+    Model = ""
+    Pilot = ""
+    Bot = ""
     
-        
-class View:
-    def __init__(self,mode=(640,480),caption="Hello"):
-        pygame.init()
-        DISP = pygame.display.set_mode(mode)
-        pygame.display.set_caption(caption)
-    
-    
+    def __init__(self,iModel="X-Wing",iPilot="Luke",iBot="R2D2"):
+        self.Model = iModel
+        self.Pilot = iPilot
+        self.Bot = iBot
 
-class Controller:
-    def main():
-        while True:
-            for event in pygame.event.get():
-                if event.type == QUIT:
-                    pygame.quit()
-                    sys.exit()
-                    pygame.display.update
-                    
+    def __str__(self):
+        msg = "Hello I am a Fighter!!!"
+        return (msg)
+    
+    def ShowFighter():
+        print ("xx")
+        print (Model+"1")
+        print (Pilot)
+        print (Bot)
 
-V = View
-C = Controller
-C.main()
+    def x():
+        print ("test")
+
+s1 = Fighter()
+print (s1)
+s1.ShowFighter()
+#s1.ShowFighter
+s1.x
+#print (s1.Model)
+#print (s1.Pilot)
+
+s2 = Fighter("A-Wing","Han","C3PO")
+s2.x
+#print (s2.Model)
+#print (s2.Pilot)
