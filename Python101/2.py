@@ -2,6 +2,295 @@
 # -*- coding: utf-8 -*-
 
 
+
+'''
+#Example 211
+
+class p:
+    def pr(self):
+        print ("yyy")
+
+x = p()
+x.pr()
+'''
+
+'''
+#Example 212
+
+class p:
+    def __init__(self):
+        print ("xxx")
+
+x = p()
+'''
+
+'''
+#Example 213
+class p:
+    def __init__(self):
+        print ("xxx")
+    def pr(self):
+        print ("yyy")
+x = p()
+x.pr()
+print (x)
+print ("******")
+print (x.pr())
+'''
+
+'''
+#Example 214
+class p:
+    def __init__(self):
+        print ("xxx")
+    def pr(self):
+        print ("yyy")
+    def __str__(self):
+        return("Class p")
+
+x = p()
+x.pr()
+print (x)
+print ("******")
+print (x.pr())
+'''
+
+'''
+#Example 215
+class p:
+    def __init__(self):
+        print ("xxx")
+    def pr(self):
+        print ("yyy")
+    def __str__(self):
+        return("Class p")
+    def __del__(self):
+        print ("Class p Deleted")
+
+x = p()
+x.pr()
+print (x)
+print ("******")
+del x
+#print (x) #Error
+'''
+
+'''
+#Example 216
+class p:
+    def __init__(self):
+        print ("xxx")
+    def pr(self):
+        print ("yyy")
+    def __str__(self):
+        return("Class p")
+    def __del__(self):
+        print ("Class p Deleted")
+x=p()
+y = x
+x.pr()
+y.pr()
+print ("*******")
+print (x)
+print (y)
+print ("Try del x")
+del x
+
+print (y)
+print ("Try del y")
+del y
+'''
+
+'''
+#Example 217
+class p:
+    def __init__(self):
+        print ("xxx")
+    def pr(self):
+        print ("yyy")
+    def __str__(self):
+        return ("Class p")
+    def __del__(self):
+        print ("Class p Deleted")
+
+x=p()
+y=p()
+del x
+print ("*******")
+del y
+'''
+'''
+#Example 218
+class p:
+    def __init__(self,x):
+        print ("Start!!",x)
+    def pr(self,x):
+        print ("pr!!",x)
+    def __str__(self):
+        return ("Class p")
+    def __del__(self):
+        print ("Class p Delete,")
+x=p(10)
+x.pr(11)
+print (x)
+x.pr(12)
+'''
+
+'''
+#Example 219
+class p:
+    z=0
+    def __init__(self,x):
+        print ("Start!!",x)
+        z=x
+    def pr(self):
+        print ("pr!!",self.z)
+    def __str__(self):
+        return ("Class p")
+    def __del__(self):
+        print ("Class p Delete,")
+x=p(10)
+x.pr()
+print (x.z)
+print (x)
+'''
+
+'''
+#Example 220
+class p:
+    z=0
+    def __init__(self,x):
+        print ("Start!!",x)
+        self.z = x
+    def pr(self):
+        print ("pr!!",self.z)
+    def __str__(self):
+        return ("Class p")
+    def __del__(self):
+        print ("Class p Delete,")
+x=p(10)
+x.pr()
+print (x.z)
+print (x)
+'''
+
+'''
+#Example 221
+class p:
+    z=0
+    def __init__(self,x):
+        print ("Start!!",x)
+        self.z = x
+    def change_z (self,x):
+        self.z = x
+    def __str__(self):
+        return ("Class p, z="+str(self.z))
+    def __del__(self):
+        print ("Class p Delete, z="+str(self.z))
+x=p(10)
+print (x)
+x.change_z(11)
+print (x)
+y=x
+y.change_z(12)
+print (x)
+x.change_z(13)
+print (y)
+print ("*****")
+del x
+print (y)
+del y
+'''
+
+#Example 222
+class p:
+    z=0
+    def __init__(self,x):
+        print ("Start!!",x)
+        self.z = x
+    def change_z (self,x):
+        self.z = x
+    def __str__(self):
+        return ("Class p, z="+str(self.z))
+    def __del__(self):
+        print ("Class p Delete, z="+str(self.z))
+x=p(10)
+y=p(11)
+print (x)
+print (y)
+x.change_z(15)
+print (x)
+print (y)
+
+print ("*******")
+del x
+del y
+
+
+
+'''
+#Example 215
+class p:
+    def __init__(self):
+        print ("xxx")
+    def pr(self):
+        print ("yyy")
+x = p()
+y = x
+x.pr()
+y.pr()
+print ("******")
+print (x)
+print (y)
+'''
+
+'''
+#Example 216
+class p:
+    def __init__(self):
+        print ("xxx")
+    def pr(self):
+        print ("yyy")
+    def __str__(self):
+        return("Class p")
+x = p()
+y = x
+x.pr()
+y.pr()
+print ("*******")
+print (x)
+print (y)
+print ("******")
+del x
+#print (x) #error
+print (y)
+y.pr()
+'''
+
+'''
+#Example 217
+class p:
+    def __init__(self):
+        print ("xxx")
+    def pr(self):
+        print ("yyy")
+    def __str__(self):
+        return("Class p")
+x = p()
+y = x
+x.pr()
+y.pr()
+print ("*******")
+print (x)
+print (y)
+print ("******")
+x = None
+print (x) 
+print (y)
+y.pr()
+'''
+
+
 '''
 #Example 21
 class Fighter:
@@ -58,52 +347,6 @@ print (x.a)
 print (x.x)
 
 '''
-
-'''
-#Example 212
-
-class p:
-    def pr(self):
-        print ("yyy")
-
-x = p()
-x.pr()
-'''
-
-'''
-#Example 213
-
-class p:
-    def __init__(self):
-        print ("xxx")
-
-x = p()
-'''
-
-'''
-#Example 214
-class p:
-    def __init__(self):
-        print ("xxx")
-    def pr(self):
-        print ("yyy")
-x = p()
-x.pr()
-'''
-
-#Example 215
-class p:
-    def __init__(self):
-        print ("xxx")
-    def pr(self):
-        print ("yyy")
-x = p()
-y = x
-x.pr()
-y.pr()
-print ("******")
-print (x)
-print (y)
 
 
 '''
