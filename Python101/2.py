@@ -59,14 +59,51 @@ print (x.x)
 
 '''
 
+'''
 #Example 212
 
 class p:
     def pr(self):
-        print ("xxx")
+        print ("yyy")
 
 x = p()
 x.pr()
+'''
+
+'''
+#Example 213
+
+class p:
+    def __init__(self):
+        print ("xxx")
+
+x = p()
+'''
+
+'''
+#Example 214
+class p:
+    def __init__(self):
+        print ("xxx")
+    def pr(self):
+        print ("yyy")
+x = p()
+x.pr()
+'''
+
+#Example 215
+class p:
+    def __init__(self):
+        print ("xxx")
+    def pr(self):
+        print ("yyy")
+x = p()
+y = x
+x.pr()
+y.pr()
+print ("******")
+print (x)
+print (y)
 
 
 '''
