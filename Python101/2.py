@@ -202,6 +202,7 @@ print (y)
 del y
 '''
 
+'''
 #Example 222
 class p:
     z=0
@@ -225,8 +226,47 @@ print (y)
 print ("*******")
 del x
 del y
+'''
 
+'''
+# this is our descriptor object
+class Bar(object):
+    def __init__(self):
+        self.value = ''
+    def __get__(self, instance, owner):
+        print "returned from descriptor object"
+        return self.value
+    def __set__(self, instance, value):
+        print "set in descriptor object"
+        self.value = value
+    def __delete__(self, instance):
+        print "deleted in descriptor object"
+        del self.value
 
+class Foo(object):
+    bar = Bar()
+
+f = Foo()
+f.bar = 10
+print f.bar
+del f.bar
+
+set in descriptor object
+returned from descriptor object
+10
+deleted in descriptor object
+'''
+
+#Example 223
+class Rectangle:
+    def area(self):
+        return (self.l * self.w)
+r = Rectangle()
+r.l=5
+r.w=6
+print (r.l,r.w,r.area())
+r.l=10
+print (r.l,r.w,r.area())
 
 '''
 #Example 215
