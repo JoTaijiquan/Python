@@ -21,10 +21,12 @@ print ("World!")
 print ("Hello\tWorld!")
 '''
 
+'''
 #Example 1.02
 print (1,2,3)
 print (1,2,3,sep="")
 print (1,2,3,sep="..")
+'''
 
 '''
 #Example 1.1

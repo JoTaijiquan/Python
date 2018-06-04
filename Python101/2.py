@@ -32,6 +32,44 @@ print (s2.Pilot)
 print (s2.Bot)
 '''
 
+'''
+#Example 211
+class p:
+    x = 10
+
+    def __init__(self):
+        self.a = "abc"
+        self.b = ""
+        self.c = ""
+        
+    def pr(self):
+        self.x= 11
+        self.a = "xyz"
+        
+x  = p()
+print (x.a)
+print (x.b)
+x.pr()
+print (x.a)
+
+#print (x.x)
+#x.pr
+
+print (x.x)
+
+'''
+
+#Example 212
+
+class p:
+    def pr(self):
+        print ("xxx")
+
+x = p()
+x.pr()
+
+
+'''
 #Example 22
 class Fighter:
     Model = ""
@@ -68,3 +106,4 @@ s2 = Fighter("A-Wing","Han","C3PO")
 s2.x
 #print (s2.Model)
 #print (s2.Pilot)
+'''
