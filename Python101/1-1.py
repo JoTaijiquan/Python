@@ -1,7 +1,9 @@
-#Chapter 1
+#Chapter 1.1
+
+#Hello Python
 
 '''
-#Example 1 
+#Example 1.00 
 print ("Hello World!")
 '''
 
@@ -26,8 +28,11 @@ print ("4x5 =",4*5)
 print ("4/2 =",4/2)
 print ("3/2 =",3/2)
 print ("7/3 =",7/3)
-print ("4 mod 2 =",4%2)
-print ("8 mod 3 =",8%3)
+print ("4 modulus 2 =",4%2)
+print ("8 modulus 3 =",8%3)
+print ("8 floor division 3 = ",8//3)
+print ("2 power 3 = ",2**3)
+print ("2x10 power 3 = ",2e3)
 print ("Hello"+"!")
 print ("Hello"*3)
 print ("2-(2x3)) = ",2-(2*3))
@@ -57,3 +62,10 @@ print ("Hello\tWorld!")
 
 ###########################
 
+'''
+#Example 1.05
+def example_105():
+    print ("Hello")
+
+example_105()
+'''
