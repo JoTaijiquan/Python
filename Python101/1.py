@@ -1,17 +1,47 @@
-#Python3.6
-# -*- coding: utf-8 -*-
 
 
 '''
 #Example 1 
 print ("Hello World!")
+'''
+###########################
 
-
+'''
 #Example 1.01
+#Python3.6
+# -*- coding: utf-8 -*-
+
 print ("Hello World!")
 print ("สวัสดี ชาวโลก")
+'''
+###########################
 
+'''
 #Example 1.02
+print (3+4)
+print (6-2)
+print ("4x5 =",4*5)
+print ("4/2 =",4/2)
+print ("3/2 =",3/2)
+print ("7/3 =",7/3)
+print ("4 mod 2 =",4%2)
+print ("8 mod 3 =",8%3)
+print ("Hello"+"!")
+print ("Hello"*3)
+print ("2-(2x3)) = ",2-(2*3))
+'''
+###########################
+
+'''
+#Example 1.03
+print (1,2,3)
+print (1,2,3,sep="")
+print (1,2,3,sep="..")
+'''
+###########################
+
+'''
+#Example 1.04
 print ("\"Hello\"")
 print ("\\Hello\\")
 print ("Hello\n")
@@ -20,24 +50,23 @@ print ("Hello\n\n\n")
 print ("World!")
 print ("Hello\tWorld!")
 '''
+###########################
+
+
+# Example 2
+a = 2
+b = 999999988888877777
+c = 3.14159265358
+d = "ABC"
+e = True
+
+print ("a=",a,"b=",b,"c=",c,"d=",d,"e=",e)
+a = b = c
+print (a,b,c)
+
+
 
 '''
-#Example 1.02
-print (1,2,3)
-print (1,2,3,sep="")
-print (1,2,3,sep="..")
-'''
-
-'''
-#Example 1.1
-print (3*4.0)
-print (3*4)
-print (3/4)
-print ("Hello"+"!")
-print ("Hello "*3)
-print (2-(2*3))
-
-
 #Example 1.2
 import random
 print (random.randint(1,10))
@@ -76,75 +105,6 @@ print (b)
 
 
 
-'''
-# Example 2
-print (3+4)
-'''
-
-'''
-# Example 3
-a = 2
-b = 999999988888877777
-c = 3.14159265358
-d = "ABC"
-e = True
-
-print (a,b,c,d,e)
-a = b = c
-print (a,b,c)
-'''
-
-'''
-# Example 4
-a = 2
-b = "abc"
-
-print (a,b)
-b,a = a,b
-print (a,b)
-'''
-
-'''
-# Example 5
-a = b = 2
-c = d = 4
-print (a,b,c,d)
-'''
-
-'''
-#Example 6
-a = 3+5
-b = True
-c = 999
-d = "abc"
-print (a,b,c,d)
-
-a,b = c,d
-print (a,b,c,d)
-'''
-
-'''
-#Example 6.5
-Hello=0
-print (Hello)
-Hello="Hello"
-print (Hello)
-print ("*******")
-print ('Hello')
-print ("Hello")
-
-print ("\"Hello!\"")
-print ("\\ and \\")
-print ("Hello\tHello")
-'''
-
-'''
-#Example 7
-a,b,c = 1,3,5
-print (a,b,c)
-print ((a,b,c)*2)
-print ((a,b,c)*3)
-'''
 
 '''
 #Example 8
