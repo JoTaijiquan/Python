@@ -1,76 +1,5 @@
 
 
-'''
-#Example 1 
-print ("Hello World!")
-'''
-###########################
-
-'''
-#Example 1.01
-#Python3.6
-# -*- coding: utf-8 -*-
-
-print ("Hello World!")
-print ("สวัสดี ชาวโลก")
-'''
-###########################
-
-'''
-#Example 1.02
-print (3+4)
-print (6-2)
-print ("4x5 =",4*5)
-print ("4/2 =",4/2)
-print ("3/2 =",3/2)
-print ("7/3 =",7/3)
-print ("4 mod 2 =",4%2)
-print ("8 mod 3 =",8%3)
-print ("Hello"+"!")
-print ("Hello"*3)
-print ("2-(2x3)) = ",2-(2*3))
-'''
-###########################
-
-'''
-#Example 1.03
-print (1,2,3)
-print (1,2,3,sep="")
-print (1,2,3,sep="..")
-'''
-###########################
-
-'''
-#Example 1.04
-print ("\"Hello\"")
-print ("\\Hello\\")
-print ("Hello\n")
-print ("World!")
-print ("Hello\n\n\n")
-print ("World!")
-print ("Hello\tWorld!")
-'''
-###########################
-
-
-# Example 2
-a = 2
-b = 999999988888877777
-c = 3.14159265358
-d = "ABC"
-e = True
-
-print ("a=",a,"b=",b,"c=",c,"d=",d,"e=",e)
-a = b = c
-print (a,b,c)
-
-
-
-'''
-#Example 1.2
-import random
-print (random.randint(1,10))
-'''
 
 '''
 #Example 1.3
@@ -106,95 +35,9 @@ print (b)
 
 
 
-'''
-#Example 8
-
-a = 9
-b = 8
-c = 7
-d = 0.1
-
-
-print (a+b, a-b, a*b, a/b, a%b, a**b)
-print (3+4, 6-2, 4*3, 6/3, 11%8, 2**3)
-print (3*4+2*3**2*(1+1))
-print (True & False)
-print (True | False)
-print (not(True))
-print (3==3)
-print (3==4)
-print (not(3==4))
-print (type(a), type (d))
-
-print (3e5)
-print (3*10**5)
-print (3.12345e5)
-print (3.12345 *10**5)
-print (3//2, 3/2,7/4,7/4,7//4,7%4)
-print (int(3.5))
-print (float(3))
-print (3+3,float(3+3))
-print (str(3)+str(3))
-print ('3','3')
-print ('3'+'3')
-print ('*',repr(3).rjust(2),'*')
-'''
-
-'''
-#Example 9
-
-a = [1,2,3,4,5]
-b = ["abc",2,3,False]
-print (a)
-print (b)
-print (type(a))
-print (a[1],b[0])
-#print (a[5],b[-1]) #Error
-a[0] = 7
-print (a)
-a[2]  = [3,4,5]
-print (a)
-print (a[2][1])
-
-print ("**********")
-
-a = (7,8,9)
-print (a)
-print (type(a))
-print (a[1])
-#a[1] = 99 #Error
-print (a)
-
-
-b[2] = (3,4,5,6)
-print (b)
-print (b[2][2])
-print (type(b))
-print (type(b[2]))
-'''
-
-'''
-#Example 10
-a = [1,2,3,4]
-b = [1,2,3,4,3,5,4]
-print (a)
-a.append (5)
-print (a)
-a.insert (2,"xyz")
-print (a)
-print (a.index(5))
-print (a.index(1))
-print (b.count(3))
-print (b.count(2))
-print (b.count(6))
-'''
 
 '''
 #Example 11
-a = [1,2,3,4,5,6]
-print (a)
-a.remove(3)
-print (a)
 
 b = [2,3,6,1,4,8,1,5,3]
 d =[8,7,3,2,3,5,4,2,2,1]
@@ -319,15 +162,7 @@ print (a[2:2])
 '''       
 
 
-'''
-#Example 12
-print (5>4)
-print (4>4)
-print (4>=4)
-print (5==4)
-print (5!=4)
-print (4==4)
-'''
+
 
 '''
 #Example 13
@@ -342,28 +177,6 @@ print ((3,4) is (3,4))
 print ((3,4) in (3,4))
 '''
 
-'''
-#Example 14
-x = 10
-y = 12
-
-if x is 10:
-    print ("Yes",x)
-    
-
-if x is not 10:
-    print ("Yes")
-else:
-    print (x)
-
-
-if y is 10:
-    print (x)
-elif y is 12:
-    print ("ha ha")
-else:
-    print ("ho ho")
-'''
 
 '''
 #Example 14.1
@@ -389,56 +202,10 @@ elif x !="10" and y !="10":
     print ("not",x,y)
 '''    
 
-'''
-#Example 15
-x=1
-
-while x<5 :
-    print ("Yes",x)
-    x=x+1
-
-y=1
-while y<7:
-    print (y)
-    y+=1
-
-print ("*******")
-z=1
-while z<10:
-    print (z)
-    z+=2
-print ("*******")
-z=10
-while z>1:
-    print (z)
-    z-=2
-'''
 
 '''
 #Example 16
 
-for i in range(10):
-    print (i)
-
-print ("*******")
-
-for i in range (1,10):
-    print (i)
-    
-print ("*******")
-
-for i in range(1,11,2):
-    print (i)
-
-print ("*******")
-
-for i in range (10,1,-2):
-    print (i)
-
-print ("*******")
-
-for i in range (10,-10,-2):
-    print (i)
 
 print ("*******")
 
@@ -460,11 +227,7 @@ for i in (1,3,5,7,8,9,10):
 print ("end at",i)
 print ("*******")
 
-for i in range (10):
-    if i==5:
-        i=i+3
-    print (i)
-'''
+
 
 '''
 #Example 16.1
@@ -514,17 +277,6 @@ for i in range(10):
         print(i)
 '''
 
-'''
-#Example 16.5
-while (True):
-    x= input ("in put 10 to break ")
-    if x == "10":
-        print ("End Loop")
-        break
-    else:
-        print (x)
-#Ctrl-C or Ctrl-D to break
-'''
 
 
 '''
