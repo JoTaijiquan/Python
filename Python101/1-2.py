@@ -211,6 +211,17 @@ def example_211():
     
 #example_211()  ###########################
 
+def example_212():
+    #Example 2.12
+    a = """Hello
+World!"""
+    b = "Hello!\nWorld."
+    c = "Hello \
+World"
+    print (a)
+    print (b)
+    print (c)
+example_212()
 
     
 

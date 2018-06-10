@@ -62,10 +62,22 @@ print ("Hello\tWorld!")
 
 ###########################
 
-'''
 #Example 1.05
-def example_105():
+print ("Hello \
+World!")
+
+#Example 1.06
+print ("Hello\nWorld!")
+print ('''abc
+def''')
+
+#Example 1.07
+print ("Hello {0} World! {1}".format(3,10))
+
+'''
+#Example 1.08
+def example_108():
     print ("Hello")
 
-example_105()
+example_108()
 '''
