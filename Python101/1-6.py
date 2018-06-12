@@ -35,4 +35,16 @@ def example_604():
             pass
     print ("end at",i)
 
-example_604()
+#example_604()
+
+def example_605():
+    x = [1,3,5,7,9]
+    for i in x:
+        print (i)
+        if i==5:
+            x.extend([10,11,12,13])
+    print (x)
+
+example_605()
+
+

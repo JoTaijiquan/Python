@@ -33,20 +33,7 @@ print (b)
 '''
 
 
-
-
-
-'''
-#Example 14.1
-
-x = input ("Input Number ")
-
-x = int(x)
-if x==10:
-    print (x)
-else:
-    print ("ho ho ho")
-'''           
+         
 '''
 #Example 14.2
 x = input ("Input X ")
@@ -61,41 +48,8 @@ elif x !="10" and y !="10":
 '''    
 
 
-'''
-#Example 16
 
-
-print ("*******")
-
-for i in (1,2,3,5,8):
-    print (i)
-
-print ("*******")
-
-for i in ("abc",True,2,(3,4),"def"):
-    print (i)
-print ("*******")
-
-for i in (1,3,5,7,8,9,10):
-    print (i)
-    if i==5:
-        break
-    else:
-        pass
-print ("end at",i)
-print ("*******")
-
-
-
-'''
-#Example 16.1
-x = [1,3,5,7,9]
-for i in x:
-    print (i)
-    if i==5:
-        x.append(10)
-print (x)
-'''    
+   
 
 '''
 #Example 16.2
