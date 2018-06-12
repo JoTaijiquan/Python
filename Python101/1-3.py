@@ -31,7 +31,7 @@ def example_302():
     #Example 3.02
     x = input("Input x (guess 1-10) ")
     
-    if x == "10":
+    if x=="10":
         print ("Yes, you win X=10")
     else:
         print ("Noooo, try again (try 10)")
@@ -42,7 +42,7 @@ def example_303():
     #Example 3.03
     x = input("Input x (guess 1-10) ")
 
-    if x== "10":
+    if x=="10":
         print ("Yes, you win x=10")
     elif x=="11":
         print ("Very close, try again (try 10)")

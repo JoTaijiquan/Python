@@ -103,58 +103,58 @@ def example_206():
     j = (3,4,5,"Hello")
 
     print ("a=",a)
-    print("type a is",type(a),"\n")
+    print ("type a is",type(a),"\n")
 
     print ("b=",b)
-    print("type b is",type(b),"\n")
+    print ("type b is",type(b),"\n")
 
     print ("c=",c)
-    print("type c is",type(c),"\n")
+    print ("type c is",type(c),"\n")
 
     print ("d=",d)
-    print("type d is",type (d),"\n")
+    print ("type d is",type (d),"\n")
 
     print ("e=",e)
-    print("type e is",type(e),"\n")
+    print ("type e is",type(e),"\n")
 
     print ("f=",f)
-    print("type f is",type(f),"\n")
+    print ("type f is",type(f),"\n")
 
     print ("g=",g)
-    print("type g is",type(g),"\n")
+    print ("type g is",type(g),"\n")
 
     print ("h=",h)
-    print("type h is",type(h),"\n")
+    print ("type h is",type(h),"\n")
 
     print ("i=",i)
-    print("type i is",type(i),"\n")
+    print ("type i is",type(i),"\n")
 
     print ("j=",j)
-    print("type j is",type(j),"\n")
+    print ("type j is",type(j),"\n")
 
 #example_206()  ###########################
 
 def example_207():
     #Example 2.07
     a,b = 9,8
-    print("a+b =",a+b)
-    print("a-b =",a-b)
-    print("axb =",a*b)
-    print("a/b =",a/b)
-    print("a//b =",a//b) #หารเอาส่วน
-    print("a mod b =",a%b) #หารเอาเศษ
-    print("a power b =", a**b) #ยกกำลัง
-    print ("3*4+2*3**2*(1+1) = ",3*4+2*3**2*(1+1))
+    print ("a+b =",a+b)
+    print ("a-b =",a-b)
+    print ("axb =",a*b)
+    print ("a/b =",a/b)
+    print ("a//b =",a//b) #หารเอาส่วน
+    print ("a mod b =",a%b) #หารเอาเศษ
+    print ("a power b =",a**b) #ยกกำลัง
+    print ("3*4+2*3**2*(1+1) =",3*4+2*3**2*(1+1))
 
 #example_207()  ###########################
 
 def example_208():
     #Example 2.08
-    print ("True and False is ",True & False)
-    print ("True or False is ",True | False)
-    print ("Not True is ", not(True))
-    print ("3 == 3 is ",3==3)
-    print ("3 == 4 is ",3==4)
+    print ("True and False is",True & False)
+    print ("True or False is",True | False)
+    print ("Not True is",not(True))
+    print ("3 == 3 is",3==3)
+    print ("3 == 4 is",3==4)
     print ("not (3==4) is",not(3==4))
     print ("5>4 is",5>4)
     print ("4>4 is",4>4)
@@ -168,48 +168,43 @@ def example_208():
 
 def example_209():
     #Example 2.09
-    print ("3x10 power 5 = ",3e5)
-    print ("type of 3e5 = ",type(3e5),"\n")
+    print ("3x10 power 5 =",3e5)
+    print ("type of 3e5 =",type(3e5),"\n")
 
-    print ("3x10 power 5 = ",3*10**5)
-    print ("type of 3*10**5 = ",type(3*10**5),"\n")
+    print ("3x10 power 5 =",3*10**5)
+    print ("type of 3*10**5 =",type(3*10**5),"\n")
 
-    print ("3.12345 * 10 power 5 = ",3.12345e5)
-    print ("type of 3.12345e5 = ",type(3.12345e5),"\n")
+    print ("3.12345 * 10 power 5 =",3.12345e5)
+    print ("type of 3.12345e5 =",type(3.12345e5),"\n")
 
-    print ("3.12345 * 10 power 5 = ",3.12345*10**5)
-    print ("type of 3.12345 * 10**5 = ",type(3.12345*10**5),"\n")
+    print ("3.12345 * 10 power 5 =",3.12345*10**5)
+    print ("type of 3.12345 * 10**5 =",type(3.12345*10**5),"\n")
 
 #example_209()  ###########################
 
 def example_210():
     #Example 2.10
-    print ("interger of 3.5 = ",int(3.5))
-    print ("float of 3 = ",float(3))
-    print ("3+3 = ",3+3)
-    print ("float of 3+3 = ",float(3+3))
-    print ("string of 3 + string of 3 = ",str(3)+str(3))
-    print ("\"3\" , \"3\" = ","3","3")
-    print ("\"3\" + \"3\" = ","3"+"3")
+    print ("interger of 3.5 =",int(3.5))
+    print ("float of 3 =",float(3))
+    print ("3+3 =",3+3)
+    print ("float of 3+3 =",float(3+3))
+    print ("string of 3 + string of 3 =",str(3)+str(3))
+    print ("\"3\" , \"3\" =","3","3")
+    print ("\"3\" + \"3\" =","3"+"3")
 
 #example_210()  ###########################
 
 def example_211():
     #Example 2.11
-    a = 10
-    print (a)
-    a = a+10
-    print (a)
-    a+=10
-    print (a)
-    a-=5
-    print (a)
-    a*=2
-    print (a)
-    a/=5
-    print (a)
+    a = 10; print (a)
+    a = a+10; print (a)
+    a+=10; print (a)
+    a-=5; print (a)
+    a*=2; print (a)
+    a/=5; print (a)
     
 #example_211()  ###########################
+
 
 def example_212():
     #Example 2.12
@@ -218,12 +213,16 @@ World!"""
     b = "Hello!\nWorld."
     c = "Hello \
 World"
+    d \
+      =5
+    e= \
+       6
     print (a)
     print (b)
     print (c)
-example_212()
-
-    
+    print (d)
+    print (e)
+example_212()    
 
 #example_200()
 #example_201()
@@ -237,4 +236,5 @@ example_212()
 #example_209()
 #example_210()
 #example_211()
+#example_212()
 

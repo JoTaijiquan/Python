@@ -73,7 +73,7 @@ def example_409():
     #Example 4.09
     x=1
     while x<10:
-        print("x=",x)
+        print ("x=",x)
         x+=2
 #example_409()
 
@@ -81,7 +81,7 @@ def example_410():
     #Example 4.10
     z=10
     while z>1:
-        print("z=",z)
+        print ("z=",z)
         z-=2
 
 #example_410()
