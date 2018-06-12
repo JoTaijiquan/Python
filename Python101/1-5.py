@@ -243,6 +243,7 @@ def example_515():
 #example_515()
 
 def example_516():
+    #Example 5.16
     print ("4 is 4",4 is 4)
     print ("4 is (4,3)",4 is (4,3))
     print ("4 in (4,3)",4 in (4,3))
@@ -251,11 +252,12 @@ def example_516():
     print ("(3,4) is (2,3,4)",(3,4) is (2,3,4))
     print ("(3,4) is (3,4)",(3,4) is (3,4))
     print ("(3,4) in (3,4)",(3,4) in (3,4))
+    print ("(3,4) == (3,4)",(3,4)==(3,4))
 
-example_516()
+#example_516()
 
-def example_520():
-    #Example 5.02
+def example_517():
+    #Example 5.17
     a = (7,8,9)
     print (a)
     print (type(a))
@@ -263,4 +265,33 @@ def example_520():
     print (a[1])
     print (a(2))
 
-#example_520()
+#example_517()
+
+def example_518():
+    #Example 5.18
+    a = [2,3,4]
+    b = (9,10,11)
+    c = (4,5,6,[1,2,3],8,(9,10,11),15,16)
+    d = [a,b,c]
+    e = (a,b,c)
+    f = a,b,c
+    g = 2,3,8,10,"a","b"
+    print ("a=",a)
+    print ("b=",b)
+    print ("type of a=",type(a))
+    print ("type of b=",type(b))
+    print ("a[1]=",a[1])
+    print ("c[1]=",c[1])
+    print ("c[3]=",c[3])
+    print ("c[5]=",c[5])
+    print ("c[3][1]=",c[3][1])
+    print ("d=[a,b,c] =",d)
+    print ("e=(a,b,c) =",e)
+    print ("f=a,b,c =",f)
+    print ("g=",g)
+
+example_518()
+
+
+
+
