@@ -290,8 +290,36 @@ def example_518():
     print ("f=a,b,c =",f)
     print ("g=",g)
 
-example_518()
+#example_518()
 
+def example_519():
+    #Example 5.19
+    a = [1,2,3]
+    b = [10,20,30]
+    c = a+b
+    print (c)
 
+#example_519()
 
+def example_520():
+    #Example 5.20
+    a = 1,2,3
+    b = 5,6,7,8
+    c = a+b
+    print (c)
 
+#example_520()
+
+def example_521():
+    #Example 5.21
+    a = [1,2,3]
+    print (a*2)
+
+#example_521
+    
+def example_522():
+    #Example 5.22
+    a = 3,4,5
+    print (a*3)
+
+#example_522()
