@@ -1,9 +1,26 @@
 #Chapter 1.8
 
-#What we learn.
+#Dictionary
 
+#Exampe 8.00
+def example_800():
+    x={ 'a': 'Hello',
+        'b': 'World',
+        'c': '!!!'
+        }
 
-print ("Hello World!")
+    print (x)
 
-a=10; b=20
-print (a+b,a-b,a*b,a/b)
+#example_800()
+
+def example_801():
+    x={ 'Jo': '123 Bangkok',
+        'Mo': '456 Nonthaburi',
+        'Yo': '789 Chiangmai'
+        }
+
+    for name,address in x.items():
+        print (name,address)
+
+example_801()
+        

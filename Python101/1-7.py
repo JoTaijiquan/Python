@@ -220,26 +220,36 @@ print (example_719(100,100))
 
 '''
 #Example 7.20
-def example_720():
-    pass
+def example_720(a=0,b=0,c=0):
+    return a,b,c
 
-example_720()
+print (example_720())
+print (example_720(b=10))
+print (example_720(100,101,102)[1])
+print (example_720(100,101,102)[2])
 '''
 
-
+'''
 #Example 7.21
 def example_721():
+    pass
+
+example_721()
+'''
+
+#Example 7.22
+def example_722():
     '''Document
     !!! '''
     pass
 
-example_721()
-print (example_721.__doc__)
+example_722()
+print (example_722.__doc__)
 
     
-#Example 7.22
-def example_722():
+#Example 7.23
+def example_723():
     #Document
     pass
 
-print(example_722.__doc__)
+print(example_723.__doc__)
