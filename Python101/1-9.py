@@ -211,7 +211,7 @@ del g
 del t
 '''
 
-
+'''
 #Example 9.09
 class Cat:
     
@@ -234,9 +234,20 @@ t.say()
 print (t.name)
 print (t)
 del t
-
 '''
+
+
 #Example 9.10
+class Animal:
+    name='...'
+    def __init__(self,n,classes='mammal',legs=4):
+        Animal.name = n
+        self.classes = classes
+        self.legs = legs
+        
+    def say(self,n=name):
+        print ('I\'m',n)
+'''        
 class Cat:
     
     def __init__(self,n):
@@ -244,20 +255,19 @@ class Cat:
         self.name = n
         
     def say(self):
-        print ('I\'m the great',self.name)
+        print ('I\'m the great', self.name)
         
     def __str__(self):
         return (self.name+' is class Cat')
         
     def __del__(self):
         print (self.name, 'is Killed!!!')
-
-
-t = Cat('Tom')
-t.say()
-print (t.name)
-print (t)
-del t
-
 '''
+
+a = Animal('cat')
+a.say()
+a.say('Meow')
+a.say()
+print (a.name,a.classes)
+
 
