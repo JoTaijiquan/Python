@@ -3,14 +3,14 @@
 #Hello Python
 
 '''
-#Example 1.00 
+#Example 1.1.00 
 print ("Hello World!")
 '''
 
 ###########################
 
 '''
-#Example 1.01
+#Example 1.1.01
 #Python3.6
 # -*- coding: utf-8 -*-
 
@@ -21,7 +21,7 @@ print ("สวัสดี ชาวโลก")
 ###########################
 
 '''
-#Example 1.02
+#Example 1.1.02
 print (3+4); print (6-2)
 print ("4x5 =",4*5); print ("4/2 =",4/2); print ("3/2 =",3/2)
 print ("7/3 =",7/3);
