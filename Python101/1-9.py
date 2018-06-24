@@ -134,10 +134,10 @@ print (tom.name,"is",tom.color)
 '''
 #Example 9.07
 class Animal:
-    def __init__(self,class_='mammal'):
-        self.class_ = class_
+    def __init__(self,common_name='Cat'):
+        self.common_name = common_name
     def say(self):
-        print ("I am",self.class_)
+        print ("I am",self.common_name)
 
 tom = Animal()
 tom.say()
@@ -148,27 +148,30 @@ tweety.say()
 '''
 #Example 9.08
 class Animal:
-    def __init__(self,class_='mammal'):
-        self.class_ = class_
+    def __init__(self,common_name='cat'):
+        self.common_name = common_name
     def say(self,say='...'):
-        print ("I am",self.class_,say)
+        print ("I am",self.common_name,say)
 
 class Bird(Animal):
     def __init__(self):
-        self.class_ = 'bird'
+        self.common_name = 'bird'
     def sing(self):
         print ("tweet tweet tweety")
     
 tom = Animal()
 tom.say()
 tom.say("Meow")
+print ("************\n")
 
 tweety = Bird()
+tweety.say()
 tweety.say("Tweet")
 tweety.sing()
 '''
 
-#Example 9.10
+'''
+#Example 9.09
 class Animal:
     def __init__(self,common_name='animal'):
         self.common_name = common_name
@@ -200,5 +203,99 @@ print ("************\n")
 garfield = Cat()
 garfield.say()
 print (garfield.common_name)
+'''
+
+'''
+#Example 9.10
+class Animal:
+    def __init__(self,common_name='animal'):   
+        self.common_name = common_name
+
+    def say (self,words='...'):
+        print ("I am",self.common_name,words)
+
+class Action:
+    def walk(self):
+        print ("walk")
+        
+    def run(self):
+        print ("run")
+
+class Cat(Animal,Action):
+    def run(self):
+        print ("run run run")
+        
+    def dance(self):
+        self.walk()
+        self.run()
+        self.walk()
+
+tom = Cat()
+print (tom.common_name)
+tom.dance()
+print ("************\n")
+tom.say("ha ha ha")
+tom.walk()
+'''
+
+'''
+#Example 9.11
+class Animal:
+    name = 'no name'
+    action = 'no action'
+    common_name = 'no common name'
+    
+    def say(self):
+        print ("I am",self.name,",",self.action)
+
+    def animal_say(self):
+        print ("Animal say",Animal.name,",",Animal.action)
+
+print ("#1")  
+tom = Animal()
+print (tom.name,tom.action)
+print (Animal.name,Animal.action)
+tom.say()
+tom.animal_say()
+print ("************\n")
+
+print ("#2")  
+tom.name = "Tom"
+tom.action = "running"
+print (tom.name,tom.action)
+print (Animal.name,Animal.action)
+tom.say()
+tom.animal_say()
+print ("************\n")
+
+print ("#3")  
+Animal.name = "..."
+Animal.action = "..."
+jerry = Animal()
+tom.say()
+jerry.say()
+print (Animal.name,Animal.action)
+print ("************\n")
+
+print ("#4")  
+tom.animal_say()
+jerry.animal_say()
+'''
+
+#Example 9.12
+class Animal():
+    'Class Animal'
+    def say(self):
+        'Function Say'
+        print ("hi")
+        
+tom = Animal()
+tom.say()
+print ("************\n")
+
+print (Animal.__doc__)
+print (Animal.say.__doc__)
+print (Animal.__name__)
+print (Animal.say.__name__)
 
 
