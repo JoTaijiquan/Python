@@ -282,6 +282,7 @@ tom.animal_say()
 jerry.animal_say()
 '''
 
+'''
 #Example 9.12
 class Animal():
     'Class Animal'
@@ -297,5 +298,5 @@ print (Animal.__doc__)
 print (Animal.say.__doc__)
 print (Animal.__name__)
 print (Animal.say.__name__)
-
+'''
 
