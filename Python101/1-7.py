@@ -16,6 +16,9 @@ def example_702(x):
     print ("x=",x)
 
 example_702(10)
+example_702("Hello")
+example_702(3+4)
+example_702((3,4,5))
 '''
 
 '''
@@ -25,6 +28,7 @@ def example_703(x,y):
     print ("y=",y)
 
 example_703(10,20)
+example_703("Hello",10)
 '''
 
 '''
@@ -62,6 +66,8 @@ x = [10]
 print (x,x[0])
 example_706(x)
 print (x,x[0])
+example_706(x)
+print (x,x[0])
 '''
 
 '''
@@ -86,6 +92,8 @@ x = 10
 print (x)
 example_708()
 print (x)
+example_708()
+print (x)
 '''
 
 '''
@@ -95,6 +103,7 @@ def example_709(x,y=10):
 
 example_709(10,20)
 example_709(10)
+example_709("Hello")
 '''
 
 '''
@@ -123,7 +132,9 @@ example_711(10,c=20)
 def example_712(*x):
     for i in x:
         print (i)
-    print (x)
+    print ("Number of Element in x=",len(x))
+    print ("x=",x)
+    print ("x[2]=",x[2])
 
 example_712(1,2,3,"Hello",[0,0,0])
 '''
@@ -244,7 +255,7 @@ def example_723():
     pass
 
 example_723()
-print (example_722.__doc__)
+print (example_723.__doc__)
 
     
 #Example 7.24

@@ -1,7 +1,6 @@
-#Example 7.01
-def example_701():
-    print ("Hello")
+#Example 7.24
+def example_724():
+    #Document
+    pass
 
-example_701()
-
-
+print(example_724.__doc__)
