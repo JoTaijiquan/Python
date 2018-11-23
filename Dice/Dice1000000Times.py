@@ -11,6 +11,7 @@ class Dice:
     
     Scores = []
 
+
     def __init__(self,Faces=6,NumberOfDice=1):
         self.Faces = Faces
         self.Number_of_Dice = NumberOfDice
@@ -26,10 +27,9 @@ class Dice:
         for i in range(Number_of_Roll):
             Score = 0
             for j in range(self.Number_of_Dice):
-                Score =Score+randint(1,self.Faces)
+                Score = Score+randint(1,self.Faces)
             self.Scores[Score-1] +=1
             TotalScore += Score
-        
         return TotalScore
 
 def ShowGraph (Data=[]):
@@ -60,6 +60,7 @@ def ShowRoll (Faces,NumberOfDice,NumberOfRoll):
     ShowGraph(d.Scores)
     print ('---------')
 
+    
 if __name__ == '__main__':
     seed()
     #ทอยลูกเต๋า 2 ลูก 1,000,000 ครั้ง
@@ -73,4 +74,4 @@ if __name__ == '__main__':
     print ('Maximum Score =',e.Maximum_Score)    
     print ('Total Score = ',e.Rolls(1000000))
     ShowGraph(e.Scores)
-    #del e
+    del e
