@@ -3,16 +3,26 @@
 
 from turtle import *
 
+def go(x,y):
+    penup()
+    setpos(x,y)
+    pendown()
+    
+def star(x,y,size,c):
+    go(x,y)
+    pencolor(c)
+ 
+    for i in range(5):
+        fd(size)
+        rt(144)
+
 def example_1004(length=100):
     for i in range(4):
         forward(length)
         left(90)
 
-for i in range(1,5):
-    example_1004(i*10)
-
-example_1004()
-
+star(0,0,100,"RED")
+star(100,100,50,"BLUE")
 
 '''
 

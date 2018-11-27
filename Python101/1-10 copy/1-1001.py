@@ -1,5 +1,5 @@
 #Example 10.01
-#Python 3.7.1
+#Python 3.6.5
 
 import turtle
 
