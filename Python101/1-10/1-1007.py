@@ -4,28 +4,24 @@
 import random
 import turtle
 
-def box(color,length):
-    t=turtle
+
+
+
+def box(t,color,size):
     t.pencolor(color) 
     for i in range(4):
-        t.fd(length)
+        t.fd(size)
         t.lt(90)
     
-        
-def example_1007(x=100,y=100):
-    color = ("#000000", "#ff0000", "#00ff00", "#0000ff", "#ffff00", "#00ffff", "#ff00ff" )
+t = turtle
+r = random
+r.seed()
+t.colormode(255)
+t.speed(50)
 
-    random.seed()
-
-    t=turtle
-    t.pu() #penup()
-    t.setpos(x,y) #setposition
-    t.pd() #pendown()
-    for i in range(0,36):
-        box(color[random.randint(0,6)],100)
-        t.right(10)
-
-example_1007()
+for i in range(0,36):
+    box(t, (r.randint(0,255),r.randint(0,255),r.randint(0,255) ),100)
+    t.rt(10)
 '''
 
 แสดงผล

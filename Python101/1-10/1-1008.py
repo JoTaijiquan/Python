@@ -4,29 +4,24 @@
 import random
 import turtle
 
-def star(color,size):
-    t=turtle
+
+
+
+def box(t,color,size):
     t.pencolor(color) 
-    for i in range(5):
+    for i in range(4):
         t.fd(size)
-        t.rt(144)
+        t.lt(90)
     
-        
-def example_1008(x=100,y=100):
-    color = ("#000000", "#ff0000", "#00ff00", "#0000ff", "#ffff00", "#00ffff", "#ff00ff" )
+t = turtle
+r = random
+r.seed()
+t.colormode(255)
+t.speed(50)
 
-    random.seed()
-
-    t=turtle
-    t.speed(0)
-    for i in range(0,100):
-        t.pu() #penup()
-        t.setpos(random.randint(-300,300),random.randint(-300,300)) #setposition
-        t.pd() #pendown()
-        star(color[random.randint(0,6)],random.randint(10,50))
-
-example_1008()
-#star("red",100)
+for i in range(10,120):
+    box(t, (r.randint(0,255),r.randint(0,255),r.randint(0,255) ),i*3)
+    t.rt(4)
 '''
 
 แสดงผล

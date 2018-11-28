@@ -3,27 +3,34 @@
 
 from turtle import *
 
-def go(x,y):
+def go(x,y,c):
     penup()
     setpos(x,y)
     pendown()
+    pencolor(c)
     
 def star(x,y,size,c):
-    go(x,y)
-    pencolor(c)
- 
+    go(x,y,c)
     for i in range(5):
         fd(size)
         rt(144)
 
-def example_1004(length=100):
+def box(x,y,size,c):
+    go(x,y,c)
     for i in range(4):
-        forward(length)
-        left(90)
+        fd(size)
+        rt(90)
 
+def circlexy(x,y,size,c):
+    go(x,y,c)
+    circle(size)
+
+speed(100)
+bgcolor("lightblue")
 star(0,0,100,"RED")
 star(100,100,50,"BLUE")
-
+box (200,100,30,"GREEN")
+circlexy(-100,100,50,"PURPLE")
 '''
 
 แสดงผล
