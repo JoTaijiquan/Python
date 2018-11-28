@@ -20,7 +20,8 @@ t.colormode(255)
 t.speed(50)
 
 for i in range(10,120):
-    box(t, (r.randint(0,255),r.randint(0,255),r.randint(0,255) ),i*3)
+    color = r.randint(0,255),r.randint(0,255),r.randint(0,255)
+    box(t,color,i*3)
     t.rt(4)
 '''
 

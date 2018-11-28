@@ -4,9 +4,6 @@
 import random
 import turtle
 
-
-
-
 def box(t,color,size):
     t.pencolor(color) 
     for i in range(4):
@@ -22,6 +19,7 @@ t.speed(50)
 for i in range(0,36):
     box(t, (r.randint(0,255),r.randint(0,255),r.randint(0,255) ),100)
     t.rt(10)
+    
 '''
 
 แสดงผล

@@ -4,35 +4,29 @@
 import random
 import turtle
 
-def star(color,size):
-    t=turtle
+def star(t,color,size):
     t.pencolor(color) 
     for i in range(5):
         t.fd(size)
         t.rt(144)
-    
-        
-def example_1009(x=100,y=100):
-    color = ("#000000", "#ff0000", "#00ff00", "#0000ff", "#ffff00", "#00ffff", "#ff00ff" )
 
-    random.seed()
-
-    t=turtle
+def spiral(t,color,angle,num_of_round):
+    t.clearscreen()
     t.speed(100)
-    t.ht() #t.hideturtle
-    for i in range(0,180):
-        t.pencolor(color[random.randint(0,6)])
-        t.rt(37)
-        t.fd(100)
+    t.hideturtle()
+    t.color(color)
 
-        t.penup()
-        t.setposition(0,0)
-        t.pendown()
-    t.st() #t.showturtle
-    
+    for i in range(num_of_round):
+        t.fd(i); t.lt(angle)
 
-example_1009()
 
+t=turtle
+
+spiral(t,"CYAN",59,250)
+spiral(t,"RED",89,250)
+spiral(t,"BLUE",91,250)
+spiral(t,"GREEN",111,250)
+spiral(t,"ORANGE",159,250)
 '''
 
 แสดงผล
