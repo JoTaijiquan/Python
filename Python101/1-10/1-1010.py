@@ -12,7 +12,7 @@ r.seed()
 
 t.setup(800,600)
 t.title("Random Line")
-t.speed(500)
+t.speed(100)
 t.colormode(255)
 
 for i in range(100):
