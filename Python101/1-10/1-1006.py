@@ -3,53 +3,34 @@
 
 import turtle
 
-color=("RED","GREEN","BLUE","BLACK","GRAY","PINK","LIGHTGREEN",\
-       "LIGHTBLUE","PURPLE","VIOLET","BROWN","ORANGE","MAGENTA","CYAN")
+def example_1006(size=100):
+    t = turtle
+    t.color("RED","GREEN")
+    t.begin_fill()
+    t.fd(size)
+    t.lt(90)
+    t.fd(size)
+    t.rt(90)
+    t.bk(size)
+    t.rt(90)
+    t.fd(size)
+    t.end_fill()
+    
+example_1006(200)    
 
-color2 = ("#000000", "#ff0000", "#00ff00", "#0000ff", "#ffff00", \
-             "#00ffff", "#ff00ff","#808080","#800000","#008000","#000080",\
-             "#808000","#800080","#008080","#c0c0c0","#c00000")
-
-color3 = ((0,0,0),(255,0,0),(0,255,0),(0,0,255),(255,255,0),(255,0,255),\
-          (0,255,255),(0xff,0,0),(0,0xff,0),(0,0,0xff))
-
-
-
-
-def go(t,x,y):
-    t.pu()
-    t.setpos(x,y)
-    t.pd()
-    t.setheading(0)
-
-def draw_color(t,c):
-    for i in c:
-        t.color(i)
-        t.fd(100)
-        t.write(i,False,"left",("Arial",10,"normal"))
-        t.bk(100)
-        t.pu()
-        t.rt(90)
-        t.fd(30)
-        t.lt(90)
-        t.pd()
-
+'''
+เพื่อกันงง กลับมาใช้ t=turtle
 
 t = turtle
-t.setup(width=800,height=600,startx=0,starty=0)
-t.pensize(10)
-t.speed(100)
-
-go(t,-300,200)
-draw_color(t,color)             
-
-go(t,-100,200)
-draw_color(t,color2)
-
-go(t,100,200)
-t.colormode(255)
-draw_color(t,color3)
-'''
-
+t.color("RED","GREEN")  กำหนดสีตัวแรกคือสีปากกา ตัวที่สองคือสีระบาย
+t.begin_fill()          เริ่มการระบาย
+t.fd(size)              t.forward(size)
+t.lt(90)                t.left(90)
+t.fd(size)              t.forward(size)
+t.rt(90)                t.right(90)
+t.bk(size)              t.back(size)
+t.rt(90)                t.right(90)
+t.fd(size)              t.forward(size)
+t.end_fill()            t.endfill()
 แสดงผล
 '''

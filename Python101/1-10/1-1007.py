@@ -1,26 +1,40 @@
 #Example 10.07
 #Python 3.7.1
 
-import random
 import turtle
 
-def box(t,color,size):
-    t.pencolor(color) 
-    for i in range(4):
-        t.fd(size)
-        t.lt(90)
+def example_1007(x,y):
+    t = turtle
+    t.goto(x,y)
+    t.color("CYAN","ORANGE")
+    t.begin_fill()
+    t.fd(50)
+    t.lt(90)
+    t.fd(50)
+    t.rt(90)
+    t.bk(50)
+    t.rt(90)
+    t.fd(50)
+    t.end_fill()
     
-t = turtle
-r = random
-r.seed()
-t.colormode(255)
-t.speed(50)
+example_1007(100,100)
+example_1007(-100,-100)
+example_1007(-100,100)
+example_1007(100,-100)
 
-for i in range(0,36):
-    box(t, (r.randint(0,255),r.randint(0,255),r.randint(0,255) ),100)
-    t.rt(10)
-    
 '''
+เพื่อกันงง กลับมาใช้ t=turtle
 
+t = turtle
+t.color("RED","GREEN")  กำหนดสีตัวแรกคือสีปากกา ตัวที่สองคือสีระบาย
+t.begin_fill()          เริ่มการระบาย
+t.fd(size)              t.forward(size)
+t.lt(90)                t.left(90)
+t.fd(size)              t.forward(size)
+t.rt(90)                t.right(90)
+t.bk(size)              t.back(size)
+t.rt(90)                t.right(90)
+t.fd(size)              t.forward(size)
+t.end_fill()            t.endfill()
 แสดงผล
 '''

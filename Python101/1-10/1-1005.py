@@ -2,33 +2,35 @@
 #Python 3.7.1
 
 from turtle import *
-import random
 
-color=("RED","GREEN","BLUE","BLACK","GRAY","PINK","LIGHTGREEN",\
-       "LIGHTBLUE","PURPLE","VIOLET","BROWN","ORANGE","MAGENTA","CYAN")
-
-
-def go(x,y,c):
-    penup()
-    setpos(x,y)
-    pendown()
-    pencolor(c)
+def example_1005():
+    pencolor("VIOLET")
+    fillcolor("YELLOW")
+    begin_fill()
+    forward(100)
+    left(90)
+    forward(100)
+    right(90)
+    back(100)
+    right(90)
+    forward(100)
+    end_fill()
     
-def star(x,y,size,c):
-    go(x,y,c)
-    for i in range(5):
-        fd(size)
-        rt(144)
-
-rd = random
-rd.seed()
-
-speed(0)
-for i in range (0,100):
-    star(rd.randint(-300,300),rd.randint(-300,300),rd.randint(10,50),color[rd.randint(0,13)])
-    
+example_1005()    
 
 '''
+from turtle import * ทำให้เรียกใช้ฟังก์ชันใน turtle ได้โดยตรง
 
+pencolor("VIOLET")      เปลีี่ยนปากกาเป็นสีม่วง
+fillcolor("YELLOW")     เปลี่ยนสีสำหรับระบายเป็นสีเหลือง
+begin_fill()            เริ่มต้นระบายสีี
+forward(100)            เดินหน้า 100 หน่วย
+left(90)                หันซ้าย 90 องศา
+forward(100)            เดินหน้า 100 หน่วย
+right(90)               หันขวา 90 องศา
+back(100)               ถอยหลัง 100 หน่วย
+right(90)               หันขวา 90 องศา
+forward(100)            เดินหน้า 100 หน่วย
+end_fill()              จบการระบายสี
 แสดงผล
 '''

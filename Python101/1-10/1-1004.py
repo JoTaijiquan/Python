@@ -1,37 +1,30 @@
 #Example 10.04
 #Python 3.7.1
 
-from turtle import *
+import turtle 
 
-def go(x,y,c):
-    penup()
-    setpos(x,y)
-    pendown()
-    pencolor(c)
-    
-def star(x,y,size,c):
-    go(x,y,c)
-    for i in range(5):
-        fd(size)
-        rt(144)
+def example_1004():
+    t = turtle
+    t.pencolor("BLUE")  
+    t.forward(100)
+    t.left(90)
+    t.forward(100)
+    t.right(90)
+    t.back(100)
+    t.right(90)
+    t.forward(100)
 
-def box(x,y,size,c):
-    go(x,y,c)
-    for i in range(4):
-        fd(size)
-        rt(90)
+example_1004()    
 
-def circlexy(x,y,size,c):
-    go(x,y,c)
-    circle(size)
-
-speed(100)
-bgcolor("lightblue")
-star(0,0,100,"RED")
-star(100,100,50,"BLUE")
-box (200,100,30,"GREEN")
-circlexy(-100,100,50,"PURPLE")
 '''
-
+t = turtle          กำหนดให้ t แทน turtle
+t.pencolor("BLUE")  เปลีี่ยนปากกาเป็นสีน้ำเงิน
+t.forward(100)      เดินหน้า 100 หน่วย
+t.left(90)          หันซ้าย 90 องศา
+t.forward(100)      เดินหน้า 100 หน่วย
+t.right(90)         หันขวา 90 องศา
+t.back(100)         ถอยหลัง 100 หน่วย
+t.right(90)         หันขวา 90 องศา
+t.forward(100)      เดินหน้า 100 หน่วย
 แสดงผล
 '''

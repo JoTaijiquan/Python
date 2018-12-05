@@ -1,32 +1,29 @@
 #Example 10.09
 #Python 3.7.1
 
-import random
 import turtle
 
-def star(t,color,size):
-    t.pencolor(color) 
+
+def gotoxy (x,y):
+    t = turtle
+    t.pu()
+    t.goto(x,y)
+    t.pd()
+    
+def example_1009(x,y,size,color):
+    t = turtle
+    gotoxy(x,y)
+    t.color(color)
     for i in range(5):
         t.fd(size)
         t.rt(144)
 
-def spiral(t,color,angle,num_of_round):
-    t.clearscreen()
-    t.speed(100)
-    t.hideturtle()
-    t.color(color)
+example_1009(0,0,60,"RED")
+example_1009(100,100,50,"GREEN")
+example_1009(-100,-100,40,"BLUE")
+example_1009(-100,100,30,"BLACK")
+example_1009(100,-100,20,"BROWN")
 
-    for i in range(num_of_round):
-        t.fd(i); t.lt(angle)
-
-
-t=turtle
-
-spiral(t,"CYAN",59,250)
-spiral(t,"RED",89,250)
-spiral(t,"BLUE",91,250)
-spiral(t,"GREEN",111,250)
-spiral(t,"ORANGE",159,250)
 '''
 
 แสดงผล

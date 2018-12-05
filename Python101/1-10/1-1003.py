@@ -1,24 +1,24 @@
 #Example 10.03
 #Python 3.7.1
 
-from turtle import *
+import turtle as t
 
-def box(x,y,size,c):
-    penup()
-    setposition(x,y)
-    pendown()
-    pencolor(c)
-    for i in range(4):
-        forward(size)
-        left(90)
+def example_1003():
+    t.pencolor("GREEN")  
+    t.forward(100)
+    t.left(90)
+    t.forward(100)
+    t.right(90)
+    t.back(100)
 
-box(0,0,20,"PURPLE")
-box(100,100,40,"#FF0000")
-box(-100,100,60,"#00FF00")
-box(-100,-100,80,"#0000FF")
-box(100,-100,100,"#000000")
+example_1003()    
 
 '''
-
+t.pencolor("GREN")  เปลีี่ยนปากกาเป็นสีเขียว
+t.forward(100)      เดินหน้า 100 หน่วย
+t.left(90)          หันซ้าย 90 องศา
+t.forward(100)      เดินหน้า 100 หน่วย
+t.right(90)         หันขวา 90 องศา
+t.back(100)         ถอยหลัง 100 หน่วย
 แสดงผล
 '''
