@@ -1,6 +1,6 @@
 #Example 2.1.3
-
-#Dice
+#Python 3.6.5
+#Turn random dice and keep result in List
 
 import random
 

@@ -1,6 +1,7 @@
 #Example 2.1.7
+#Python 3.6.5
+#Dice in Iterative version.
 
-#Dice
 from random import randint,seed
 
 def DiceI(Faces=6,Number_of_Dice=1,Each_Face=[]): 

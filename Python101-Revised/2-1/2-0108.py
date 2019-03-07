@@ -1,8 +1,8 @@
 #Example 2.1.8
+#Python 3.6.5
+#Dice in Recursive version.
 
-#Dice
 from random import randint,seed
-
 
 def DiceR(Faces=6,Number_of_Dice=1,Each_Face=[]):
     'Recursive Dice'

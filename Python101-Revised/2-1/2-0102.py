@@ -1,6 +1,6 @@
 #Example 2.1.2
-
-#Dice
+#Python 3.6.5
+#Turn random dice 10 rounds
 
 import random
 

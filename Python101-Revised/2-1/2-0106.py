@@ -1,6 +1,6 @@
 #Example 2.1.6
-
-#Dice
+#Python 3.6.5
+#Create dice class, OOP style.
 
 import random
 

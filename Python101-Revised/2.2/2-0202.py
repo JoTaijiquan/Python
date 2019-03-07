@@ -2,11 +2,12 @@
 #Python 3.6.5
 #Dice random dice.
 
-import random
 
 def Dice():
     return random.randint(1,6)
 
 if __name__=='__main__':
-    random.seed()
-    print (Dice())
+
+    for i in range (11,0,-1):
+        print (" "*i,"*")
+
