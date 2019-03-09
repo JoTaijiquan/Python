@@ -1,9 +1,16 @@
-#Example 2.1.1
+#Example 2.2.1
 #Python 3.6.5
-#Draw text art.
+#Draw * hard code style.
 
 if __name__=='__main__':
-
-    for i in range (10):
-        print (" "*i,"*")
-
+    print ("*")
+    print ("**")
+    print ("***")
+    print ("****")
+    print ("*****")
+    print ("******")
+    print ("*******")
+    print ("********")
+    print ("*********")
+    print ("**********")
+    
