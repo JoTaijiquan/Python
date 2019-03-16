@@ -1,5 +1,6 @@
-#Example 2.02
-#Python3.6.5
+#Example 1.2.2
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_202():
     a = 2

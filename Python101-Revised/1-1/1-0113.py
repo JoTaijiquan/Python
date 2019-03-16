@@ -1,5 +1,6 @@
-#Example 1.13
-#Python3.6.5
+#Example 1.1.13
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_113():
     'Example 1.13 Document, Write any thing here!!'

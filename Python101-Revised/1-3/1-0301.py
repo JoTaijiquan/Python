@@ -1,5 +1,6 @@
-#Example 3.01
-#Python3.6.5
+#Example 1.3.1
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_301():
     x = 10

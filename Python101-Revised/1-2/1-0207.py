@@ -1,5 +1,6 @@
-#Example 2.07
-#Python3.6.5
+#Example 1.2.7
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_207():
     a = 9

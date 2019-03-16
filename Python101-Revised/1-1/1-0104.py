@@ -1,5 +1,6 @@
-#Example 1.04
-#Python3.6.5
+#Example 1.1.4
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 print ("3x4 =",3*4)   
 print ("Hello"+"!")

@@ -1,5 +1,6 @@
-#Example 1.12
-#Python3.6.5
+#Example 1.1.12
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_112():
     print ("Hello!")

@@ -1,4 +1,4 @@
-#Example 2.2.4
+#Example 2.2.6
 #Python 3.6.5
 #Draw * to both side.
 

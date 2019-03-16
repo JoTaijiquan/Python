@@ -1,5 +1,12 @@
-#Example 1.09
-#Python3.6.5
+#Example 1.1.9
+#Python 3.6.5
+#Created By Jooompot Sriyapan
+
+print ("Hello\n")       #escape character \n สั่งขึ้นบรรทัดใหม่     
+print ("World!")
+print ("Hello\n\n")     # \n\n ขึ้นบรรทัดใหม่สองครั้ง
+print ("World!")
+print ("Hello\tWorld!") #\t เว้นวรรค tab
 
 print ("Hello \
 World!")

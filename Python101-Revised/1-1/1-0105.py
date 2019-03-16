@@ -1,5 +1,6 @@
-#Example 1.05
-#Python3.6.5
+#Example 1.1.5
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 print ("Hello","World","!")                 #ปกติแล้ว แต่ละคำจะแสดงผลแยกกัน 1 space หรือ 1 เคาะ
 print ("Hello","World","!",sep="")          #แสดงผลแค่ละคำโดยไม่มีตัวแยก (separator)

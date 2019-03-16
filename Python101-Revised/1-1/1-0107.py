@@ -1,5 +1,6 @@
-#Example 1.07
-#Python3.6.5
+#Example 1.1.7
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 print ("\"Hello\"")     #แสดงผล "Hello"
 print ("\\Hello\\")     #แสดงผล \Hello\

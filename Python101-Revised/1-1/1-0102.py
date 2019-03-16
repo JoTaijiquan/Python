@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-#Example 1.02
-#Python3.6.5
-
+#Example 1.1.2
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 print ("Hello World!")
 print ("สวัสดี ชาวโลก")

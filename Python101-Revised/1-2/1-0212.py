@@ -1,5 +1,6 @@
-#Example 2.12
-#Python3.6.5
+#Example 1.2.12
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_212():
     a = 10;     print ("1) ",a)

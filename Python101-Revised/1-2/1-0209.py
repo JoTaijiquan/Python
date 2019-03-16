@@ -1,5 +1,7 @@
-#Example 2.09
-#Python3.6.5
+#Example 1.2.9
+#Python 3.6.5
+#Created By Jooompot Sriyapan
+
 
 def example_209():
     print ("1) True and False is",True & False)

@@ -1,5 +1,6 @@
-#Example 2.05
-#Python3.6.5
+#Example 1.2.5
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_205(): 
     Hello = 0

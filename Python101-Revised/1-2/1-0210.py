@@ -1,5 +1,6 @@
-#Example 2.10
-#Python3.6.5
+#Example 1.2.10
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_210():
     print ("1) 3x10 power 5 =",3e5)

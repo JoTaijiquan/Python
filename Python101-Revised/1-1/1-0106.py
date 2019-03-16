@@ -1,5 +1,6 @@
-#Example 1.06
-#Python3.6.5
+#Example 1.1.6
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 print (1,2,3)
 print (4,5,6)

@@ -1,5 +1,6 @@
-#Example 1.08
-#Python3.6.5
+#Example 1.1.8
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 print ("Hello\n")       #escape character \n สั่งขึ้นบรรทัดใหม่     
 print ("World!")

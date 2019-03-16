@@ -1,5 +1,7 @@
-#Example 2.06
-#Python3.6.5
+#Example 1.2.6
+#Python 3.6.5
+#Created By Jooompot Sriyapan
+
 
 def example_206():
     a,b,c = 1,3,5

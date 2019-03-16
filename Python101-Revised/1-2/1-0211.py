@@ -1,5 +1,6 @@
-#Example 2.11
-#Python3.6.5
+#Example 1.2.11
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_211():
     print ("1) interger of 3.5 =",int(3.5))
