@@ -1,5 +1,6 @@
-#Example 8.01
-#Python3.6.5
+#Example 1.8.1
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_801():
     x={ 'a': 'Hello',

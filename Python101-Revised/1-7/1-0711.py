@@ -1,5 +1,6 @@
-#Example 7.11
-#Python3.6.5
+#Example 1.7.11
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_711(a=1,b=2,c=3):
     print (a,b,c)

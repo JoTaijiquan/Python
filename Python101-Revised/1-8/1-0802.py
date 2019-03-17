@@ -1,5 +1,6 @@
-#Example 8.02
-#Python3.6.5
+#Example 1.8.2
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_802():
     x={ 'Jo': '123 Bangkok',

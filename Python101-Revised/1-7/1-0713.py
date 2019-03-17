@@ -1,5 +1,6 @@
-#Example 7.13
-#Python3.6.5
+#Example 1.7.13
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_713(a=1,b=2,*x):
     for i in x:

@@ -1,5 +1,6 @@
-#Example 7.23
-#Python3.6.5
+#Example 1.7.23
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_723():
     '''Document

@@ -1,5 +1,7 @@
 #Example 2.1.2
 #Python 3.6.5
+#Created By Jooompot Sriyapan
+
 #Turn random dice 10 rounds
 
 import random

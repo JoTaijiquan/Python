@@ -1,5 +1,6 @@
-#Example 6.07
-#Python3.6.5
+#Example 1.6.7
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_607():
     for i in "Hello World!":

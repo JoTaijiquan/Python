@@ -1,5 +1,6 @@
-#Example 7.08
-#Python3.6.5
+#Example 1.7.8
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_708():
     global x

@@ -1,5 +1,6 @@
-#Example 4.07
-#Python3.6.5
+#Example 1.4.7
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_407():
     for i in range(10):

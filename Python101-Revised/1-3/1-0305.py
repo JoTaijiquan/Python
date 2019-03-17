@@ -1,5 +1,6 @@
-#Example 3.05
-#Python3.6.5
+#Example 1.3.5
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_305():
     x = input ("Input x ")

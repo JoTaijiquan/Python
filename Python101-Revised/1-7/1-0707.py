@@ -1,5 +1,6 @@
-#Example 7.07
-#Python3.6.5
+#Example 1.7.7
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_707(x,y):
     print ("x=",x)

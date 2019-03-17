@@ -1,5 +1,6 @@
-#Example 6.10
-#Python3.6.5
+#Example 1.6.10
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_610():
     i=8

@@ -1,5 +1,6 @@
-#Example 9.09
-#Python3.6.5
+#Example 1.9.9
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 class Animal:
     def __init__(self,common_name='cat'):

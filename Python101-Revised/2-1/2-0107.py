@@ -1,5 +1,7 @@
 #Example 2.1.7
 #Python 3.6.5
+#Created By Jooompot Sriyapan
+
 #Dice in Iterative version.
 
 from random import randint,seed

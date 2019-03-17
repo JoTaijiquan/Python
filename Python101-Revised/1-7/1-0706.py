@@ -1,5 +1,6 @@
-#Example 7.06
-#Python3.6.5
+#Example 1.7.6
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_706(x):
     x[0] +=10

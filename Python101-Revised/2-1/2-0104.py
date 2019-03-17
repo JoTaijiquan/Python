@@ -1,5 +1,7 @@
 #Example 2.1.4
 #Python 3.6.5
+#Created By Jooompot Sriyapan
+
 #Turn multiple random dices.
 
 import random

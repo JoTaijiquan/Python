@@ -1,5 +1,7 @@
 #Example 2.1.8
 #Python 3.6.5
+#Created By Jooompot Sriyapan
+
 #Dice in Recursive version.
 
 from random import randint,seed

@@ -1,5 +1,7 @@
 #Example 2.1.1
 #Python 3.6.5
+#Created By Jooompot Sriyapan
+
 #Dice random dice.
 
 import random

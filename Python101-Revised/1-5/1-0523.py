@@ -1,5 +1,6 @@
-#Example 5.23
-#Python3.6.5
+#Example 1.5.23
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_523():
     a = 1,2,3

@@ -1,5 +1,6 @@
-#Example 6.03
-#Python3.6.5
+#Example 1.6.3
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_603():
     for i in [2,4,6,8,10]:

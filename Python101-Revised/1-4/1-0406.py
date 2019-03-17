@@ -1,5 +1,12 @@
-#Example 4.06
-#Python3.6.5
+#Example 1.4.6
+#Python 3.6.5
+#Created By Jooompot Sriyapan
+
+def example_405():
+    for i in range(-10,10,2):
+        print (i)
+
+example_405()
 
 def example_406():
     for i in range(10,-10,-2):

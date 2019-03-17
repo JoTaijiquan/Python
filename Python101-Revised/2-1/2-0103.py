@@ -1,5 +1,7 @@
 #Example 2.1.3
 #Python 3.6.5
+#Created By Jooompot Sriyapan
+
 #Turn random dice and keep result in List
 
 import random

@@ -1,5 +1,6 @@
-#Example 3.08
-#Python3.6.5
+#Example 1.3.8
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 import random
 def example_308():

@@ -1,5 +1,11 @@
-#Example 7.02
-#Python3.6.5
+#Example 1.7.2
+#Python 3.6.5
+#Created By Jooompot Sriyapan
+
+def example_701():
+    print ("Hello")
+
+example_701()
 
 def example_702(x):
     print ("x=",x)

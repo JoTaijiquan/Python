@@ -1,5 +1,6 @@
-#Example 4.14
-#Python3.6.5
+#Example 1.4.14
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_414():
     while (True):

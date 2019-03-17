@@ -1,5 +1,6 @@
-#Example 9.13
-#Python3.6.5
+#Example 1.9.13
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 class Animal():
     'Class Animal'

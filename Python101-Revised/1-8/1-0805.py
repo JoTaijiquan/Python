@@ -1,5 +1,6 @@
-#Example 8.05
-#Python3.6.5
+#Example 1.8.5
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_805():
     x = set([5, 7, 8, 22])

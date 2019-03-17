@@ -1,5 +1,6 @@
-#Example 6.08
-#Python3.6.5
+#Example 1.6.8
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_608():
     for i in str(3.14159):

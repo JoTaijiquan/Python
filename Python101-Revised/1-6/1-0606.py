@@ -1,5 +1,6 @@
-#Example 6.06
-#Python3.6.5
+#Example 1.6.6
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_606():
     x = [1,3,5,7,9]

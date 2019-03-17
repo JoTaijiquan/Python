@@ -1,5 +1,6 @@
-#Example 7.14
-#Python3.6.5
+#Example 1.7.14
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_714(**x):
     for i,j in x.items():

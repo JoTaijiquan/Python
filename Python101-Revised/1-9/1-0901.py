@@ -1,5 +1,6 @@
-#Example 9.01
-#Python3.6.5
+#Example 1.9.1
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 class Cat:
     def say(self):

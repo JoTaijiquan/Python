@@ -1,5 +1,7 @@
-#Example 6.11
-#Python3.6.5
+#Example 1.6.11
+#Python 3.6.5
+#Created By Jooompot Sriyapan
+
 
 def example_611():
     for i in range(10):

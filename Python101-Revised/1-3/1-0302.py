@@ -1,5 +1,6 @@
-#Example 3.02
-#Python3.6.5
+#Example 1.3.2
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_302():
     x = 10

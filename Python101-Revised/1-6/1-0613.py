@@ -1,5 +1,6 @@
-#Example 6.13
-#Python3.6.5
+#Example 1.6.13
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_613():
     x = [1,2,3]

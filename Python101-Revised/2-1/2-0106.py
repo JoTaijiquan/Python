@@ -1,5 +1,7 @@
 #Example 2.1.6
 #Python 3.6.5
+#Created By Jooompot Sriyapan
+
 #Create dice class, OOP style.
 
 import random

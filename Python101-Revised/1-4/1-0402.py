@@ -1,5 +1,6 @@
-#Example 4.02
-#Python3.6.5
+#Example 1.4.2
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_402():
     for i in range(1,10):

@@ -1,5 +1,6 @@
-#Example 7.19
-#Python3.6.5
+#Example 1.7.19
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_719(x,y,z):
     return [x,y,z]

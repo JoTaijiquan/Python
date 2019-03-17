@@ -1,5 +1,6 @@
-#Example 5.07
-#Python3.6.5
+#Example 1.5.7
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_507():
     a = [1,2,3,4,5,6,3,4,3,6]

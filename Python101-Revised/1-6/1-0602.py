@@ -1,5 +1,6 @@
-#Example 6.02
-#Python3.6.5
+#Example 1.6.2
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_602():
     for i in ("abc",True,2,(3,4,5),"def"): print (i)

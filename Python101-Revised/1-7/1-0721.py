@@ -1,5 +1,6 @@
-#Example 7.21
-#Python3.6.5
+#Example 1.7.21
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_721(a=0,b=0,c=0):
     return a,b,c

@@ -1,5 +1,6 @@
-#Example 5.18
-#Python3.6.5
+#Example 1.5.18
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_518():
     print ("1) 4 is 4:",4 is 4)

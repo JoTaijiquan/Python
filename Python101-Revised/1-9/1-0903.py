@@ -1,5 +1,6 @@
-#Example 9.03
-#Python3.6.5
+#Example 1.9.3
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 class Cat:
     def __init__(self):

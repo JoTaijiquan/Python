@@ -1,5 +1,6 @@
-#Example 5.17
-#Python3.6.5
+#Example 1.5.17
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_517():
     a = [11,12,13,14,21,22]

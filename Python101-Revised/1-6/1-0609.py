@@ -1,5 +1,6 @@
-#Example 6.09
-#Python3.6.5
+#Example 1.6.9
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_609():
     for i in ("Superman", "Batman", "Aquaman"):

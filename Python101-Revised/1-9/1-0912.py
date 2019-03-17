@@ -1,5 +1,6 @@
-#Example 9.12
-#Python3.6.5
+#Example 1.9.12
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 class Animal:
     name = 'no name'

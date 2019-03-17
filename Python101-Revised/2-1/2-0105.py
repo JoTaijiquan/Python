@@ -1,5 +1,7 @@
 #Example 2.1.5
 #Python 3.6.5
+#Created By Jooompot Sriyapan
+
 #Turn multiple dices keep result or each dice and summary score.
 
 import random

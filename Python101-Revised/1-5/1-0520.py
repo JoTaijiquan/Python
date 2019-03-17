@@ -1,5 +1,6 @@
-#Example 5.20
-#Python3.6.5
+#Example 1.5.20
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_520():
     a = (7,8,9)

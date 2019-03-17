@@ -1,5 +1,6 @@
-#Example 5.09
-#Python3.6.5
+#Example 1.5.9
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_509():
     x = ['a','b','c','a']

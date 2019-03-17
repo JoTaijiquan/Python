@@ -1,5 +1,6 @@
-#Example 4.08
-#Python3.6.5
+#Example 1.4.8
+#Python 3.6.5
+#Created By Jooompot Sriyapan
 
 def example_408():
     for i in range(10):

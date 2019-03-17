@@ -1,5 +1,7 @@
-#Example 3.04
-#Python3.6.5
+#Example 1.3.4
+#Python 3.6.5
+#Created By Jooompot Sriyapan
+
 
 def example_304():
     x = input("Input x (guess 1-10) ")
