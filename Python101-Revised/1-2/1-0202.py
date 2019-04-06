@@ -1,6 +1,22 @@
+'''
+Create By Joompot Sriyapan
+Date 6/4/2019
+
+Name 
+    Example 1.2.2
+Description 
+    swap variable
+Note
+    สลับค่าระหว่างตัวแปรสองตัวได้ง่ายๆ ด้วยการสั่ง 
+    variable_1, variable_2 = variable_2, variable_1
+Required
+    python 3.7.3
+Pre-programmed
+    -
+'''
+
 #Example 1.2.2
-#Python 3.6.5
-#Created By Jooompot Sriyapan
+#Python 3.7.3
 
 def example_202():
     a = 2
@@ -10,11 +26,3 @@ def example_202():
     print ("2)",a,b)
 
 example_202()
-
-'''
-a = 2               กำหนดค่า a = 2
-b = "abc"           กำหนดค่า b = "abc"
-print ("1)",a,b)    แสดงผล 1) 2 abc
-b,a = a,b           สลับค่า a กับ b
-print ("2)",a,b)    แสดงผล 2) abc 2
-'''

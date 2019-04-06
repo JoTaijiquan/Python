@@ -1,16 +1,28 @@
+'''
+Create By Joompot Sriyapan
+Date 6/4/2019
+
+Name 
+    Example 1.2.3
+Description 
+    set multiple variable
+Note
+    กำหนดค่าตัวแปรทีละหลายๆ ตัวก็ได้
+Required
+    python 3.7.3
+Pre-programmed
+    -
+'''
+
 #Example 1.2.3
-#Python 3.6.5
-#Created By Jooompot Sriyapan
+#Python 3.7.3
 
 def example_203():
-    a = b = 2
-    c = d = 4
-    print ("1) a,b,c,d =",a,b,c,d)
+    a = b = c = 2
+    d, e, f = 4,5,6
+    i,j = x,y = 10,20
+    print ("a,b,c =",a,b,c)
+    print ("d,e,f = ",d,e,f)
+    print ("i,j,x,y =",i,j,x,y)
 
 example_203()
-
-'''
-a = b = 2                       กำหนดค่า a และ b = 2
-c = d = 4                       กำหนดค่า c และ d = 4
-print ("1) a,b,c,d =",a,b,c,d)  แสดงผล 1) a,b,c,d = 2 2 4 4
-'''

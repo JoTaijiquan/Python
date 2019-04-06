@@ -1,40 +1,39 @@
+'''
+Create By Joompot Sriyapan
+Date 6/4/2019
+
+Name 
+    Example 1.2.5
+Description 
+    play with variable
+Note
+    ความแตกต่างระหว่างตัวแปรแบบตัวเลขและแบบสายอักษร (string)
+
+Required
+    python 3.7.3
+Pre-programmed
+    -
+'''
+
 #Example 1.2.5
-#Python 3.6.5
-#Created By Jooompot Sriyapan
+#Python 3.7.3
 
 def example_205(): 
-    Hello = 0
-    print ("1)",Hello)
+    Hello = 10
+    print ("1)",Hello, Hello+5, Hello*10)
 
-    Hello = "Hello!!!"
-    print ("2)",Hello)
+    Hello = "10"
+    print ("2)",Hello, Hello+"5", Hello*5)
+
+    Hello = "Hello"
+    print ("3)", Hello)
 
     Hello = Hello
-    print ("3)",Hello)
+    print ("4)", Hello)
+    
+    print ("5)",Hello+Hello, Hello*3)
 
-    Hello = Hello+Hello
-    print ("4)",Hello)
+    Hello = "Hello!!!" + Hello*3
+    print ("6)", Hello)
 
-    Hello = "Hello!!!" 
-    Hello = Hello*3
-    print ("5)", Hello)
-           
 example_205()
-
-'''
-Hello = 0               กำหนดค่า Hello = 0
-print ("1)",Hello)      แสดงผล 1) 0
-
-Hello = "Hello!!!"      กำหนดค่า Hello = "Hello!!!"
-print ("2)",Hello)      แสดงผล 2) Hello!!!
-
-Hello = Hello           กำหนดค่า Hello = Hello ให้เท่ากับกตัวเองคือ Hello!!!
-print ("3)",Hello)      แสดงผล 3) Hello!!!
-
-Hello = Hello+Hello     กำหนดค่า Hello = Hello+Hello ได้ Hello!!!Hello!!!
-print ("4)",Hello)      แสดงผล 4) Hello!!!Hello!!!
-
-Hello = "Hello!!!"      กำหนดค่า Hello = "Hello!!!"
-Hello = Hello*3         กำหนดค่า Hello = Hello x3 หรือ Hello 3 ครั้งต่อกัน
-print ("5)", Hello)     แสดงผล 5) Hello!!!Hello!!!Hello!!!
-'''
