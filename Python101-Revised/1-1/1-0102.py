@@ -1,9 +1,23 @@
-# -*- coding: utf-8 -*-
-#Example 1.1.2
-#Python 3.6.5
-#Created By Jooompot Sriyapan
+'''
+Create By Joompot Sriyapan
+Date 5/4/2019
 
-print ("Hello World!")
+Name 
+    Example 1.1.2
+Description 
+    สวัสดี ชาวโลก
+Note
+    แสดงผลภาษาไทย
+Required
+    python 3.7.3
+Pre-programmed
+    -
+'''
+
+#Example 1.1.2
+#Python 3.7.3
+
+print ("้hello, world")
 print ("สวัสดี ชาวโลก")
 
 '''
