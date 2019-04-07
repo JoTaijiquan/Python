@@ -1,6 +1,21 @@
+'''
+Create By Joompot Sriyapan
+Date 7/4/2019
+
+Name 
+    Example 1.2.12
+Description 
+    multi-command in a line
+Note
+    จบคำสั่งด้วย ; สามารถใช้หลายคำสั่งในหนึ่งบรรทัด
+Required
+    python 3.7.3
+Pre-programmed
+    -
+'''
+
 #Example 1.2.12
-#Python 3.6.5
-#Created By Jooompot Sriyapan
+#Python 3.7.3
 
 def example_212():
     a = 10;     print ("1) ",a)
@@ -10,14 +25,3 @@ def example_212():
     
 example_212()
 
-'''
-จบคำสั่งด้วย ; สามารถใช้หลายคำสั่งในหนึ่งบรรทัด
-
-แสดงผล
-1)  10
-2)  20
-3)  30
-4)  25
-5)  50
-6)  10.0
-'''

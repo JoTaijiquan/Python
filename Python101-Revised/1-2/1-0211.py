@@ -1,6 +1,32 @@
+'''
+Create By Joompot Sriyapan
+Date 6/4/2019
+
+Name 
+    Example 1.2.11
+Description 
+    test variable type 
+Note
+    แปลงชนิดตัวแปร
+    int()    แปลงตัวเลขเป็นชนิด integer
+    float()  แปลงตัวเลขเป็น floating point
+    string() แปลงตัวเลขเป็น string เก็บตัวอักษร
+    แสดงผล
+    1) interger of 3.5 = 3
+    2) float of 3 = 3.0
+    3) 3+3 = 6
+    4) float of 3+3 = 6.0
+    5) string of 3 + string of 3 = 33
+    6) "3" , "3" = 3 3
+    7) "3" + "3" = 33
+Required
+    python 3.7.3
+Pre-programmed
+    -
+'''
+
 #Example 1.2.11
-#Python 3.6.5
-#Created By Jooompot Sriyapan
+#Python 3.7.3
 
 def example_211():
     print ("1) interger of 3.5 =",int(3.5))
@@ -12,19 +38,3 @@ def example_211():
     print ("7) \"3\" + \"3\" =","3"+"3")
 
 example_211()
-
-'''
-แปลงชนิดตัวแปร
-int()    แปลงตัวเลขเป็นชนิด integer
-float()  แปลงตัวเลขเป็น floating point
-string() แปลงตัวเลขเป็น string เก็บตัวอักษร
-
-แสดงผล
-1) interger of 3.5 = 3
-2) float of 3 = 3.0
-3) 3+3 = 6
-4) float of 3+3 = 6.0
-5) string of 3 + string of 3 = 33
-6) "3" , "3" = 3 3
-7) "3" + "3" = 33
-'''
