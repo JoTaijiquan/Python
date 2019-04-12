@@ -5,16 +5,35 @@ Date 5/4/2019
 Name 
     Example 1.1.5
 Description 
-    separator
+    end=
 Note
-    เครื่องหมาย , (separator) ใช้คั่นระหว่างข้อความในคำสั่ง print 
-    ปกติเมื่อคั่นข้อความด้วย , จะเท่ากับเว้นวรรคหนึ่งช่อง
-    แต่สามารถเปลี่ยนให้ separator แสดงผลเป็นอย่างอื่นได้
-    
-    print ("Hello","World","!")                 แสดงผล Hello World !          
-    print ("Hello","World","!",sep="")          แสดงผล HelloWorld!
-    print ("Hello","World","!",sep="..")        แสดงผล Hello..World..!
-    print ("Hello","World",1,2,3,4,5,sep="-")   แสดงผล Hello-World-1-2-3-4-5
+    print (1,2,3)               แสดงผล 1 2 3
+    print (4,5,6)               แสดงผล 4 5 6
+
+    print (7,8,9,end="")        แสดงผล 7 8 9
+    print (10,11,12)            แสดงผล 7 8 910 11 12 (ต่อจากบรรทัดบนโดยไม่ขึ้นบรรทัดใหม่)
+
+    print (1,2,3,end="-")       แสดงผล 1 2 3
+    print (4,5,6)               แสดงผล 1 2 3-4 5 6 (ต่อจากบรรทัดบน คั่นด้วย -)
+    print ()                    แสดงผล เว้นบรรทัด
+
+    print (1,2,3,end="\n")      แสดงผล 1 2 3
+    print (4,5,6,end="\n\n")    แสดงผล 4 5 6 เว้นหนึ่งบรรทัด
+    print (7,8,9,end="\n\n\n")  แสดงผล 7 8 9 เว้นสองบรรทัด
+    print (10)                  แสดงผล 10
+Display
+    1 2 3
+    4 5 6
+    7 8 910 11 12
+    1 2 3-4 5 6
+
+    1 2 3
+    4 5 6
+
+    7 8 9
+
+
+    10
 Required
     python 3.7.3
 Pre-programmed
@@ -24,8 +43,18 @@ Pre-programmed
 #Example 1.1.5
 #Python 3.7.3
 
-print ("Hello","World","!")                 #ปกติแล้ว แต่ละคำจะแสดงผลแยกกัน 1 space หรือ 1 เคาะ
-print ("Hello","World","!",sep="")          #แสดงผลแค่ละคำโดยไม่มีตัวแยก (separator)
-print ("Hello","World","!",sep="..")        #เปลี่ยน separator เป็น ..
-print ("Hello","World",1,2,3,4,5,sep="-")   #เปลี่ยน separator เป็น -
+print (1,2,3)
+print (4,5,6)
+
+print (7,8,9,end="")
+print (10,11,12)
+
+print (1,2,3,end="-")
+print (4,5,6)
+print ()
+
+print (1,2,3,end="\n")
+print (4,5,6,end="\n\n")
+print (7,8,9,end="\n\n\n")
+print (10)
 

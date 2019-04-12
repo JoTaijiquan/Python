@@ -7,8 +7,7 @@ Name
 Description 
     play with variable
 Note
-    ความแตกต่างระหว่างตัวแปรแบบตัวเลขและแบบสายอักษร (string)
-
+    -
 Required
     python 3.7.3
 Pre-programmed
@@ -18,22 +17,12 @@ Pre-programmed
 #Example 1.2.5
 #Python 3.7.3
 
-def example_205(): 
-    Hello = 10
-    print ("1)",Hello, Hello+5, Hello*10)
 
-    Hello = "10"
-    print ("2)",Hello, Hello+"5", Hello*5)
-
-    Hello = "Hello"
-    print ("3)", Hello)
-
-    Hello = Hello
-    print ("4)", Hello)
-    
-    print ("5)",Hello+Hello, Hello*3)
-
-    Hello = "Hello!!!" + Hello*3
-    print ("6)", Hello)
+def example_205():
+    a,b,c = 1,3,5
+    print ("1)",a,b,c)
+    print ("2)",(a,b,c)*2)
+    print ("3)",(a,b,c)*3)
+    print ("4)",a*1,b*2,c*3)
 
 example_205()

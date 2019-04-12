@@ -5,11 +5,13 @@ Date 5/4/2019
 Name 
     Example 1.1.1
 Description 
-    hello world
+    hello, world
 Note
-    #Ecample 1.01 บันทึกเฉยๆ ไม่มีผลอะไร
+    #Example 1.01 บันทึกเฉยๆ ไม่มีผลอะไร
     #Python 3.6.5 บันทึกเฉยๆ ไม่มีผลอะไร
     print ("Hello, world")    แสดงผล hello, world
+Display
+    hello, world
 Required
     python 3.7.3
 Pre-programmed

@@ -5,17 +5,29 @@ Date 6/4/2019
 Name 
     Example 1.2.8
 Description 
-    mathematics with variable
+    test variable type 
 Note
-    print ("1) a+b =",a+b)                           แสดงผล 1) a+b = 17
-    print ("2) a-b =",a-b)                           แสดงผล 2) a-b = 1
-    print ("3) axb =",a*b)                           แสดงผล 3) axb = 72
-    print ("4) a/b =",a/b)                           แสดงผล 4) a/b = 1.125
-    print ("5) a//b =",a//b) #หารเอาส่วน              แสดงผล 5) a//b = 1
-    print ("6) a mod b =",a%b) #หารเอาเศษ            แสดงผล 6) a mod b = 1
-    print ("7) a power b =",a**b) #ยกกำลัง            แสดงผล 7) a power b = 43046721
-    print ("8) 3*4+2*3**2*(1+1) =",3*4+2*3**2*(1+1)) แสดงผล 8) 3*4+2*3**2*(1+1) = 48
+    1) 3x10 power 5 = 300000.0
+    2) type of 3e5 = <class 'float'>
+    3) 3x10 power 5 = 300000
+    4) type of 3*10**5 = <class 'int'>
+    5) 3.12345 * 10 power 5 = 312345.0
+    6) type of 3.12345e5 = <class 'float'>
+    7) 3.12345 * 10 power 5 = 312345.0
+    8) type of 3.12345 * 10**5 = <class 'float'>
 
+    แปลงชนิดตัวแปร
+    int()    แปลงตัวเลขเป็นชนิด integer
+    float()  แปลงตัวเลขเป็น floating point
+    string() แปลงตัวเลขเป็น string เก็บตัวอักษร
+    แสดงผล
+    1) interger of 3.5 = 3
+    2) float of 3 = 3.0
+    3) 3+3 = 6
+    4) float of 3+3 = 6.0
+    5) string of 3 + string of 3 = 33
+    6) "3" , "3" = 3 3
+    7) "3" + "3" = 33
 Required
     python 3.7.3
 Pre-programmed
@@ -26,14 +38,21 @@ Pre-programmed
 #Python 3.7.3
 
 def example_208():
-    a,b = 9,8
-    print ("1) a+b =",a+b)
-    print ("2) a-b =",a-b)
-    print ("3) axb =",a*b)
-    print ("4) a/b =",a/b)
-    print ("5) a//b =",a//b) #หารเอาส่วน
-    print ("6) a mod b =",a%b) #หารเอาเศษ
-    print ("7) a power b =",a**b) #ยกกำลัง
-    print ("8) 3*4+2*3**2*(1+1) =",3*4+2*3**2*(1+1))
+    print ("1) 3x10 power 5 =",3e5)
+    print ("2) type of 3e5 =",type(3e5))
+    print ("3) 3x10 power 5 =",3*10**5)
+    print ("4) type of 3*10**5 =",type(3*10**5))
+    print ("5) 3.12345 * 10 power 5 =",3.12345e5)
+    print ("6) type of 3.12345e5 =",type(3.12345e5))
+    print ("7) 3.12345 * 10 power 5 =",3.12345*10**5)
+    print ("8) type of 3.12345 * 10**5 =",type(3.12345*10**5))
+
+    print ("1) interger of 3.5 =",int(3.5))
+    print ("2) float of 3 =",float(3))
+    print ("3) 3+3 =",3+3)
+    print ("4) float of 3+3 =",float(3+3))
+    print ("5) string of 3 + string of 3 =",str(3)+str(3))
+    print ("6) \"3\" , \"3\" =","3","3")
+    print ("7) \"3\" + \"3\" =","3"+"3")
 
 example_208()

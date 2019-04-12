@@ -21,8 +21,12 @@ Pre-programmed
 def example_202():
     a = 2
     b = "abc"
-    print ("1)",a,b)
-    b,a = a,b
-    print ("2)",a,b)
+    c = True
 
+    print ("1)",a,b,c)
+    b,a = a,b
+    print ("2)",a,b,c)
+    a,b,c = c,a,b
+    print ("3)",a,b,c)
+    
 example_202()

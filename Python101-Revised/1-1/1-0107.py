@@ -1,22 +1,31 @@
 '''
 Create By Joompot Sriyapan
-Date 5/4/2019
+Date 6/4/2019
 
 Name 
     Example 1.1.7
 Description 
-    escape character
+    Multiline command
 Note
-    กรณีต้องการแสดงผล " ใช้ \"
-    กรณีต้องการแสดงผล \ ใช้ \\
-    เรียกว่า escape character
+    กรณีที่คำสั่งยาวๆ มากๆ หรือเขียนไม่จบในหนึ่งบรรทัด
+    สามารถเขียนต่อในบรรทัดถัดมาได้ โดยใส่ \ ท้ายบรรทัดที่ยังไม่จบ
+    แสดงผล
+Display
+    Hello World!
+    3+5
+    8
 Required
     python 3.7.3
 Pre-programmed
     -
 '''
+
 #Example 1.1.7
 #Python 3.7.3
 
-print ("\"Hello\"")     #แสดงผล "Hello"
-print ("\\Hello\\")     #แสดงผล \Hello\
+print ("Hello \
+World!")
+print ("3+\
+5")
+print (3\
++5)

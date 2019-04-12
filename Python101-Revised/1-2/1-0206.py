@@ -5,7 +5,7 @@ Date 6/4/2019
 Name 
     Example 1.2.6
 Description 
-    play with variable
+    variable type
 Note
     -
 Required
@@ -17,12 +17,25 @@ Pre-programmed
 #Example 1.2.6
 #Python 3.7.3
 
-
 def example_206():
-    a,b,c = 1,3,5
-    print ("1)",a,b,c)
-    print ("2)",(a,b,c)*2)
-    print ("3)",(a,b,c)*3)
-    print ("4)",a*1,b*2,c*3)
+    a = 9; b=3.4; c=3e4; 
+    d = 3+4j; e = "Hello"; f = True; 
+    g = None
+    h = []
+    i = [3,4,5,"Hello"]
+    j = ()
+    k = (3,4,5,"Hello")
+
+    print ("1) a=",a,type(a))
+    print ("2) b=",b,type(b))
+    print ("3) c=",c,type(c))
+    print ("4) d=",d,type(d))
+    print ("5) e=",e,type(e))
+    print ("6) f=",f,type(f))
+    print ("7) g=",g,type(g))
+    print ("8) h=",h,type(h))
+    print ("9) i=",i,type(i))
+    print ("10) j=",j,type(j))
+    print ("11) k=",k,type(k))
 
 example_206()
