@@ -17,14 +17,4 @@
 
 #Example 1.08 format and raw
 
-#Example 1.09 print multiline
-
-#Example 1.10 print format
-
-#Example 1.11 print raw
-
-#Example 1.12 define function with def
-
-#Example 1.13 self document
-
-##xample 1.14 print name & doc
+#Example 1.09 function and docstrings

@@ -38,21 +38,14 @@ Pre-programmed
 #Python 3.7.3
 
 def example_208():
-    print ("1) 3x10 power 5 =",3e5)
-    print ("2) type of 3e5 =",type(3e5))
-    print ("3) 3x10 power 5 =",3*10**5)
-    print ("4) type of 3*10**5 =",type(3*10**5))
-    print ("5) 3.12345 * 10 power 5 =",3.12345e5)
-    print ("6) type of 3.12345e5 =",type(3.12345e5))
-    print ("7) 3.12345 * 10 power 5 =",3.12345*10**5)
-    print ("8) type of 3.12345 * 10**5 =",type(3.12345*10**5))
-
-    print ("1) interger of 3.5 =",int(3.5))
-    print ("2) float of 3 =",float(3))
-    print ("3) 3+3 =",3+3)
-    print ("4) float of 3+3 =",float(3+3))
-    print ("5) string of 3 + string of 3 =",str(3)+str(3))
-    print ("6) \"3\" , \"3\" =","3","3")
-    print ("7) \"3\" + \"3\" =","3"+"3")
+    print ("1) 3e5 =",3e5, type(3e5))
+    print ("2) 3*10**5 =",3*10**5,type(3*10**5))
+    print ("3) 3.12345e5 =",3.12345e5,type(3.12345e5))
+    print ("4) 3.12345*10**5 =",3.12345*10**5, type(3.12345*10**5))
+    print ("5) interger of 3.5 =",int(3.5))
+    print ("6) float of 3 =",float(3))
+    print ("7) 3+3 =",3+3)
+    print ("8) float of 3+3 =",float(3+3))
+    print ("9) string of 3 + string of 3 =",str(3)+str(3))
 
 example_208()

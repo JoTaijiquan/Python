@@ -15,7 +15,7 @@ Note
     d = "ABC"           กำหนดค่าตัวแปร d = "ABC"
     e = "123"           กำหนดค่าตัวแปร e = "123" (เป็นตัวอักษร)
     f = True            กำหนดค่าตัวแปร f = True (จริง)
-    g = False           กำหนดค่าตีัวแปร g = False (เท็ํจ)
+    F = False           กำหนดค่าตีัวแปร g = False (เท็ํจ)
 Required
     python 3.7.3
 Pre-programmed

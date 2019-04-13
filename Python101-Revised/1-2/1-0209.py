@@ -3,7 +3,7 @@ Create By Joompot Sriyapan
 Date 7/4/2019
 
 Name 
-    Example 1.2.12
+    Example 1.2.9
 Description 
     multi-command in a line
 Note
@@ -14,14 +14,15 @@ Pre-programmed
     -
 '''
 
-#Example 1.2.12
+#Example 1.2.9
 #Python 3.7.3
 
-def example_212():
+def example_209():
     a = 10;     print ("1) ",a)
     a = a+10;   print ("2) ",a)
     a+=10;      print ("3) ",a)
-    a-=5;   print ("4) ",a); a*=2;  print ("5) ",a); a/=5;  print ("6) ",a)
+    a-=5;       print ("4) ",a)
+    a*=2;       print ("5) ",a); a/=5;  print ("6) ",a)
     
 example_212()
 
