@@ -5,9 +5,9 @@ Date 13/4/2019
 Name 
     Example 1.3.6
 Description 
-    input
+    while
 Note
-    while x!=10 ให้ทำซ้ำไปเรื่อยๆ ถ้า x ไม่เท่ากับ 10
+    while x!=10 ให้ทำคำสั่งในบล็อควนไปเรื่อยๆ ตราบที่ x ไม่เท่ากับ 10
 Display
     Input x 2
     Too little, try again
@@ -43,24 +43,4 @@ def example_306():
 
 example_306()
 
-'''
-แสดงผล
 
-Input x
-
-ลองป้อน 5
-
-Too little, try again
-Input x
-
-ลองป้อน 11
-
-Too much, try again
-Input x
-
-ลองป้อน 10
-Yes, you win x=10
-End Game!!!
-
-คำสั่ง while x!=10 คือคำสั่งวนรอบ ถ้า x!=10 (x ไม่เท่ากับ 10) ให้วนไปเรื่อยๆ 
-'''

@@ -5,9 +5,9 @@ Date 13/4/2019
 Name 
     Example 1.3.4
 Description 
-    input
+    if else
 Note
-    ใช้คำสั่ง input เพื่อรับค่าจากคีย์บอร์ด
+    if else
 Display
     Input x (guess 1-10) 10
     Yes, you win X=10

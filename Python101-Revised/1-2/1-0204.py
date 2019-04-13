@@ -42,4 +42,6 @@ def example_204():
     Hello = "Hello!!!" + Hello*3
     print ("6)", Hello)
 
+    print ("7) Is Hello==\"Hello\"",Hello=="Hello")
+
 example_204()

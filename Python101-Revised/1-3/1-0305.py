@@ -5,7 +5,7 @@ Date 13/4/2019
 Name 
     Example 1.3.5
 Description 
-    input
+    if elif else
 Note
     if elif else
 Display
