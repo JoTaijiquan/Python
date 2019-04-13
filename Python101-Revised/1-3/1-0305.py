@@ -1,30 +1,45 @@
+'''
+Create By Joompot Sriyapan
+Date 13/4/2019
+
+Name 
+    Example 1.3.5
+Description 
+    input
+Note
+    if elif else
+Display
+ลองป้อนค่าต่างๆ เริ่มจาก 9
+
+Input x (guess 1-10) 9
+Too little, try again (try 11)
+
+ลองอีกที ป้อน 11
+Input x (guess 1-10) 11
+Too much, try again (try 10)
+
+ป้อน 10
+Input x (guess 1-10) 10
+Yes, you win x=10
+Required
+    python 3.7.3
+Pre-programmed
+    -
+'''
+
 #Example 1.3.5
-#Python 3.6.5
-#Created By Jooompot Sriyapan
+#Python 3.7.3
 
-def example_305():
-    x = input ("Input x ")
-    print ("1) x=",x)
-    print ("2) x=",x,type(x))
-    x = int(x)
-    print ("3) int(x) =",x,type(x))
-    x = float(x)
-    print ("4) float(x) =",x,type(x))
+def example_304():
+    x = input("Input x (guess 1-10) ")
 
-example_305()
+    if x=="10":
+        print ("Yes, you win x=10")
+    elif x=="9":
+        print ("Too little, try again (try 11)")
+    elif x=="11":
+        print ("Too much, try again (try 10)")
+    else:
+        print ("Noooo, try again (try 11)")
 
-'''
-แสดงผล
-
-Input x
-
-ลองป้อน 10
-
-1) x= 10
-2) x= 10 <class 'str'>
-3) int(x) = 10 <class 'int'>
-4) float(x) = 10.0 <class 'float'>
-
-ค่าที่ป้อนผ่านคำสั่ง input จะเป็น string หรือตัวอักษร
-ถ้าจะให้กลายเป็นค่าตัวเลขต้องแปลงด้วยคำสั่ง int() หรือ float()
-'''
+example_304()

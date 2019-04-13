@@ -28,6 +28,16 @@ Note
     5) string of 3 + string of 3 = 33
     6) "3" , "3" = 3 3
     7) "3" + "3" = 33
+Display
+    1) 3e5 = 300000.0 <class 'float'>
+    2) 3*10**5 = 300000 <class 'int'>
+    3) 3.12345e5 = 312345.0 <class 'float'>
+    4) 3.12345*10**5 = 312345.0 <class 'float'>
+    5) interger of 3.5 = 3
+    6) float of 3 = 3.0
+    7) 3+3 = 6
+    8) float of 3+3 = 6.0
+    9) string of 3 + string of 3 = 33
 Required
     python 3.7.3
 Pre-programmed

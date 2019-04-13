@@ -16,6 +16,13 @@ Note
     e = "123"           กำหนดค่าตัวแปร e = "123" (เป็นตัวอักษร)
     f = True            กำหนดค่าตัวแปร f = True (จริง)
     F = False           กำหนดค่าตีัวแปร g = False (เท็ํจ)
+Display
+    1) a= 2
+    2) b= 999988887777
+    2) c= 3.14159
+    3) d= ABC
+    4) e= 123 f= True F= False
+    5) 3.14159 3.14159 3.14159
 Required
     python 3.7.3
 Pre-programmed

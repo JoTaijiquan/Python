@@ -8,6 +8,13 @@ Description
     multi-command in a line
 Note
     จบคำสั่งด้วย ; สามารถใช้หลายคำสั่งในหนึ่งบรรทัด
+Display
+    1)  10
+    2)  20
+    3)  30
+    4)  25
+    5)  50
+    6)  10.0
 Required
     python 3.7.3
 Pre-programmed
@@ -24,5 +31,5 @@ def example_209():
     a-=5;       print ("4) ",a)
     a*=2;       print ("5) ",a); a/=5;  print ("6) ",a)
     
-example_212()
+example_209()
 

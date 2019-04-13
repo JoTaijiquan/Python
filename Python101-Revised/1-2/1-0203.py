@@ -8,6 +8,10 @@ Description
     set multiple variable
 Note
     กำหนดค่าตัวแปรทีละหลายๆ ตัวก็ได้
+Display
+    a,b,c = 2 2 2
+    d,e,f =  4 5 6
+    i,j,x,y = 10 20 10 20
 Required
     python 3.7.3
 Pre-programmed

@@ -13,6 +13,19 @@ Note
     | คือ หรือ (or)
     == คือ เท่ากับหรือไม่ (is equal?)
     != คือ ไม่เท่ากับหรือไม่ (is not equal?)
+Display
+    1) a+b = 17
+    2) a-b = 1
+    3) True and False is  False
+    4) True or False is  True
+    5) Not True is  False
+    6) a == a is True
+    7) a == b is False
+    8) not (a==b) is True
+    9) a>b is True
+    10) a>a is False
+    11) a>=a is True
+    12) a!=a is False
 Required
     python 3.7.3
 Pre-programmed

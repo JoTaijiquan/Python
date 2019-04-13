@@ -8,6 +8,18 @@ Description
     variable type
 Note
     -
+Display
+    1) a= 9 <class 'int'>
+    2) b= 3.4 <class 'float'>
+    3) c= 30000.0 <class 'float'>
+    4) d= (3+4j) <class 'complex'>
+    5) e= Hello <class 'str'>
+    6) f= True <class 'bool'>
+    7) g= None <class 'NoneType'>
+    8) h= [] <class 'list'>
+    9) i= [3, 4, 5, 'Hello'] <class 'list'>
+    10) j= () <class 'tuple'>
+    11) k= (3, 4, 5, 'Hello') <class 'tuple'>
 Required
     python 3.7.3
 Pre-programmed

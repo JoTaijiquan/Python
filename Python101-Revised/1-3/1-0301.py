@@ -1,16 +1,19 @@
 '''
 Create By Joompot Sriyapan
-Date 7/4/2019
+Date 13/4/2019
 
 Name 
     Example 1.3.1
 Description 
-    if ==
+    input
 Note
-    การเปรียบเทียบด้วยคำสั่ง if ใช้ == แทนการเปรียบเทียบว่าเท่ากับหรือไม่
-    เพื่อไม่ให้สับสนกับ = ที่เป็นการกำหนดค่า
-    แสดงผล
-        Yes, x = 10
+    ค่าที่ป้อนผ่านคำสั่ง input จะเป็น string หรือตัวอักษร
+    ถ้าจะให้กลายเป็นค่าตัวเลขต้องแปลงด้วยคำสั่ง int() หรือ float()
+Display
+    1) x= 10
+    2) x= 10 <class 'str'>
+    3) int(x) = 10 <class 'int'>
+    4) float(x) = 10.0 <class 'float'>
 Required
     python 3.7.3
 Pre-programmed
@@ -21,13 +24,12 @@ Pre-programmed
 #Python 3.7.3
 
 def example_301():
-    x = 10
-    y = 11
-    
-    if x==10:
-        print ("Yes, x =",x)
+    x = input ("Input x ")
+    print ("1) x=",x)
+    print ("2) x=",x,type(x))
+    x = int(x)
+    print ("3) int(x) =",x,type(x))
+    x = float(x)
+    print ("4) float(x) =",x,type(x))
 
-    if y==10:
-        print ("Yes, y =",10)
-    
 example_301()

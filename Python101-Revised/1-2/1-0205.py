@@ -8,6 +8,11 @@ Description
     play with variable
 Note
     -
+Display
+    1) 1 3 5
+    2) (1, 3, 5, 1, 3, 5)
+    3) (1, 3, 5, 1, 3, 5, 1, 3, 5)
+    4) 1 6 15
 Required
     python 3.7.3
 Pre-programmed
@@ -16,7 +21,6 @@ Pre-programmed
 
 #Example 1.2.5
 #Python 3.7.3
-
 
 def example_205():
     a,b,c = 1,3,5

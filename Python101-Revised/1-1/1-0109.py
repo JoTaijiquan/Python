@@ -20,7 +20,19 @@ Note
     เป็นการสร้างเอกสารไว้ภายในโปรแกรมด้วยการใส่ค่าคงที่สายอักษร หรือ string
     ไว้เป็นคำสั่งแรกภายในโปรแกรม หรือฟังก์ชันนั้น
 Display
-    
+    Hello!
+    Hello!
+    World!
+    Hello!
+    **************
+
+    Function Name= example_109
+    Function Docs= คำอธิบายฟังก์ชัน 
+        แบบหลายบรรทัด
+    **************
+
+    Program name= __main__
+    Program Docs= คำอธิบายโปรแกรม
 Required
     python 3.7.3
 Pre-programmed

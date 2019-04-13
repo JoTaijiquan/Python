@@ -1,6 +1,29 @@
+'''
+Create By Joompot Sriyapan
+Date 13/4/2019
+
+Name 
+    Example 1.3.6
+Description 
+    input
+Note
+    while x!=10 ให้ทำซ้ำไปเรื่อยๆ ถ้า x ไม่เท่ากับ 10
+Display
+    Input x 2
+    Too little, try again
+    Input x 8
+    Too little, try again
+    Input x 10
+    Yes, you win x=10
+    End Game!!!
+Required
+    python 3.7.3
+Pre-programmed
+    -
+'''
+
 #Example 1.3.6
-#Python 3.6.5
-#Created By Jooompot Sriyapan
+#Python 3.7.3
 
 def example_306():
     x=0

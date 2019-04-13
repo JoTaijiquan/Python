@@ -1,6 +1,23 @@
+'''
+Create By Joompot Sriyapan
+Date 13/4/2019
+
+Name 
+    Example 1.3.8
+Description 
+    เกมทายตัวเลข
+Note
+
+Display
+
+Required
+    python 3.7.3
+Pre-programmed
+    -
+'''
+
 #Example 1.3.8
-#Python 3.6.5
-#Created By Jooompot Sriyapan
+#Python 3.7.3
 
 import random
 def example_308():
@@ -19,7 +36,3 @@ def example_308():
     print ("End Game!!!")
 
 example_308()
-
-'''
-ลองสร้างเกมทายตัวเลขแบบง่ายๆ ระหว่าง 1-10
-'''

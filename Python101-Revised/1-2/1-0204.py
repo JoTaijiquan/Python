@@ -8,7 +8,13 @@ Description
     play with variable
 Note
     ความแตกต่างระหว่างตัวแปรแบบตัวเลขและแบบสายอักษร (string)
-
+Display
+    1) 10 15 100
+    2) 10 105 1010101010
+    3) Hello
+    4) Hello
+    5) HelloHello HelloHelloHello
+    6) Hello!!!HelloHelloHello
 Required
     python 3.7.3
 Pre-programmed

@@ -16,11 +16,14 @@ Note
     print (r"Hello World /n")           แสดงผล Hello World /n
     print (r"Hello /t World // /n")     แสดงผล Hello /t World // /n
 Display
-    Hello {0}
-    Hello 3 World! 10
-    Hello 10 World! 3
-    Hello World /n
-    Hello /t World // /n
+Hello {0}
+Hello 3 World! 10
+Hello 10 World! 3
+Hello World \n
+Hello    World \ 
+
+Hello \t World \\ \n
+Hel\tlo World   !
 Required
     python 3.7.3
 Pre-programmed
