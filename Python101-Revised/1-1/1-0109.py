@@ -21,9 +21,12 @@ Note
     ไว้เป็นคำสั่งแรกภายในโปรแกรม หรือฟังก์ชันนั้น
 Display
     Hello!
+    สวัสดี
     Hello!
+    สวัสดี
     World!
     Hello!
+    สวัสดี
     **************
 
     Function Name= example_109
@@ -48,6 +51,7 @@ def example_109():
     แบบหลายบรรทัด'''
 
     print ("Hello!")
+    print ("สวัสดี")
 
 example_109()
 example_109()

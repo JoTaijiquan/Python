@@ -1,28 +1,35 @@
+'''
+Create By Joompot Sriyapan
+Date 14/4/2019
+
+Name 
+    Example 1.4.7
+Description 
+    for loop
+Note
+while x<5 ให้วนรอบ ตราบที่เงื่อนไขยังเป็นจริง ในกรณีนี้คือวนรอบตราบที่ x<10
+    print ("x =",x) แสดงค่า x
+    x+=2 บวกค่า x  ทีละ 2 เหมือน x=x+2 
+Display
+x= 1
+x= 3
+x= 5
+x= 7
+x= 9
+Required
+    python 3.7.3
+Pre-programmed
+    -
+'''
+
 #Example 1.4.7
-#Python 3.6.5
+#Python 3.7.3
 #Created By Jooompot Sriyapan
 
 def example_407():
-    for i in range(10):
-        if i==5:
-            i=i+3
-        print (i)
-
+    x=1
+    while x<10:
+        print ("x=",x)
+        x+=2
+        
 example_407()
-
-'''
-เมื่อ i มีค่าเท่ากับ 5 ให้เอา i=i+3  ได้ 8 แล้วไปแสดงผล
-ดังนั้นค่าที่แสดงจะกระโดด 0 1 2 3 4 8 (5+3) แล้วจึงค่อยเป็น 6
-    
-แสดงผล
-0
-1
-2
-3
-4
-8
-6
-7
-8
-9
-'''
