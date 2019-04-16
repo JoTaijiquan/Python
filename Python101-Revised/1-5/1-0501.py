@@ -9,7 +9,10 @@ Description
 Note
     
 Display
-
+    1) a= [1, 2, 3, 4, 5]
+    2) b= ['abc', 2, 3, False]
+    3) type of a =  <class 'list'>
+    4) type of b =  <class 'list'>
 Required
     python 3.7.3
 Pre-programmed
@@ -30,14 +33,3 @@ def example_501():
     print ("4) type of b = ",type(b))
 
 example_501()
-
-'''
-a = [1,2,3,4,5]         เป็นการสร้างตัวแปรชนิดลิสต์
-b = ["abc",2,3,False]   ลิสต์สามารถมีค่าเป็น string integer boolean หรือลิสต์เองก็ได้
-
-แสดงผล
-1) a= [1, 2, 3, 4, 5]
-2) b= ['abc', 2, 3, False]
-3) type of a =  <class 'list'>
-4) type of b =  <class 'list'>
-'''
