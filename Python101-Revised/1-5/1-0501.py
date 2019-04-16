@@ -1,6 +1,24 @@
+'''
+Create By Joompot Sriyapan
+Date 16/4/2019
+
+Name 
+    Example 1.5.1
+Description 
+    list
+Note
+    
+Display
+
+Required
+    python 3.7.3
+Pre-programmed
+    -
+'''
+
 #Example 1.5.1
-#Python 3.6.5
-#Created By Jooompot Sriyapan
+#Python 3.7.3
+
 
 def example_501():    
     a = [1,2,3,4,5]

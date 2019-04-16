@@ -28,7 +28,7 @@ Pre-programmed
 #Python 3.7.3
 
 def example_409():
-    while (True):
+    while True:
         x = input("Input 1-10 (10 to Break) ")
         if x== "10":
             print ("End Loop")

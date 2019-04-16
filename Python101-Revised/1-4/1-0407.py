@@ -5,9 +5,9 @@ Date 14/4/2019
 Name 
     Example 1.4.7
 Description 
-    for loop
+    while loop
 Note
-while x<5 ให้วนรอบ ตราบที่เงื่อนไขยังเป็นจริง ในกรณีนี้คือวนรอบตราบที่ x<10
+while x<10 ให้วนรอบ ตราบที่เงื่อนไขยังเป็นจริง ในกรณีนี้คือวนรอบตราบที่ x<10
     print ("x =",x) แสดงค่า x
     x+=2 บวกค่า x  ทีละ 2 เหมือน x=x+2 
 Display
@@ -24,7 +24,6 @@ Pre-programmed
 
 #Example 1.4.7
 #Python 3.7.3
-#Created By Jooompot Sriyapan
 
 def example_407():
     x=1
@@ -33,3 +32,4 @@ def example_407():
         x+=2
         
 example_407()
+
