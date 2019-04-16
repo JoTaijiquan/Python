@@ -38,9 +38,3 @@ def example_506():
     a.remove (1)
     print ("6) remove 1, a=",a)
 example_506()
-
-'''
-print ("1) a=",a) แสดงค่าใน a = [1, 2, 3, 4, 5, 6, 3, 4, 3, 6]
-print ("2) count 3? =",a.count(3)) นับจำนวน 3 ได้ 3 ตัว
-print ("3) count 6? =",a.count(6)) นับจำนวน 6 ได้ 2 ตัว
-
