@@ -17,12 +17,12 @@ Note
     f = True            กำหนดค่าตัวแปร f = True (จริง)
     F = False           กำหนดค่าตีัวแปร g = False (เท็ํจ)
 Display
-    1) a= 2
-    2) b= 999988887777
-    2) c= 3.14159
-    3) d= ABC
-    4) e= 123 f= True F= False
-    5) 3.14159 3.14159 3.14159
+a= 2
+b= 999988887777
+c= 3.14159
+d= ABC
+e= 123 f= True F= False
+3.14159 3.14159 3.14159
 Required
     python 3.7.3
 Pre-programmed
@@ -41,13 +41,13 @@ def example_201():
     f = True
     F = False
 
-    print ("1) a=",a)
-    print ("2) b=",b)
-    print ("2) c=",c)
-    print ("3) d=",d)
-    print ("4) e=",e,"f=",f, "F=",F)
+    print ("a=",a)
+    print ("b=",b)
+    print ("c=",c)
+    print ("d=",d)
+    print ("e=",e,"f=",f, "F=",F)
 
     a = b = c
-    print ("5)",a,b,c)
+    print (a,b,c)
 
 example_201()

@@ -24,6 +24,7 @@ Hello    World \
 
 Hello \t World \\ \n
 Hel\tlo World   !
+Hello\t World\t
 Required
     python 3.7.3
 Pre-programmed
@@ -41,3 +42,4 @@ print (r"Hello World \n")
 print ("Hello\t World \\ \n")
 print (r"Hello \t World \\ \n")
 print (r"Hel\tlo","World\t!")
+print (r"Hello\t",r"World\t")

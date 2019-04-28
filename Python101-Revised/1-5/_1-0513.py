@@ -1,14 +1,31 @@
-#Example 1.5.17
-#Python 3.6.5
-#Created By Jooompot Sriyapan
+'''
+Create By Joompot Sriyapan
+Date 20/4/2019
 
-def example_517():
+Name 
+    Example 1.5.13
+Description 
+    list
+Note
+
+Display
+
+Required
+    python 3.7.3
+Pre-programmed
+    -
+'''
+
+#Example 1.5.13
+#Python 3.7.3
+
+def example_513():
     a = [11,12,13,14,21,22]
     print ("1)",a[2:2])
     a = [11,12,['xx','yy'],14,21,22]
     print ("2)",a[2:4])
 
-example_517()
+example_513()
 
 '''
 a = [11,12,13,14,21,22,23,24]           กำหนดค่า list a=[11,12,13,14,21,22] 

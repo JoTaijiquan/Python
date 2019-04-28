@@ -9,10 +9,10 @@ Description
 Note
     -
 Display
-    1) 1 3 5
-    2) (1, 3, 5, 1, 3, 5)
-    3) (1, 3, 5, 1, 3, 5, 1, 3, 5)
-    4) 1 6 15
+1 3 5
+(1, 3, 5, 1, 3, 5)
+(1, 3, 5, 1, 3, 5, 1, 3, 5)
+1 6 15
 Required
     python 3.7.3
 Pre-programmed
@@ -24,9 +24,9 @@ Pre-programmed
 
 def example_205():
     a,b,c = 1,3,5
-    print ("1)",a,b,c)
-    print ("2)",(a,b,c)*2)
-    print ("3)",(a,b,c)*3)
-    print ("4)",a*1,b*2,c*3)
+    print (a,b,c)
+    print ((a,b,c)*2)
+    print ((a,b,c)*3)
+    print (a*1,b*2,c*3)
 
 example_205()

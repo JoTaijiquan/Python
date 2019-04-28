@@ -20,13 +20,12 @@ Note
     print ("Hello","World","!",sep="..")        แสดงผล Hello..World..!
     print ("Hello","World",1,2,3,4,5,sep="-")   แสดงผล Hello-World-1-2-3-4-5
 Display
-    3x4 = 12
-    Hello!
-    Hello!Hello!Hello!
-    Hello World !
-    HelloWorld!
-    Hello..World..!
-    Hello-World-1-2-3-4-5 
+2 12 ABC
+3x4 =  12
+Hello World !
+HelloWorld!
+Hello..World..!
+Hello-World-1-2-3-4-5
 Required
     python 3.7.3
 Pre-programmed
@@ -36,9 +35,8 @@ Pre-programmed
 #Example 1.1.4
 #Python 3.7.3
 
-print ("3x4 =",3*4)   
-print ("Hello"+"!")
-print ("Hello!"*3)
+print (1+1,3*4,"ABC")
+print ("3x4 = ",3*4)
 print ("Hello","World","!")                 #ปกติแล้ว แต่ละคำจะแสดงผลแยกกัน 1 space หรือ 1 เคาะ
 print ("Hello","World","!",sep="")          #แสดงผลแค่ละคำโดยไม่มีตัวแยก (separator)
 print ("Hello","World","!",sep="..")        #เปลี่ยน separator เป็น ..

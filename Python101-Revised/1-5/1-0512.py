@@ -1,43 +1,44 @@
+'''
+Create By Joompot Sriyapan
+Date 20/4/2019
+
+Name 
+    Example 1.5.12
+Description 
+    list
+Note
+
+Display
+
+Required
+    python 3.7.3
+Pre-programmed
+    -
+'''
+
 #Example 1.5.12
-#Python 3.6.5
-#Created By Jooompot Sriyapan
+#Python 3.7.3
 
 def example_512():
-    a = [2,3,6,1,4,8,1,5,3]
-    b = a
-    c =[8,7,3,2,3,5,4,2,2,1]
+    x = ['a','x','a','c,','z','a']
     
-    print ("1) a=",a)
-    print ("2) b=",b,"\n")
-    a.sort()
-    print("3) sorted a=",a)
-    print("4) b=",b,"\n")
-    b.reverse()
-    print("5) reversed b=",b)
-    print("6) a=",a,end="\n\n")
-    print ("7) c=",c)
-    c.reverse()
-    print ("8) reversed c=",c)
+    y = x
+    print ("1) x=",x)
+    print ("2) y=",y)
+    x = sorted(x)
+    print ("3) x=sorted(x), x=",x)
+    print ("4) y=",y)
 
 example_512()
 
 '''
-sort()  เรียงค่าใน list จากน้อยไปมาก
-reverse() สลับตำแหน่งค่าใน list จากหลังมาหน้า
-ข้อสังเกตเมื่อกำหนดให้ b=a
-เมื่อ a.sort() ค่าใน b ก็เปลี่ยนตามไปด้วย
-และเมื่อ b.reverse() ค่าใน a ก็เปลี่ยนตามไปด้วยเช่นกัน
+เมื่อ y=x
+คำสั่ง x=sorted(x) เป็นการกำหนดค่าใหม่ให้ตัวแปร x
+ทำให้ x กับ y หลุดออกจากกัน การเปลี่ยนแปลงค่า x ไม่ทำให้ y เปลี่ยน
 
 แสดงผล
-1) a= [2, 3, 6, 1, 4, 8, 1, 5, 3]
-2) b= [2, 3, 6, 1, 4, 8, 1, 5, 3] 
-
-3) sorted a= [1, 1, 2, 3, 3, 4, 5, 6, 8]
-4) b= [1, 1, 2, 3, 3, 4, 5, 6, 8] 
-
-5) reversed b= [8, 6, 5, 4, 3, 3, 2, 1, 1]
-6) a= [8, 6, 5, 4, 3, 3, 2, 1, 1]
-
-7) c= [8, 7, 3, 2, 3, 5, 4, 2, 2, 1]
-8) reversed c= [1, 2, 2, 4, 5, 3, 2, 3, 7, 8]
+1) x= ['a', 'x', 'a', 'c,', 'z', 'a']
+2) y= ['a', 'x', 'a', 'c,', 'z', 'a']
+3) x=sorted(x), x= ['a', 'a', 'a', 'c,', 'x', 'z']
+4) y= ['a', 'x', 'a', 'c,', 'z', 'a']
 '''

@@ -9,17 +9,17 @@ Description
 Note
     -
 Display
-    1) a= 9 <class 'int'>
-    2) b= 3.4 <class 'float'>
-    3) c= 30000.0 <class 'float'>
-    4) d= (3+4j) <class 'complex'>
-    5) e= Hello <class 'str'>
-    6) f= True <class 'bool'>
-    7) g= None <class 'NoneType'>
-    8) h= [] <class 'list'>
-    9) i= [3, 4, 5, 'Hello'] <class 'list'>
-    10) j= () <class 'tuple'>
-    11) k= (3, 4, 5, 'Hello') <class 'tuple'>
+a= 9 <class 'int'>
+b= 3.4 <class 'float'>
+c= 30000.0 <class 'float'>
+d= (3+4j) <class 'complex'>
+e= Hello <class 'str'>
+f= True <class 'bool'>
+g= None <class 'NoneType'>
+h= [] <class 'list'>
+i= [3, 4, 5, 'Hello'] <class 'list'>
+j= () <class 'tuple'>
+k= (3, 4, 5, 'Hello') <class 'tuple'>
 Required
     python 3.7.3
 Pre-programmed
@@ -38,16 +38,16 @@ def example_206():
     j = ()
     k = (3,4,5,"Hello")
 
-    print ("1) a=",a,type(a))
-    print ("2) b=",b,type(b))
-    print ("3) c=",c,type(c))
-    print ("4) d=",d,type(d))
-    print ("5) e=",e,type(e))
-    print ("6) f=",f,type(f))
-    print ("7) g=",g,type(g))
-    print ("8) h=",h,type(h))
-    print ("9) i=",i,type(i))
-    print ("10) j=",j,type(j))
-    print ("11) k=",k,type(k))
+    print ("a=",a,type(a))
+    print ("b=",b,type(b))
+    print ("c=",c,type(c))
+    print ("d=",d,type(d))
+    print ("e=",e,type(e))
+    print ("f=",f,type(f))
+    print ("g=",g,type(g))
+    print ("h=",h,type(h))
+    print ("i=",i,type(i))
+    print ("j=",j,type(j))
+    print ("k=",k,type(k))
 
 example_206()
