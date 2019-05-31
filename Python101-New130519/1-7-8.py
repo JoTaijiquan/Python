@@ -1,0 +1,14 @@
+#Python 3.7.3
+
+def func_1_7_8(x,y):
+    if x>y:
+        return x
+    elif x<y:
+        return y
+    else:
+        return "x=y!!"
+
+if __name__ == "__main__":
+    print(func_1_7_8(10,20))
+    print(func_1_7_8(9,1))
+    print(func_1_7_8(100,100))
