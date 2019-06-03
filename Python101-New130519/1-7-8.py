@@ -1,6 +1,9 @@
 #Python 3.7.3
+#Example 1-7-8
 
 def func_1_7_8(x,y):
+    'ฟัง์ชันหนึ่ง มี return จากหลายจุดได้'
+
     if x>y:
         return x
     elif x<y:

@@ -1,7 +1,9 @@
 #Python 3.7.3
+#Example 1-5-6
 
 def func_1_5_6():
-    'list'
+    'ลบข้อมูลออกจาก list'
+
     a = [1,2,3,4,5,6,3,4,3,6]
     b = "HELLO"
 

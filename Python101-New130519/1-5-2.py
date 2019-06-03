@@ -1,8 +1,9 @@
 #Python 3.7.3
+#Example 1-5-2
 
-import random
 def func_1_5_2():
-    'list'
+    'การเรียกข้อมูลใน list'
+    
     a = [9,2,5,3,8,7]
     b = ["abc",2,3,False]
     c = "HELLO"

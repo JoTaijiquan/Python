@@ -1,6 +1,9 @@
 #Python 3.7.3
+#Example 1-7-7
 
 def func_1_7_7(x,y,z):
+    'return ค่าหลายๆ ตัวเป็น tuple'
+    
     return(x,y,z)
 
 if __name__ == "__main__":

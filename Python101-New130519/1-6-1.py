@@ -1,7 +1,8 @@
 #Python 3.7.3
+#Example 1-6-1
 
 def func_1_6_1():
-    'for i in tuple'
+    'การใช้คำสั่ง for กับ tuple'
 
     for i in (1,1,2,3,5,8,13):
         print (i)

@@ -1,7 +1,9 @@
 #Python 3.7.3
+#Example 1-6-7
 
 def func_1_6_7():
-    'for i in tuple'
+    'การใช้ for กับ tuple ของ string'
+
     for i in ("Superman", "Batman", "Aquaman"):
         print ("Hello",i)
 

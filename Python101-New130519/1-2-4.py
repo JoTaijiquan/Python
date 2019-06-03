@@ -1,4 +1,5 @@
 #Python 3.7.3
+#Example 1-2-4
 
 def func_1_2_4():
     'การดำเนินการทางตรรกะ True=จริง False=เท็จ'

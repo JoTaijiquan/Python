@@ -1,7 +1,9 @@
 #Python 3.7.3
+#Example 1-5-1
 
 def func_1_5_1():
-    'list'
+    'ตัวแปรชนิด list'
+    
     a = [9,2,5,3,8,7]
     b = ["abc",2,3,False]
 

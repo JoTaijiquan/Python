@@ -1,7 +1,8 @@
 #Python 3.7.3
+#Example 1-3-1
 
 def func_1_3_1():
-    'keyboard input'
+    'คำสั่ง input รับข้อมูลจากคีย์บอร์ด'
 
     x = input ("Input x ")
     print ("x=",x)

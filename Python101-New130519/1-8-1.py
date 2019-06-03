@@ -1,7 +1,9 @@
 #Python 3.7.3
+#Example 1-8-1
 
 def func_1_8_1():
-    'Dictionary'
+    'ตัวแปรชนิด dictionary'
+    
     x={ 'a': 'Hello',
         'b': 'World',
         'c': '!!!'

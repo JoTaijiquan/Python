@@ -1,7 +1,9 @@
 #Python 3.7.3
+#Example 1-5-4
 
 def func_1_5_4():
-    'list'
+    'list ซ้อน list'
+    
     a = [[3,4,5], 
         [6,7,8], 
         ['a','b','hello']]

@@ -1,7 +1,9 @@
 #Python 3.7.3
+#Example 1-6-8
 
 def func_1_6_8():
-    'for i in tuple'
+    'try กับ except เพื่อดักการเกิด error'
+
     x = [1,2,3]
     try:
         print (x[2])

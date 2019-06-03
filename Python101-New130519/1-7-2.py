@@ -1,6 +1,9 @@
 #Python 3.7.3
+#Example 1-7-2
 
 def func_1_7_2(x,y):
+    'ส่งค่าเข้าไปในฟังก์ชันสองตัว'
+
     print("x =",x)
     print("y =",y)
     print()

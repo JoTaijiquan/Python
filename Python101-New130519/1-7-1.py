@@ -1,6 +1,9 @@
 #Python 3.7.3
+#Example 1-7-1
 
 def func_1_7_1(x):
+    'การส่งค่าเข้าไปในฟังก์ชัน'
+
     print("x =",x)
 
 if __name__ == "__main__":

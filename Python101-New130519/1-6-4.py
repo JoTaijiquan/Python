@@ -1,7 +1,8 @@
 #Python 3.7.3
+#Example 1-6-4
 
 def func_1_6_4():
-    'for i in tuple'
+    'ใช้ break เพื่อหยุดการทำงานของ for'
 
     for i in (1,3,5,7,8,9,10):
         print (i)

@@ -1,4 +1,5 @@
 #Python 3.7.3
+#Example 1-2-2
 
 def func_1_2_2():
     'ชนิดของตัวแปร'
@@ -18,7 +19,6 @@ def func_1_2_2():
     print ("type of e =",type(e))
     print ("type of f =",type(f))
     print ("type of g =",type(g))
-
 
 if __name__ == "__main__":
     func_1_2_2()

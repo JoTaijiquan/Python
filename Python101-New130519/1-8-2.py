@@ -1,7 +1,9 @@
 #Python 3.7.3
+#Example 1-8-2
 
 def func_1_8_2():
-    'Dictionary'
+    'การลบและเพิ่มข้อมูลใน dictionary'
+    
     x={ 'Jo': '123 Bangkok',
         'Mo': '456 Nonthaburi',
         'Yo': '789 Chiangmai'

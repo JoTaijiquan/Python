@@ -1,8 +1,8 @@
 #Python 3.7.3
-
+#Example 1-4-2
 
 def func_1_4_2():
-    'loop'
+    'กำหนดค่าใน range() สำหรับคำสั่ง for'
 
     for i in range(2,10):
         print (i,1+1)

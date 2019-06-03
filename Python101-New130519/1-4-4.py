@@ -1,7 +1,8 @@
 #Python 3.7.3
+#Example 1-4-4
 
 def func_1_4_4():
-    'while loop'
+    'ตรวจสอบเงื่อนไขของวงรอบในคำสั่ง while'
     y = 2
     
     while y<10000:

@@ -1,22 +1,25 @@
 #Python 3.7.3
+#Example 1-8-3
 
 def func_1_8_3():
-        x={}
+    'การอ่านและนับค่าใน dictionary'
 
-        x['A'] = 'Ada'
-        x['B'] = 'Basic'
-        x['C'] = 'Cobol'
+    x={}
 
-        for first, second in x.items():
-            print (first,second)
+    x['A'] = 'Ada'
+    x['B'] = 'Basic'
+    x['C'] = 'Cobol'
+
+    for first, second in x.items():
+        print (first,second)
         
-        print ("***************")
-        if 'A' in x:
-            print ("A for",x['A'])
+    print ("***************")
+    if 'A' in x:
+        print ("A for",x['A'])
             
-        print ("***************")
-        print (x.items())
-        print ("number of item in x=",len(x.items()))
+    print ("***************")
+    print (x.items())
+    print ("number of item in x=",len(x.items()))
 
 if __name__ == "__main__":
     func_1_8_3()

@@ -1,6 +1,9 @@
 #Python 3.7.3
+#Example 1-7-6
 
 def func_1_7_6(x):
+    'คืนค่าออกจากฟังก์ชันด้วย return'
+
     x+=10
     return(x)
 

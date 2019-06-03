@@ -1,7 +1,9 @@
 #Python 3.7.3
+#Example 1-5-9
 
 def func_1_5_9():
-    'tuple'
+    'ตัวแปรชนิด tuple'
+    
     a = (7,8,9)
     b = 3,4,5
     c = a+b

@@ -1,7 +1,8 @@
 #Python 3.7.3
+#Example 1-4-3
 
 def func_1_4_3():
-    'for loop'
+    'กำหนดค่าใน range ให้ข้ามทีละ 2'
 
     for i in range(1,20,2):
         print (i)

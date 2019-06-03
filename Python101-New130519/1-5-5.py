@@ -1,7 +1,9 @@
 #Python 3.7.3
+#Example 1-5-5
 
 def func_1_5_5():
-    'list'
+    'การเพิ่มข้อมูลเข้าใน list'
+    
     a =[]
 
     print ("1. a =",a)

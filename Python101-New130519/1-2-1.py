@@ -1,4 +1,5 @@
 #Python 3.7.3
+#Example 1-2-1
 
 def func_1_2_1():
     'รู้จักกับตัวแปร'
@@ -18,5 +19,6 @@ def func_1_2_1():
     print ("e =",e)
     print ("f =",f)
     print ("g =",g)
+    
 if __name__ == "__main__":
     func_1_2_1()

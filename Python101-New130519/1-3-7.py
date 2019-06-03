@@ -1,9 +1,10 @@
 #Python 3.7.3
+#Example 1-3-7
 
 import random
 
 def func_1_3_7():
-    'random'
+    'นำ random ไปทำเป็นเกมทายตัวเลข'
 
     x=0
     random.seed()
