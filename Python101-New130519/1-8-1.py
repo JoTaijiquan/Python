@@ -10,6 +10,7 @@ def func_1_8_1():
         }
 
     print (x)
+    print (type(x))
 
 if __name__ == "__main__":
     func_1_8_1()
