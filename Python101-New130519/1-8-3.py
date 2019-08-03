@@ -18,6 +18,7 @@ def func_1_8_3():
         print ("A for",x['A'])
             
     print ("***************")
+    print(x)
     print (x.items())
     print ("number of item in x=",len(x.items()))
 
