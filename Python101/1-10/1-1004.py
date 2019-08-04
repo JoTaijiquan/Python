@@ -5,6 +5,7 @@ import turtle
 
 def example_1004():
     t = turtle
+    ts = t.Screen()
     t.pencolor("BLUE")  
     t.forward(100)
     t.left(90)
@@ -13,6 +14,7 @@ def example_1004():
     t.back(100)
     t.right(90)
     t.forward(100)
+    ts.mainloop()
 
 example_1004()    
 

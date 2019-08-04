@@ -3,10 +3,17 @@
 
 import turtle
 
+
 def example_1001():
-    turtle.forward(100)
+    t = turtle
+    ts = t.Screen()
+
+    t.forward(100)
+    ts.mainloop()
 
 example_1001()
+
+
 
 
 '''

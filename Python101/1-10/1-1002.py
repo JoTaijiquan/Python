@@ -4,11 +4,12 @@
 import turtle
 
 def example_1002():
+    ts = turtle.Screen()
     turtle.pencolor("RED")
     turtle.forward(100)
     turtle.left(90)
     turtle.forward(100)
-
+    ts.mainloop()
 
 example_1002()    
 

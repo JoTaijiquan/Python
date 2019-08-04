@@ -21,18 +21,20 @@ def star(x,y,size):
         t.rt(144)
         
 def example_1010():
-    t = turtle
-    t.setup(800,600)
-    t.speed(0)
-    random.seed()
+        t = turtle
+        ts = t.Screen()
+        t.setup(800,600)
+        t.speed(0)
+        random.seed()
     
-    for i in range(0,50):
-        rx = random.randint(-350,350)
-        ry = random.randint(-250,250)
-        rs = random.randint(10,100)
-        rc = color[random.randint(0,13)]
-        t.color(rc)
-        star(rx,ry,rs)
+        for i in range(0,50):
+                rx = random.randint(-350,350)
+                ry = random.randint(-250,250)
+                rs = random.randint(10,100)
+                rc = color[random.randint(0,13)]
+                t.color(rc)
+                star(rx,ry,rs)
+        ts.mainloop()
 
 example_1010()
 '''

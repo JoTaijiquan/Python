@@ -4,6 +4,7 @@
 from turtle import *
 
 def example_1005():
+    ts = Screen()
     pencolor("VIOLET")
     fillcolor("YELLOW")
     begin_fill()
@@ -16,6 +17,7 @@ def example_1005():
     forward(100)
     end_fill()
     
+    ts.mainloop()
 example_1005()    
 
 '''
