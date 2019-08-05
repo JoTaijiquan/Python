@@ -1,6 +1,7 @@
 #Python 3.7.3
 #Example 1-9-10
- 
+
+'method overriding'
 class Animal:
     def __init__(self,common_name='animal'):
         self.common_name = common_name

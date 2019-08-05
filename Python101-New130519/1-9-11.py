@@ -1,6 +1,7 @@
 #Python 3.7.3
 #Example 1-9-11
- 
+
+'multiple inheritance'
 class Animal:
     def __init__(self,common_name='animal'):   
         self.common_name = common_name
@@ -30,4 +31,4 @@ if __name__ == "__main__":
     tom.say("ha ha ha")
     tom.walk()
     tom.run()
-
+    

@@ -13,6 +13,5 @@ def func_1_5_1():
     print ("type of b =",type(b))
     print ("a+b =",a+b)
 
-
 if __name__ == "__main__":
     func_1_5_1()

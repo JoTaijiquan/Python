@@ -19,6 +19,5 @@ def func_1_5_5():
     a.append([0,0,1])
     print ("7. a =",a)
 
-
 if __name__ == "__main__":
     func_1_5_5()

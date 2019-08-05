@@ -2,6 +2,8 @@
 #Example 1-9-6
 
 class Cat:
+    '2 objects, 2 instances'
+
     def __init__(self):
         print ("Aow")
     def say(self):

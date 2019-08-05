@@ -14,7 +14,6 @@ def func_1_6_8():
         print (x[6])
     except:
         print ("Error x is out of range")
-
     
 if __name__ == "__main__":
     func_1_6_8()

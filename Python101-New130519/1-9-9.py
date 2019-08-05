@@ -1,5 +1,7 @@
 #Python 3.7.3
 #Example 1-9-9
+
+'inheritance'
  
 class Animal:
     def __init__(self,common_name='cat'):

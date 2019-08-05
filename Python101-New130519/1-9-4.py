@@ -2,6 +2,8 @@
 #Example 1-9-4
 
 class Cat:
+    'destructor'
+    
     def __init__(self):
         print ("Aow")
     def say(self):

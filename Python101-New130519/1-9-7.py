@@ -2,6 +2,8 @@
 #Example 1-9-7
 
 class Cat:
+    'parameter และ attribute'
+
     def __init__(self,n,c):
         self.name = n
         self.color = c

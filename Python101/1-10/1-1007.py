@@ -5,6 +5,8 @@ import turtle
 
 def example_1007(x,y):
     t = turtle
+    ts = turtle.Screen()
+
     t.goto(x,y)
     t.color("CYAN","ORANGE")
     t.begin_fill()
@@ -16,6 +18,7 @@ def example_1007(x,y):
     t.rt(90)
     t.fd(50)
     t.end_fill()
+    ts.mainloop()
     
 example_1007(100,100)
 example_1007(-100,-100)

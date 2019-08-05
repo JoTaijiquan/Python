@@ -2,6 +2,8 @@
 #Example 1-9-3
 
 class Cat:
+    'คืนค่า string ออกมาจาก object'
+    
     def __init__(self):
         print ("Aow")
     def say(self):

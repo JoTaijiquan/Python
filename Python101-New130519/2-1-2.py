@@ -3,8 +3,8 @@
 
 import turtle
 
-def func_2_1_1():
-    'Python Turtle'
+def func_2_1_2():
+    'fillcolor'
 
     t = turtle
     ts = t.Screen()
@@ -20,4 +20,4 @@ def func_2_1_1():
     ts.mainloop()
     
 if __name__ == "__main__":
-    func_2_1_1()
+    func_2_1_2()

@@ -2,7 +2,8 @@
 #Example 1-9-2
 
 class Cat:
-        
+    'Initializer หรือ Constructor'
+
     def __init__(self):
         print ("Aow")
         
