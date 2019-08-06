@@ -1,16 +1,16 @@
 #Python 3.7.3
 #Example 2-4-1
 
-def BubbleSort(num):
+def BubbleSort(aList):
     'Bubble Sort'
-    n= len(num)
-    for i in range(len(num)):
+    n= len(aList)
+    for i in range(len(aList)):
         for j in range(0,n-i-1):
-            if num[j]>num[j+1]:
-                num[j],num[j+1]=num[j+1],num[j]            
-    return num
+            if aList[j]>aList[j+1]:
+                aList[j],aList[j+1]=aList[j+1],aList[j]            
+    return aList
 
 if __name__ == "__main__":
-    num=[20,12,3,18,7,8,25,14]
-    print ("Unsorted List = ",num)
-    print ("Sorted List = ",BubbleSort(num))
+    aList=[20,12,3,18,7,8,25,14]
+    print ("Unsorted List = ",aList)
+    print ("Sorted List = ",BubbleSort(aList))

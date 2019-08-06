@@ -1,18 +1,18 @@
 #Python 3.7.3
 #Example 2-4-1
 
-def SelectionSort(num):
+def SelectionSort(aList):
     'Selection Sort'
     
-    for i in range(len(num)):
+    for i in range(len(aList)):
         min = i
-        for j in range(i+1,len(num)):
-            if num[min]>num[j]:
+        for j in range(i+1,len(aList)):
+            if aList[min]>aList[j]:
                 min =j
-        num[i],num[min]= num[min],num[i]
-    return num
+        aList[i],aList[min]= aList[min],aList[i]
+    return aList
 
 if __name__ == "__main__":
-    num=[20,12,3,18,7,8,25,14]
-    print ("Unsorted List = ",num)
-    print ("Sorted List = ",SelectionSort(num))
+    aList=[20,12,3,18,7,8,25,14]
+    print ("Unsorted List = ",aList)
+    print ("Sorted List = ",SelectionSort(aList))
