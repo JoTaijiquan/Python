@@ -6,18 +6,24 @@ def BinarySearch(aList,key):
 
     first = 0
     last = len(aList)-1
-    i = "Not Found!!!"
-    
-    while (first<=last) and (i=="Not Found!!!"):
+    i = 0
+    found = False
+
+    while (first<=last) and found==False:
         mid = (first+last)//2
         if aList[mid] == key:
             i=mid
+            found = True
         else:
             if key<aList[mid]:
                 last = mid-1
             else:
                 first = mid+1
-    return i
+
+    if found == False:
+        return "Not Found!!!"
+    else:
+        return i
 
 if __name__ == "__main__":
     aList=[20,12,3,18,7,8,25,14]

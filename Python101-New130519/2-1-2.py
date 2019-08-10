@@ -13,5 +13,3 @@ if __name__ == "__main__":
     print ("3! =",factorial_recursion(3))
     print ("5! =",factorial_recursion(5))
     print ("1! =",factorial_recursion(1))
-
-  

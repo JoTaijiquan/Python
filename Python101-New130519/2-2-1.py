@@ -10,8 +10,10 @@ def fibo(n=2):
     if n<3: return(fn)
         
     for i in range(2,n):
-        n0,n1 = n1,n0+n1
+        #n0,n1 = n1,n0+n1
         fn.append(n1)
+        n0+=1
+        n1+=1
     return (fn)
 
 if __name__ == "__main__":
