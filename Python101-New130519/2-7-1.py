@@ -1,6 +1,7 @@
 #Python 3.7.3
 #Example 2-7-1
 
+'MORSE Code encoder/decoder'
 morse_dict= {
     'a':'.-', 'b':'-...', 'c':'-.-.', 'd':'-..', 'e':'.', 
     'f':'..-.', 'g':'--.', 'h':'....', 'i':'..', 'j':'.---', 

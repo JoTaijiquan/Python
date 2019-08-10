@@ -1,24 +1,24 @@
 #Python 3.7.3
-#Example 2-3-1
+#Example 2-3-2
 
-'Not complete yet*****************'
+def factorize(num):
+    'Factorize number'
 
-def prime(n):
-    num = list(range(2,n))
-    num.append(9999)
-    j=-1
-    try:
-        while num[j]!=999:
-            j+=1
-            i=0
-            while num[i]!=9999:
-                i+=1
-                if num[i]%num[j]==0:
-                    num.remove(num[i])
-    except:
-        return num
-        
-    return num
+    factor = []
+    i=2
+    while i<=num:
+        if num%i==0:
+            num=num/i
+            factor.append(i)
+            i=2
+        else:
+            i+=1
+    return set(factor)
 
 if __name__ == "__main__":
-    print (prime(97))
+    print (factorize(10))
+    print (factorize(8))
+    print (factorize(16))
+    print (factorize(30))
+    print ("factorize of ", str(2*3*7*2*5*11*11), "is",*factorize(2*3*7*2*5*11*11))
+    print (' * '.join(map(str,factorize(99020))), " = 99020")
