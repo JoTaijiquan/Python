@@ -1,8 +1,8 @@
-#Example 2.3.2
-#Python 3.6.5
+#Python 3.7.3
+#Example 2-9-2
 
-if __name__=='__main__':
-    loop = True
+def hello():
+    
     word = {
         "1":"สวัสดีวันอาทิตย์",
         "2":"สวัสดีวันจันทร์์",
@@ -11,14 +11,16 @@ if __name__=='__main__':
         "5":"สวัสดีวันพฤหัสบดี",
         "6":"สวัสดีวันศุกร์",
         "7":"สวัสดีวันเสาร์",
-        "000":"ลาก่อน"
-        
+        "0":"ลาก่อน"  
     }
+    loop = True
     while loop:
         x = input("ป้อนเลข 1-7 (ป้อน 0 เพื่อออกจากโปรแกรม) :")
-        if x in word:
-            print (word[x])
-        elif x == "0":
-            print (word["000"])
+        if x == "0":
+            print (word["0"])
             loop = False
-        
+        elif x in word:
+            print (word[x])
+
+if __name__=='__main__':
+    hello()
