@@ -15,5 +15,6 @@ def square_root(n):
         elif ans > n:
             n1 = n_mid
     return n_mid
+
 if __name__ == "__main__":
     print (square_root(2))
