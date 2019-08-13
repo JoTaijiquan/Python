@@ -13,7 +13,7 @@ class View(tk.Tk):
         self.canvas = tk.Canvas(self,width=width,height=height)
         self.canvas.pack()
 
-    def shoot(self,angle=45.0,v0=10.0, g=-9.8):
+    def shoot(self,angle=45.0,v0=10.0, a=-9.8):
         angle = math.radians(angle)
         vx = v0*math.cos(angle)
         vy = v0*math.sin(angle)

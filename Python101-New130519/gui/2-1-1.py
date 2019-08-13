@@ -30,7 +30,7 @@ class View(tk.Tk):
             self.update()
             time.sleep(0.1)
 
-    def ballxy(self,angle=45,v0=10,a=-9.8):
+    def ballxy(self,angle=45,v0=20,a=-9.8):
         angle = math.radians(angle)
         vx = v0*math.cos(angle)
         vy = v0*math.sin(angle)
