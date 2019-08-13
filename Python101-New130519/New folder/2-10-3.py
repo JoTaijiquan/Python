@@ -2,7 +2,7 @@
 #Example 2-10-3
 
 def gcd(aList):
-    'หาค่าหารร่วมมาก greatest common diversor หรือ ครม ของสองจำนวน'
+    'หาค่าหารร่วมมาก greatest common diversor หรือ หรม หลายจำนวน'
     
     while len(aList)>1:
         while aList[1]!=0:
