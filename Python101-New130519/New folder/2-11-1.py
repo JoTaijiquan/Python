@@ -9,7 +9,7 @@ def square_root(n):
         n_mid = (n0+n1)/2
         ans = n_mid*n_mid
         if ans == n:
-            return ans
+            return n_mid
         elif ans < n:
             n0 = n_mid
         elif ans > n:
