@@ -49,53 +49,6 @@ elif x !="10" and y !="10":
 
 
 
-
-'''
-#Example 19
-f = open("test.html","w")
-f.write ("abcde abcde abcde")
-f.write ("def def def\n")
-f.write ("abc abc abc\n")
-print ("Hello",file=f) 
-print ("There",file=f)
-f.close()
-'''
-'''
-#Example 20
-f= open("test.html","a")
-f.write ("well well well\n")
-f.close()
-'''
-
-'''
-#Example 21
-f = open("test.html","r")
-
-a = f.readline()
-print (a)
-print (f.readline())
-print ("*******")
-print (f.readlines())
-print ("******")
-f.seek (0)
-print (f.readlines())
-print ("***************")
-f.seek(2)
-print (f.readlines())
-f.close()
-'''
-''''
-#Example 22
-
-f = open("test.html","r+")
-print (f.readline())
-f.write ("xxxxxxxxxx\n")
-print (f.readline())
-f.seek(0)
-print (f.readlines())
-f.close()
-#r read, r+ read/write, w write, a append, rb binary read, wb binary write, ab bianry append
-'''
 '''
 #Example 23
 f = open("test.html","r")
@@ -140,31 +93,3 @@ a = f1()
 b = f2()
 print (a,b)
 '''
-'''
-#Example 27
-def add(x,y):
-    return (x+y)
-print (add(10,20))
-print ("*********")
-a = 10
-b = 11
-print (a,b,add(a,b))
-'''
-
-
-#Example 28
-def double_add(x,y):
-    x = x*2
-    y= y*2
-    return(x+y)
-print (double_add(10,20))
-a = 10
-b = 20
-print (double_add(a,b))
-print (a,b)
-
-
-
-
-
-

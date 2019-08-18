@@ -1,17 +1,53 @@
-#Example 2.2.2
+#Example 2.2.6
 #Python 3.6.5
-#Draw * to the right
+#Draw * to both side.
 
-def draw(max_number = 10):
-    for i in range (max_number):
-        counter = i+1
-        star = "*" * counter
-        print (star,counter)
+num0 = '''
+    ********    -
+   *        *   -
+  *          *  -
+  *          *  -
+  *          *  -
+  *          *  -
+  *          *  -
+   *        *   -
+    ********    -
+'''
 
-    for i in range(max_number,1,-1):
-        counter = i-1
-        star = "*" * counter
-        print (star,counter)
+num1 = '''
+       **       -
+     *  *       -
+   *    *       -
+        *       -
+        *       -
+        *       -
+        *       -
+        *       -
+     *******    -
+'''
+num2 = '''
+    *****       -
+   *      *     -
+          *     -
+        *       -
+      *         -
+     *          -
+    *           -
+   *            -
+  ********      -
+'''
 
 if __name__=='__main__':
-    draw()
+    #num=[]
+    #for i in range(2):
+     #   print ("num"+str(i))
+      #  num.append("num"+str(i))
+    a = "num"
+    b = "0"
+    
+    num = {}
+    num [a+b] = None
+    print (num)
+    
+    print (num[0])
+    print (num[1])

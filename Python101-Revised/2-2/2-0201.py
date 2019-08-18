@@ -1,16 +1,43 @@
-#Example 2.2.1
+#Example 2.2.5
 #Python 3.6.5
-#Draw * hard code style.
+#Draw * to both side.
 
+
+num0 = '''
+    ********
+   *        *
+  *          *
+  *          *
+  *          *
+  *          *
+  *          *
+   *        *
+    ********
+'''
+
+num1 = '''
+       **
+     *  *        
+   *    *
+        *
+        *
+        *
+        *
+        *
+     *******
+'''
+num2 = '''
+    ***** 
+   *      *   
+          *
+        *
+      *
+     *          
+    *          
+   *         
+  ********
+'''
+    
 if __name__=='__main__':
-    print ("*")
-    print ("**")
-    print ("***")
-    print ("****")
-    print ("*****")
-    print ("******")
-    print ("*******")
-    print ("********")
-    print ("*********")
-    print ("**********")
+    print(num0,num1,num2)
     
