@@ -11,7 +11,7 @@ def func_1_10_1():
             print ("WORLD", file=f)
         print ("File Created!!!")
     except:
-        print ("Cannot open file")
+        print ("Cannot open file!!!")
 
 if __name__ == "__main__":
     func_1_10_1()
