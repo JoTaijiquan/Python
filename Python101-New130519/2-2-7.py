@@ -8,7 +8,7 @@ def print_line(counter,max):
     star = "*" * counter + "*" * (counter-1)
     print (space+star)
 
-def draw_diamond(max=10):
+def draw_diamond2(max=10):
     'ใช้ * วาดเป็นรูปเพชร'
 
     for i in range (max):
@@ -20,4 +20,4 @@ def draw_diamond(max=10):
         print_line(counter,max)
 
 if __name__=='__main__':
-    draw_diamond()
+    draw_diamond2()
