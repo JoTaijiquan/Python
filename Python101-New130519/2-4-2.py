@@ -12,11 +12,15 @@ def compound_int2(deposit,interest,n):
     return round(deposit *(1+interest)**n,3)
 
 if __name__ == "__main__":
-    print ("เงินต้น 100 บาท เพิ่มวันละ 1% เป็นเวลา 1ปี (loop)=",compound_int1(100,0.01,365))
-    print ("เงินต้น 100 บาท  เพิ่มวันละ 1% เป็นเวลา 1ปี (สูตร)=",compound_int2(100,0.01,365))
+    print ("เงินต้น 100 บาท เพิ่มวันละ 1% เป็นเวลา 1ปี")
+    print ("คำนวณด้วย loop =",compound_int1(100,0.01,365))
+    print ("คำนวณด้วยสูตร=",compound_int2(100,0.01,365))
     print("\n")
-    print ("เงินต้น 100 บาท ลดวันละ 1% เป็นเวลา 1ปี (loop)=",compound_int1(100,-0.01,365))
-    print ("เงินต้น 100 บาท ลดวันละ 1% เป็นเวลา 1ปี (สูตร)=",compound_int2(100,-0.01,365))
+    print ("เงินต้น 100 บาท ลดวันละ 1% เป็นเวลา 1ปี")
     
-    compound_int3=lambda deposit,interest,n: round(deposit*(1+interest)**n,3)
-    print ("เงินต้น 100 บาท ลดวันละ 1% เป็นเวลา 1ปี (lambda)=",compound_int3(100,-0.01,365))
+    print ("คำนวณด้วย loop=",compound_int1(100,-0.01,365))
+    print ("คำนวณด้วยสูตร=",compound_int2(100,-0.01,365))
+    
+    compound_int3=lambda deposit,interest,n: \
+    round(deposit*(1+interest)**n,3)
+    print ("ใช้ lambda function=",compound_int3(100,-0.01,365))

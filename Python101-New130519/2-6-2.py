@@ -21,7 +21,3 @@ if __name__ == "__main__":
     print(fibo_list(3))
     print(fibo_list(10))
     print(fibo_list(13))
-    
-    
-
-    
