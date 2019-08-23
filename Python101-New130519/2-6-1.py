@@ -1,7 +1,7 @@
 #Python 3.7.3
 #Example 2-6-1
 
-def fibo(n=2):
+def fibo1(n=2):
     'Fibonacci number'
 
     aList = [0,1]
@@ -15,10 +15,10 @@ def fibo(n=2):
     return aList
 
 if __name__ == "__main__":
-    print (fibo())
-    print (fibo(0))
-    print (fibo(1))
-    print (fibo(2))
-    print (fibo(3))
-    print (fibo(10))
-    print (fibo(13))
+    print (fibo1())
+    print (fibo1(0))
+    print (fibo1(1))
+    print (fibo1(2))
+    print (fibo1(3))
+    print (fibo1(10))
+    print (fibo1(13))

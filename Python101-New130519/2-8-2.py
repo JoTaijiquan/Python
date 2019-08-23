@@ -3,7 +3,10 @@
 
 def root(n,order=2):
     'หาค่ารากลำดับใดๆ ของ n'
-    if n<1: return 0
+    if n==0: 
+        return 0
+    elif n<0:
+        return "Cannot Calculate"
 
     n0,n1,n2 = 1,n,0
     while abs(n2-n)>0.0001:
@@ -18,10 +21,11 @@ def root(n,order=2):
     return round(n_mid,3)
 
 if __name__ == "__main__":
-    print (root(-2))
-    print (root(2))
-    print (root(3))
-    print (root(4))
-    print (root(8,3))
-    print (root(81,4))
-    print (root(3,2.5))
+    print ("Root 2 of -2 =",root(-2)) 
+    print ("Root 2 of 0 =",root(0))
+    print ("Root 2 of 2 =",root(2))
+    print ("Root 2 of 3 =",root(3))
+    print ("Root 2 of 4 =",root(4))
+    print ("Root 3 of 8 =",root(8,3))
+    print ("Root 4 of 81 =",root(81,4))
+    print ("Root 2.5 of 3 =",root(3,2.5))

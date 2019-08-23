@@ -1,7 +1,7 @@
 #Python 3.7.3
 #Example 2-5-1
 
-def factorial(n):
+def factorial1(n):
     'หา factorial number'
     n = n+1
     ans=1
@@ -10,7 +10,7 @@ def factorial(n):
     return ans
 
 if __name__ == "__main__":
-    print ("3! =",factorial(3))
-    print ("5! =",factorial(5))
-    print ("1! =",factorial(1))
-    print ("0! =",factorial(0))
+    print ("3! =",factorial1(3))
+    print ("5! =",factorial1(5))
+    print ("1! =",factorial1(1))
+    print ("0! =",factorial1(0))

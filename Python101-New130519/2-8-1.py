@@ -17,7 +17,7 @@ def square_root(n):
     return n_mid
 
 if __name__ == "__main__":
-    print (square_root(2))
-    print (square_root(4))
-    print (square_root(5))
+    print ("Square Root 2 =",square_root(2))
+    print ("Square Root 4 =",square_root(4))
+    print ("Square Root 5 =",square_root(5))
     

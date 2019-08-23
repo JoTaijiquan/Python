@@ -1,17 +1,17 @@
 #Python 3.7.3
 #Example 2-5-2
 
-def factorial(n):
+def factorial2(n):
     'หา factorial number ด้วย recusion'
-
     if n==1 or n==0:
         return 1
     else:
-        return n*factorial(n-1)
+        return n*factorial2(n-1)
 
 if __name__ == "__main__":
-    print ("3! =",factorial(3))
-    print ("5! =",factorial(5))
-    print ("1! =",factorial(1))
-    print ("0! =",factorial(0))
+    print ("3! =",factorial2(3))
+    print ("5! =",factorial2(5))
+    print ("1! =",factorial2(1))
+    print ("0! =",factorial2(0))
     
+11
