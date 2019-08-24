@@ -15,5 +15,6 @@ def prime(n):
     return aList
 
 if __name__ == "__main__":
-    print (prime(97))
-    print (prime(200))
+    print ("จำนวนเฉพาะที่น้อยกว่า 97",prime(97))
+    print ("\n")
+    print ("จำนวนเฉพาะที่น้อยกว่า 200 คือ",prime(200))

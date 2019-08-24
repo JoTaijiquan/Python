@@ -30,7 +30,8 @@ def morse_text(txt):
     
     for letter in txt:
         try:
-            t_code+=list(morse_dict.keys())[list(morse_dict.values()).index(letter)]
+            t_code+=list(morse_dict.keys()) \
+            [list(morse_dict.values()).index(letter)]
         except:
             t_code+=' '
     return t_code

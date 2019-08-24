@@ -21,8 +21,9 @@ if __name__ == "__main__":
     print (factorize(8))
     print (*factorize(16))
     print (*factorize(30))
-    print ("factor of", str(2*3*7*2*5*11*11), "is",*set(factorize(2*3*7*2*5*11*11)))
-    print (' * '.join(map(str,factorize(99020))), " = 99020")
+    print ("factor of", str(2*3*7*2*5*11*11), \
+    "is",*set(factorize(2*3*7*2*5*11*11)))
+    print (' * '.join(map(str,factorize(99020)))," = 99020")
     print (' * '.join(map(str,factorize(990200))), " = 990200")
     print ("factor of 990200 is",set(factorize(990200)))
     
