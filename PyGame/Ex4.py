@@ -18,13 +18,13 @@ GhostY = 100
 while True:
     key = pygame.key.get_pressed()
     if key[pygame.K_LEFT]:
-        GhostX -= 5
+        GhostX -= 2
     elif key[pygame.K_RIGHT]:
-        GhostX += 5
+        GhostX += 2
     elif key[pygame.K_UP]:
-        GhostY -= 5
+        GhostY -= 2
     elif key[pygame.K_DOWN]:
-        GhostY += 5
+        GhostY += 2
     elif key[pygame.K_F10]:
         pygame.event.post(QUIT)
 
