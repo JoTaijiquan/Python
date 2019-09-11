@@ -1,6 +1,6 @@
 #Python 3.7.3
 #Pygame 1.9.6
-#Example PG-1-1-7
+#Example PG-1-1-8
 
 import pygame, sys,random
 from pygame.locals import *
@@ -28,10 +28,17 @@ class Ghost:
         self.ox = x
         self.oy = y
         self.rect = self.img.get_rect()
+        self.rect[0] =x
+        self.rect[1] =y
+
 
 def mainloop(View):
+    #width = View.get_width()
+    #height = View.get_height()
+    width,height = View.get_size()
+
     ghostRED = Ghost()
-    ghostRED.LoadImage("ghost.png",100,100)
+    ghostRED.LoadImage("ghost.png",500,500)
     ghostBLUE = Ghost()
     ghostBLUE.LoadImage("ghostblue.png",200,200)
     wall = Ghost()
@@ -39,54 +46,55 @@ def mainloop(View):
 
     fpsClock = pygame.time.Clock()
     while True:
-        ghostRED.ox = ghostRED.x
-        ghostRED.oy = ghostRED.y
+        ghostRED.ox = ghostRED.rect[0]
+        ghostRED.oy = ghostRED.rect[1]
 
         key = pygame.key.get_pressed()    
         if key[pygame.K_LEFT]:
-            ghostRED.x -=5
+            ghostRED.rect[0] -=5
         elif key[pygame.K_RIGHT]:
-            ghostRED.x +=5
+            ghostRED.rect[0] +=5
         elif key[pygame.K_UP]:
-            ghostRED.y -=5
+            ghostRED.rect[1] -=5
         elif key[pygame.K_DOWN]:
-            ghostRED.y +=5
-        
+            ghostRED.rect[1] +=5
+
         if key[pygame.K_a]:
-            ghostBLUE.x -= 5
+            ghostBLUE.rect[0] -=5
         elif key[pygame.K_d]:
-            ghostBLUE.x +=5
+            ghostBLUE.rect[0] +=5
         elif key[pygame.K_w]:
-            ghostBLUE.y -=5
+            ghostBLUE.rect[1] -=5
         elif key[pygame.K_s]:
-            ghostBLUE.y += 5
+            ghostBLUE.rect[1] +=5
         
         if key[pygame.K_F10]:
             pygame.event.post(QUIT)
+
         for event in pygame.event.get():
             if event.type == QUIT:
                 pygame.quit()
                 sys.exit()
-        
-        ghostRED.rect.topleft = (ghostRED.x,ghostRED.y)
-        ghostBLUE.rect.topleft = (ghostBLUE.x,ghostBLUE.y)
-        wall.rect.topleft = (wall.x,wall.y)
-        
+
+        #ghostRED.rect.topleft = (ghostRED.x,ghostRED.y)
+        #ghostBLUE.rect.topleft = (ghostBLUE.x,ghostBLUE.y)
+        #wall.rect.topleft = (wall.x,wall.y)
+
         is_Hit = ghostRED.rect.colliderect(ghostBLUE.rect)
         if is_Hit==True:
-            ghostBLUE.x = random.randint(0,800)
-            ghostBLUE.y = random.randint(0,600)
+            ghostBLUE.rect[0] = random.randint(0,width)
+            ghostBLUE.rect[1] = random.randint(0,height)
+
 
         is_Wall = ghostRED.rect.colliderect(wall.rect)
         if is_Wall == True:
-            ghostRED.x = ghostRED.ox
-            ghostRED.y = ghostRED.oy
-
+            ghostRED.rect[0] = ghostRED.ox
+            ghostRED.rect[1] = ghostRED.oy
 
         View.fill(WHITE)
-        View.blit(wall.img,(wall.x,wall.y))
-        View.blit(ghostRED.img, (ghostRED.x, ghostRED.y))
-        View.blit(ghostBLUE.img, (ghostBLUE.x, ghostBLUE.y))
+        View.blit(wall.img,wall.rect)
+        View.blit(ghostRED.img, ghostRED.rect)
+        View.blit(ghostBLUE.img, ghostBLUE.rect)
         pygame.display.update()
         fpsClock.tick(FPS)
 

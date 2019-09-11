@@ -40,7 +40,6 @@ def mainloop(View):
             ghostRED.y -=5
         elif key[pygame.K_DOWN]:
             ghostRED.y +=5
-        ghostRED.rect.topleft = (ghostRED.x,ghostRED.y)
         
         if key[pygame.K_a]:
             ghostBLUE.x -= 5
@@ -50,6 +49,8 @@ def mainloop(View):
             ghostBLUE.y -=5
         elif key[pygame.K_s]:
             ghostBLUE.y += 5
+
+        ghostRED.rect.topleft = (ghostRED.x,ghostRED.y)
         ghostBLUE.rect.topleft = (ghostBLUE.x,ghostBLUE.y)
         
         if key[pygame.K_F10]:
