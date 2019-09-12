@@ -1,4 +1,4 @@
-#Python 3.6.5, Pygame 1.9.3
+#Python 3.6.5, Pygame 1.9.3 haha ad
 # -*- coding: utf-8 -*-
 
 import pygame, sys
