@@ -23,7 +23,7 @@ class Ghost:
 
 def mainloop(View):
     ghost1 = Ghost()
-    ghost1.LoadImage("ghost.png",100,100)
+    ghost1.LoadImage("plane.png",100,100)
     fpsClock = pygame.time.Clock()
 
     while True:
