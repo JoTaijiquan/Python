@@ -1,6 +1,6 @@
 #Python 3.7.4
 #Pygame 1.9.6
-#Example invader1
+#Example invader2
 
 import pygame, sys,random
 from pygame.locals import *
@@ -48,7 +48,7 @@ class Bullet(pygame.sprite.Sprite):
     def update(self):
         self.delay +=1
         self.rect.move_ip(0,self.velocity*-1)
-        if self.rect.y <0:
+        if self.rect.y < 0:
             self.kill()
 
 class Invader(pygame.sprite.Sprite):
@@ -56,6 +56,9 @@ class Invader(pygame.sprite.Sprite):
         super(Invader,self).__init__()
         self.image, self.rect = load_image(IMG_NAME['invader1'],-1)
         self.rect.center = (SCREEN_SIZE[0]/2,20)
+    
+    def __del__(self):
+        self.rect.center = (0,0)
 
 class App:
     def __init__(self):
@@ -65,12 +68,15 @@ class App:
         self.view = pygame.display.set_mode(SCREEN_SIZE)
         self.clock = pygame.time.Clock()
         self.allsprites = pygame.sprite.Group()
+        self.bullets = pygame.sprite.Group()
 
     def app_update(self):
         self.view.fill(WHITE)
 
         self.allsprites.update()
         self.allsprites.draw(self.view)
+        self.bullets.update()
+        self.bullets.draw(self.view)
 
         self.clock.tick(FPS)
         pygame.display.update()
@@ -99,13 +105,18 @@ def mainloop(app):
             if delay>5:
                 bullet = Bullet(player1.rect.x, player1.rect.y)
                 bullet.delay = 0
-                app.allsprites.add(bullet)
+                app.bullets.add(bullet)
+                #app.allsprites.add(bullet)
             
         for event in pygame.event.get():
             if event.type == QUIT:
                 pygame.quit()
                 sys.exit()
-                
+        
+        hits = pygame.sprite.spritecollide(invader1,app.bullets,True)
+        if hits != []:
+            print (hits)  
+
         app.app_update()
         
 if __name__ == "__main__":
