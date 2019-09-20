@@ -6,12 +6,14 @@
 def func_2_1_1():
     x=500
     y=500/2
-    counter = 1
+    counter = 0
     print ("มีเงินตั้งต้น",x,"บาท" )
     while x>y:
         x=x-x*0.1
-        print ("วันที่",counter,"เหลือเงิน",x,"บาท")
         counter+=1
+
+        print ("วันที่",counter,"เหลือเงิน",x,"บาท")
+    print ("\nสรุป ใช้เวลา",counter,"วัน")
 
 if __name__=="__main__":
         print (__doc__,"\n")
