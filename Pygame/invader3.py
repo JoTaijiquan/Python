@@ -14,6 +14,7 @@ IMG_NAME = {'plane':'plane.png',
 }
 
 FPS = 30
+
 WHITE = (255, 255, 255)
 BLACK = (0,0,0)
 
