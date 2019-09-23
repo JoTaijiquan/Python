@@ -13,7 +13,7 @@ IMG_NAME = {'plane':'plane.png',
             'invader1':'invader64x64.png'
 }
 
-FPS = 30
+FPS = 20
 
 WHITE = (255, 255, 255)
 BLACK = (0,0,0)
@@ -137,7 +137,7 @@ def mainloop(app):
         if key[pygame.K_SPACE]:
             if bullet == "":
                 delay = 1000
-            else:
+            else: 
                 delay = bullet.delay
             
             if delay>3:
