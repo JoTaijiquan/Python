@@ -13,7 +13,7 @@ IMG_NAME = {'plane':'plane.png',
             'invader1':'invader64x64.png'
 }
 
-FPS = 20
+FPS = 30
 
 WHITE = (255, 255, 255)
 BLACK = (0,0,0)
