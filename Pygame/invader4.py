@@ -1,6 +1,6 @@
 #Python 3.7.4
 #Pygame 1.9.6
-#Example invader3
+#Example invader4
 
 import pygame, sys,random
 from pygame.locals import *
@@ -54,39 +54,36 @@ class Bullet(pygame.sprite.Sprite):
 
 class Invader(pygame.sprite.Sprite):
 
+    direction = "RIGHT"
+    move_x = 0
+    move_y = 0
+
     def __init__(self,x,y):
         super(Invader,self).__init__()
         self.image, self.rect = load_image(IMG_NAME['invader1'],-1)
         self.rect.center = (x,y)
-        self.direction ="RIGHT"
-        self.move_x = 0
-        self.move_y = 0
 
     def move(self):
-        if self.direction == "RIGHT":
+        if Invader.direction == "RIGHT":
             self.rect.move_ip(3,0)
-            self.move_x+=1
-            if self.move_x == 20:
-                self.move_x = 0
-                self.direction = "RIGHTDOWN"
-        elif self.direction == "RIGHTDOWN":
+            if self.rect.x > 720:
+                Invader.direction = "RIGHTDOWN"
+        elif Invader.direction == "RIGHTDOWN":
             self.rect.move_ip(0,3)
-            self.move_y+=1
-            if self.move_y ==3:
-                self.move_y = 0
-                self.direction = "LEFT"
-        elif self.direction == "LEFT":
+            Invader.move_y+=1
+            if Invader.move_y > 3:
+                Invader.move_y = 0
+                Invader.direction = "LEFT"
+        elif Invader.direction == "LEFT":
             self.rect.move_ip(-3,0)
-            self.move_x+=1
-            if self.move_x ==20:
-                self.move_x=0
-                self.direction = "LEFTDOWN"
-        elif self.direction == "LEFTDOWN":
+            if self.rect.x < 10:
+                Invader.direction = "LEFTDOWN"
+        elif Invader.direction == "LEFTDOWN":
             self.rect.move_ip(0,3)
-            self.move_y+=1
-            if self.move_y ==3:
-                self.move_y = 0
-                self.direction = "RIGHT"
+            Invader.move_y+=1
+            if Invader.move_y > 3:
+                Invader.move_y = 0
+                Invader.direction = "RIGHT"
     
     def update(self):
         self.move()

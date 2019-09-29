@@ -18,4 +18,6 @@ if __name__ == "__main__":
     print (lcm([20,30,40,5]))
     print (lcm([3,7,2]))
     print(lcm([15,30,45,60]))
+    print(lcm([2,5,10,12]))  
+    print (gcd(2,5))
 
