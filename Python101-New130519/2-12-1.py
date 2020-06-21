@@ -1,5 +1,5 @@
 #Python 3.7.3
-#Example 2-5-1
+#Example 2-12-1
 
 def LinearSearch(aList,key):
     'LinearSearch return index'
