@@ -1,4 +1,4 @@
-#Python 3.7.3
+#Python 3.9.5
 #Example 1-1-2
 
 print ("สวัสดีชาวโลก")
