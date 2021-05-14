@@ -1,4 +1,4 @@
-#Python 3.7.3
+#Python 3.9.5
 #Example 1-5-7
 
 def func_1_5_7():
@@ -15,7 +15,6 @@ def func_1_5_7():
     b.reverse()
     print ("a =",a)
     print ("b =",b)
-
 
 
 if __name__ == "__main__":

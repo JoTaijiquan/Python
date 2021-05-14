@@ -1,26 +1,23 @@
-#Python 3.7.3
+#Python 3.9.5
 #Example 1-8-3
 
 def func_1_8_3():
-    'การอ่านและนับค่าใน dictionary'
+    'การเพิ่มข้อมูลใน dictionary'
+    
+    x={ 'Jo': '123 Bangkok',
+        'Mo': '456 Nonthaburi',
+        'Yo': '789 Chiangmai'
+        }
 
-    x={}
+    for name,address in x.items():
+        print (name,address)
 
-    x['A'] = 'Ada'
-    x['B'] = 'Basic'
-    x['C'] = 'Cobol'
+    print ('\n--- Add Key Go and Do ---\n')
+    x['Go'] = '200 Chiangrai'
+    x['Do'] = '321 Lumpoon'
 
-    for first, second in x.items():
-        print (first,second)
-        
-    print ("***************")
-    if 'A' in x:
-        print ("A for",x['A'])
-            
-    print ("***************")
-    print(x)
-    print (x.items())
-    print ("number of item in x=",len(x.items()))
+    for name,address in x.items():
+        print (name,address)
 
 if __name__ == "__main__":
     func_1_8_3()

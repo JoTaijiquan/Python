@@ -1,19 +1,25 @@
-#Python 3.7.3
+#Python 3.9.5
 #Example 1-8-4
 
 def func_1_8_4():
-    'เซ็ต'
+    'การอ่านและนับค่าใน dictionary'
+    x={}
 
-    x = set((3,5,7,8,3,8,3))
-    y = x.copy()
-    
-    print ("1)",x,y)
-    x.add(22)
-    print ("2)",x,y)
-    y.add(3)
-    print ("3)",x,y)
-    x.remove(3)
-    print ("4)",x,y)
+    x['A'] = 'Ada'
+    x['B'] = 'Basic'
+    x['C'] = 'Cobol'
+
+    for first, second in x.items():
+        print (first,second)
+        
+    print ("***************")
+    if 'A' in x:
+        print ("A for",x['A'])
+            
+    print ("***************")
+    print(x)
+    print (x.items())
+    print ("number of item in x=",len(x.items()))
 
 if __name__ == "__main__":
     func_1_8_4()

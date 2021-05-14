@@ -1,8 +1,8 @@
-#Python 3.7.3
+#Python 3.9.5
 #Example 1-8-2
 
 def func_1_8_2():
-    'การลบและเพิ่มข้อมูลใน dictionary'
+    'การลบข้อมูลใน dictionary'
     
     x={ 'Jo': '123 Bangkok',
         'Mo': '456 Nonthaburi',
@@ -14,13 +14,6 @@ def func_1_8_2():
         
     del x['Jo']
     print ('\n--- Delete Key Jo ---\n')
-
-    for name,address in x.items():
-        print (name,address)
-
-    x['Go'] = '200 Chiangrai'
-    x['Do'] = '321 Lumpoon'
-    print ('\n--- Add Key Go and Do ---\n')
 
     for name,address in x.items():
         print (name,address)

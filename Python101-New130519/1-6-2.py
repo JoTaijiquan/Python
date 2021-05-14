@@ -1,4 +1,4 @@
-#Python 3.7.3
+#Python 3.9.5
 #Example 1-6-2
 
 def func_1_6_2():
