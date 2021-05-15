@@ -1,5 +1,5 @@
-#Python 3.7.3
-#Example 2-10-1
+#Python 3.9.5
+#Example 2-10-5
 
 def gcd(n1,n2):
     'หารร่วมมาก(หรม.) สองจำนวน'
@@ -12,7 +12,7 @@ def lcm(n1,n2):
     return int(n1*n2/gcd(n1,n2))
 
 if __name__ == "__main__":
-    print (lcm(20,30))
-    print (lcm(3,7))
-    print(lcm(15,30))
+    print ("ครน. 20,30 =",lcm(20,30))
+    print ("ครน. 3,7 =",lcm(3,7))
+    print("ครน. 15,30 =",lcm(15,30))
 

@@ -1,4 +1,4 @@
-#Python 3.7.3
+#Python 3.9.5
 #Example 2-8-3
 'หา root ด้วยสูตร root n of x = x**(1/n)'
 

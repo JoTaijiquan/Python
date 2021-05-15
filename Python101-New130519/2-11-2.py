@@ -1,4 +1,4 @@
-#Python 3.7.3
+#Python 3.9.5
 #Example 2-11-2
 
 def BubbleSort(aList):
@@ -7,6 +7,7 @@ def BubbleSort(aList):
     for i in range(len(aList)):
         for j in range(0,n-i-1):
             if aList[j]>aList[j+1]:
+                #print (aList)
                 aList[j],aList[j+1]=aList[j+1],aList[j]          
     return aList
 

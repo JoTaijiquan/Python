@@ -1,4 +1,4 @@
-#Python 3.7.3
+#Python 3.9.5
 #Example 2-10-6
 
 def gcd(n1,n2):
@@ -15,9 +15,9 @@ def lcm(aList):
     return ans
 
 if __name__ == "__main__":
-    print (lcm([20,30,40,5]))
-    print (lcm([3,7,2]))
-    print(lcm([15,30,45,60]))
-    print(lcm([2,5,10,12]))  
-    print (gcd(2,5))
+    print ("ครน.20,30,40,5=",lcm([20,30,40,5]))
+    print ("ครน.3,7,3=",lcm([3,7,2]))
+    print("ครน.15,30,45,60=",lcm([15,30,45,60]))
+    print("ครน.2,5,10,12=",lcm([2,5,10,12]))  
+
 

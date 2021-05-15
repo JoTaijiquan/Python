@@ -1,4 +1,4 @@
-#Python 3.7.3
+#Python 3.9.5
 #Example 2-2-5
 
 def draw_mirror_upside_triangle(max=10):

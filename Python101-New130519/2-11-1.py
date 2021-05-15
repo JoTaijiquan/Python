@@ -1,4 +1,4 @@
-#Python 3.7.3
+#Python 3.9.5
 #Example 2-11-1
 
 def SelectionSort(aList):
@@ -9,6 +9,7 @@ def SelectionSort(aList):
         for j in range(i+1,len(aList)):
             if aList[min]>aList[j]:
                 min =j
+        #print (aList)        
         aList[i],aList[min]= aList[min],aList[i]
     return aList
 

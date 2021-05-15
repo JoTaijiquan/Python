@@ -1,4 +1,4 @@
-#Python 3.7.3
+#Python 3.9.5
 #Example 2-4-1
 
 def compound_interest(deposit,interest,n):

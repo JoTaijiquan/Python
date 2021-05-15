@@ -1,4 +1,4 @@
-#Python 3.7.3
+#Python 3.9.5
 #Example 2-9-2
 
 def factorize(num):
@@ -23,8 +23,10 @@ if __name__ == "__main__":
     print (*factorize(30))
     print ("factor of", str(2*3*7*2*5*11*11), \
     "is",*set(factorize(2*3*7*2*5*11*11)))
-    print (' * '.join(map(str,factorize(99020)))," = 99020")
-    print (' * '.join(map(str,factorize(990200))), " = 990200")
+    print (' * '.join(map(str,factorize(99020))), \
+        " = 99020")
+    print (' * '.join(map(str,factorize(990200))), \
+        " = 990200")
     print ("factor of 990200 is",set(factorize(990200)))
     
     

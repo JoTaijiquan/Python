@@ -1,4 +1,4 @@
-#Python 3.7.3
+#Python 3.9.5
 #Example 2-4-2
 
 def compound_int1(deposit,interest,n):
@@ -23,4 +23,5 @@ if __name__ == "__main__":
     
     compound_int3=lambda deposit,interest,n: \
     round(deposit*(1+interest)**n,3)
-    print ("ใช้ lambda function=",compound_int3(100,-0.01,365))
+    print ("ใช้ lambda function=", \
+        compound_int3(100,-0.01,365))

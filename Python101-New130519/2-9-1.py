@@ -1,4 +1,4 @@
-#Python 3.7.3
+#Python 3.9.5
 #Example 2-9-1
 
 def prime(n):
@@ -15,6 +15,6 @@ def prime(n):
     return aList
 
 if __name__ == "__main__":
-    print ("จำนวนเฉพาะที่น้อยกว่า 97",prime(97))
+    print ("จำนวนเฉพาะที่น้อยกว่า 97 คือ",prime(97))
     print ("\n")
     print ("จำนวนเฉพาะที่น้อยกว่า 200 คือ",prime(200))

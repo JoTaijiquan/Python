@@ -1,4 +1,4 @@
-#Python 3.7.3
+#Python 3.9.5
 #Example 2-3-4
 'ใช้ lambda function หาผลบวกของ 1+2+3+...+n'
 

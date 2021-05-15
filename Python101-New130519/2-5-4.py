@@ -1,4 +1,4 @@
-#Python 3.7.3
+#Python 3.9.5
 #Example 2-5-4
 'หา factorial number ด้วย lambda function'
 

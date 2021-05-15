@@ -1,4 +1,4 @@
-#Python 3.7.3
+#Python 3.9.5
 #Example 2-3-3
 
 def sum_to_n3(n):return n*(n+1)/2 

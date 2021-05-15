@@ -1,4 +1,4 @@
-#Python 3.7.3
+#Python 3.9.5
 #Example 2-12-1
 
 def LinearSearch(aList,key):
@@ -11,6 +11,7 @@ def LinearSearch(aList,key):
 
 if __name__ == "__main__":
     aList=[20,12,3,18,7,8,25,14]
+    print (aList)
     print ("Search 20 = ",LinearSearch(aList,20))
     print ("Search 18 = ",LinearSearch(aList,18))
     print ("Search 14 = ",LinearSearch(aList,14))
