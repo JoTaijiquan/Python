@@ -8,10 +8,10 @@ if __name__ == "__main__":
     i if i<=1 else o.append(o[-1]+o[-2]) or \
     o[-1] for i in range(n)]
 
-    print (fibo4())
-    print (fibo4(0))
-    print (fibo4(1))
-    print (fibo4(2))
-    print (fibo4(3))
-    print (fibo4(10))
-    print (fibo4(13))
+    print ("fib() =",fibo4())
+    print ("fib 0 =",fibo4(0))
+    print ("fib 1 =",fibo4(1))
+    print ("fib 2 =",fibo4(2))
+    print ("fib 3 =",fibo4(3))
+    print ("fib 10 =",fibo4(10))
+    print ("fib 13 =",fibo4(13))

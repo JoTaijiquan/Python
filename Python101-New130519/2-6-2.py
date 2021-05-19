@@ -15,9 +15,9 @@ def fibo_list(n=2):
     return aList
 
 if __name__ == "__main__": 
-    print(fibo_list(0))
-    print(fibo_list(1))
-    print(fibo_list(2))
-    print(fibo_list(3))
-    print(fibo_list(10))
-    print(fibo_list(13))
+    print("fib 0=",fibo_list(0))
+    print("fib 1=",fibo_list(1))
+    print("fib 2=",fibo_list(2))
+    print("fib 3=",fibo_list(3))
+    print("fib 10=",fibo_list(10))
+    print("fib 13=",fibo_list(13))

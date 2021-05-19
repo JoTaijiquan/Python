@@ -15,10 +15,10 @@ def fibo1(n=2):
     return aList
 
 if __name__ == "__main__":
-    print (fibo1())
-    print (fibo1(0))
-    print (fibo1(1))
-    print (fibo1(2))
-    print (fibo1(3))
-    print (fibo1(10))
-    print (fibo1(13))
+    print ("fib() =",fibo1())
+    print ("fib 0=",fibo1(0))
+    print ("fib 1=",fibo1(1))
+    print ("fib 2=",fibo1(2))
+    print ("fib 3=",fibo1(3))
+    print ("fib 10=",fibo1(10))
+    print ("fib 13=",fibo1(13))
