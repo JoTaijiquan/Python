@@ -1,0 +1,1 @@
+#Python 3.9.5,#Example Turtle1,,import turtle,,def Turtle1():,    screen = turtle.Screen(),    screen.title("Hello,World!"),    screen.exitonclick(),,if __name__ == "__main__":,    Turtle1(),

@@ -1,0 +1,1 @@
+#Python 3.9.5,#Example Turtle1,,import turtle as tt,,def Turtle2():,    screen = tt.Screen(),    tt.forward(200),    tt.left(90),    tt.forward(200),    tt.left(90),    tt.forward(200),    tt.left(90),    tt.forward(200),    screen.exitonclick(),,if __name__ == "__main__":,    Turtle2(),
